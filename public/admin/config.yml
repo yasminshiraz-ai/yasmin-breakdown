@@ -1,0 +1,105 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Allow editorial workflow (drafts → review → published)
+publish_mode: editorial_workflow
+
+# Where uploaded images are stored
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    label_singular: "Article"
+    folder: "content/articles"
+    create: true
+    # Slug is auto-generated from the title field
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}} — {{category}} — {{date}}"
+    sortable_fields: ["date", "title", "category"]
+    view_filters:
+      - label: "Sports"
+        field: category
+        pattern: "Sports"
+      - label: "Music"
+        field: category
+        pattern: "Music"
+      - label: "TV & Film"
+        field: category
+        pattern: "TV & Film"
+      - label: "Love"
+        field: category
+        pattern: "Love"
+      - label: "History"
+        field: category
+        pattern: "History"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The full article headline"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL-safe identifier — auto-generated from title. Only change if you need a custom URL."
+        pattern:
+          - "^[a-z0-9-]+$"
+          - "Lowercase letters, numbers, and hyphens only"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "MMMM D, YYYY"
+        time_format: false
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Sports"
+          - "Music"
+          - "TV & Film"
+          - "Love"
+          - "History"
+
+      - label: "Featured Image"
+        name: "featuredImage"
+        widget: "image"
+        required: false
+        hint: "Recommended: 1200×800px or wider. JPG or PNG."
+        media_library:
+          config:
+            multiple: false
+
+      - label: "Description / Dek"
+        name: "description"
+        widget: "text"
+        hint: "1–2 sentence summary shown on cards and in meta tags"
+        pattern:
+          - "^.{20,300}$"
+          - "Keep it between 20 and 300 characters"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Full article content. Use ## for section headers, **bold**, *italic*, > for blockquotes."
+
+      - label: "YouTube Video URL"
+        name: "videoUrl"
+        widget: "string"
+        required: false
+        hint: "Optional: paste a full YouTube URL (e.g. https://www.youtube.com/watch?v=XXXXXX). Renders as a full-width embed in the article."
+        pattern:
+          - "^(https?://)?(www\\.)?(youtube\\.com|youtu\\.be)/.+$|^$"
+          - "Must be a valid YouTube URL or leave blank"
+
+      - label: "Featured Article (Homepage Hero)"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        hint: "Check this to display the article as the full-width hero on the homepage. Only one article should be featured at a time."

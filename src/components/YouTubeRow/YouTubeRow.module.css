@@ -1,0 +1,134 @@
+.section {
+  background: var(--color-card);
+  padding: 3rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.ytIcon {
+  color: #FF0000;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  flex: 1;
+}
+
+.channelLink {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  transition: color 0.15s;
+}
+
+.channelLink:hover {
+  color: var(--color-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.card {
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.thumb {
+  position: relative;
+  aspect-ratio: 16/9;
+  background: #111;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.playBtn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.card:hover .playBtn {
+  opacity: 1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.title {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--color-white);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  transition: color 0.15s;
+}
+
+.card:hover .title {
+  color: var(--color-primary);
+}
+
+.views {
+  font-size: 0.75rem;
+  color: var(--color-gray);
+}
+
+.notice {
+  color: var(--color-gray);
+  font-size: 0.85rem;
+  padding: 1rem 0;
+}
+
+.notice code {
+  background: #111;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

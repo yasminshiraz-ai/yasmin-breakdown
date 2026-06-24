@@ -1,0 +1,18 @@
+.adSlot {
+  width: 100%;
+  min-height: 90px;
+  background: #111;
+  border: 1px dashed var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.adSlot::before {
+  content: 'Advertisement';
+}

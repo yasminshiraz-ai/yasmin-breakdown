@@ -1,0 +1,36 @@
+.banner {
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem var(--gutter);
+  flex-wrap: wrap;
+}
+
+.text {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.btn {
+  background: var(--color-accent);
+  color: #000;
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 22px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  color: #000;
+}

@@ -1,0 +1,32 @@
+.heroRow {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 0;
+  max-height: 580px;
+}
+
+.heroWrap {
+  overflow: hidden;
+}
+
+.sidebarWrap {
+  overflow-y: auto;
+  max-height: 580px;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+@media (max-width: 900px) {
+  .heroRow {
+    grid-template-columns: 1fr;
+    max-height: none;
+  }
+
+  .sidebarWrap {
+    max-height: none;
+  }
+}
