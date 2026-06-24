@@ -1,12 +1,12 @@
 .adSlot {
   width: 100%;
   min-height: 90px;
-  background: #111;
-  border: 1px dashed var(--color-border);
+  background: #F5F5F5;
+  border: 1px dashed #D0D0D0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-gray);
+  color: #AAAAAA;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;

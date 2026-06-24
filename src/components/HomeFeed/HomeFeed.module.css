@@ -10,27 +10,28 @@
 }
 
 .pill {
-  background: transparent;
-  border: 1px solid var(--color-border);
-  color: var(--color-gray);
+  background: #FFFFFF;
+  border: 1.5px solid var(--color-primary);
+  color: var(--color-primary);
   font-family: var(--font-headline);
   font-weight: 900;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 6px 18px;
-  transition: all 0.15s ease;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .pill:hover {
-  border-color: var(--color-primary);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: #FFFFFF;
 }
 
 .pill.active {
   background: var(--color-primary);
   border-color: var(--color-primary);
-  color: var(--color-white);
+  color: #FFFFFF;
 }
 
 .grid {
@@ -40,7 +41,7 @@
 }
 
 .empty {
-  color: var(--color-gray);
+  color: #888888;
   font-size: 0.9rem;
   padding: 3rem 0;
   text-align: center;

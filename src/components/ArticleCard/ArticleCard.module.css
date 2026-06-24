@@ -1,14 +1,15 @@
 .card {
   display: flex;
   gap: 1rem;
-  background: var(--color-card);
+  background: #FFFFFF;
   padding: 1rem;
-  border: 1px solid var(--color-border);
-  transition: border-color 0.15s ease, transform 0.15s ease;
+  border: 1px solid #E8E8E8;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
 }
 
 .card:hover {
-  border-color: var(--color-primary);
+  background: #F5F5F5;
+  border-color: #D0D0D0;
   transform: translateY(-2px);
 }
 
@@ -18,13 +19,13 @@
   width: 120px;
   height: 90px;
   overflow: hidden;
-  background: #111;
+  background: #F0F0F0;
 }
 
 .placeholder {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #222 0%, #333 100%);
+  background: linear-gradient(135deg, #EBEBEB 0%, #DCDCDC 100%);
 }
 
 .body {
@@ -53,7 +54,7 @@
   font-size: 1rem;
   line-height: 1.2;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: #0A0A0A;
   letter-spacing: -0.01em;
   overflow: hidden;
   display: -webkit-box;
@@ -71,16 +72,17 @@
   align-items: center;
   gap: 0.4rem;
   font-size: 0.72rem;
-  color: var(--color-gray);
+  color: #777777;
   margin-top: auto;
 }
 
 .byline {
-  color: var(--color-accent);
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 .dot {
-  color: var(--color-border);
+  color: #CCCCCC;
 }
 
 @media (max-width: 480px) {

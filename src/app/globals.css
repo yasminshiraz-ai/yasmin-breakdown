@@ -2,10 +2,12 @@
   --color-primary: #FF3131;
   --color-accent: #F7BB18;
   --color-dark: #0A0A0A;
-  --color-card: #1A1A1A;
+  --color-card: #FFFFFF;
+  --color-card-bg: #FFFFFF;
+  --color-section-bg: #F5F5F5;
   --color-white: #FFFFFF;
-  --color-gray: #888888;
-  --color-border: #2A2A2A;
+  --color-gray: #777777;
+  --color-border: #E8E8E8;
   --font-body: var(--font-barlow), 'Barlow', sans-serif;
   --font-headline: var(--font-barlow-condensed), 'Barlow Condensed', sans-serif;
   --max-width: 1280px;
@@ -23,8 +25,8 @@ html {
 }
 
 body {
-  background-color: var(--color-dark);
-  color: var(--color-white);
+  background-color: #FFFFFF;
+  color: #0A0A0A;
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
@@ -56,11 +58,10 @@ button {
   padding: 0 var(--gutter);
 }
 
-/* Shared category badge */
 .category-badge {
   display: inline-block;
   background: var(--color-primary);
-  color: var(--color-white);
+  color: #fff;
   font-family: var(--font-headline);
   font-weight: 900;
   font-size: 0.65rem;
@@ -69,17 +70,16 @@ button {
   padding: 3px 10px;
 }
 
-/* Shared ad slot placeholder */
 .ad-slot {
   width: 100%;
   min-height: 90px;
-  background: #111;
-  border: 1px dashed var(--color-border);
+  background: #F5F5F5;
+  border: 1px dashed #D0D0D0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-gray);
-  font-size: 0.75rem;
+  color: #AAAAAA;
+  font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 2rem 0;

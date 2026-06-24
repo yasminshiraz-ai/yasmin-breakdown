@@ -1,5 +1,5 @@
 .sidebar {
-  background: var(--color-card);
+  background: #F5F5F5;
   padding: 1.5rem;
   height: 100%;
 }
@@ -24,7 +24,7 @@
 }
 
 .item {
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid #E0E0E0;
 }
 
 .item:last-child {
@@ -54,7 +54,7 @@
   color: var(--color-primary);
   line-height: 1;
   min-width: 44px;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .info {
@@ -78,11 +78,11 @@
   font-size: 0.95rem;
   line-height: 1.2;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: #0A0A0A;
   transition: color 0.15s;
 }
 
 .date {
   font-size: 0.72rem;
-  color: var(--color-gray);
+  color: #888888;
 }

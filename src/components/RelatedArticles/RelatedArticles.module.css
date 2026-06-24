@@ -1,5 +1,5 @@
 .section {
-  border-top: 2px solid var(--color-border);
+  border-top: 2px solid #E8E8E8;
   padding-top: 2.5rem;
   margin-top: 2.5rem;
 }
@@ -22,31 +22,34 @@
 
 .card {
   display: block;
-  transition: transform 0.15s ease;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
+  border-color: #D0D0D0;
 }
 
 .thumb {
   position: relative;
   aspect-ratio: 16/9;
-  background: var(--color-card);
+  background: #F0F0F0;
   overflow: hidden;
-  margin-bottom: 0.75rem;
 }
 
 .placeholder {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  background: linear-gradient(135deg, #EBEBEB, #DCDCDC);
 }
 
 .body {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  padding: 0.85rem;
 }
 
 .category {
@@ -68,7 +71,7 @@
   font-size: 1rem;
   text-transform: uppercase;
   line-height: 1.2;
-  color: var(--color-white);
+  color: #0A0A0A;
   letter-spacing: -0.01em;
   transition: color 0.15s;
 }
@@ -79,7 +82,7 @@
 
 .date {
   font-size: 0.72rem;
-  color: var(--color-gray);
+  color: #888888;
 }
 
 @media (max-width: 768px) {

@@ -11,7 +11,6 @@ const NAV_LINKS = [
   { label: 'History', href: '/history' },
 ]
 
-// SVG icons as inline components to avoid additional deps
 function PatreonIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -42,40 +41,45 @@ export default function Header({ patreonUrl = '#' }) {
 
   return (
     <header className={styles.header}>
-      <div className={styles.inner}>
-        <Link href="/" className={styles.logo} aria-label="The Yasmin Breakdown — Home">
-          <LogoImage height={60} />
-        </Link>
+      {/* Black top bar — logo + action buttons */}
+      <div className={styles.topBar}>
+        <div className={styles.topInner}>
+          <Link href="/" className={styles.logo} aria-label="The Yasmin Breakdown — Home">
+            <LogoImage height={56} />
+          </Link>
+          <div className={styles.actions}>
+            <a
+              href={patreonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.iconBtn}
+              aria-label="Support on Patreon"
+              title="Support on Patreon"
+            >
+              <PatreonIcon />
+            </a>
+            <button
+              onClick={scrollToNewsletter}
+              className={styles.iconBtn}
+              aria-label="Subscribe to newsletter"
+              title="Subscribe to newsletter"
+            >
+              <MailIcon />
+            </button>
+          </div>
+        </div>
+      </div>
 
-        <nav className={styles.nav} aria-label="Main navigation">
+      {/* White nav bar below — red bottom border */}
+      <nav className={styles.navBar} aria-label="Main navigation">
+        <div className={styles.navInner}>
           {NAV_LINKS.map(link => (
             <Link key={link.href} href={link.href} className={styles.navLink}>
               {link.label}
             </Link>
           ))}
-        </nav>
-
-        <div className={styles.actions}>
-          <a
-            href={patreonUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.iconBtn}
-            aria-label="Support on Patreon"
-            title="Support on Patreon"
-          >
-            <PatreonIcon />
-          </a>
-          <button
-            onClick={scrollToNewsletter}
-            className={styles.iconBtn}
-            aria-label="Subscribe to newsletter"
-            title="Subscribe to newsletter"
-          >
-            <MailIcon />
-          </button>
         </div>
-      </div>
+      </nav>
     </header>
   )
 }
