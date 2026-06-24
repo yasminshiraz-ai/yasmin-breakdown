@@ -8,7 +8,7 @@ const CATEGORY_MAP = {
   sports: 'Sports',
   music: 'Music',
   'tv-film': 'TV & Film',
-  love: 'Love',
+  relationships: 'Relationships',
   history: 'History',
 }
 

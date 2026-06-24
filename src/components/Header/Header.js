@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import LogoImage from '../LogoImage/LogoImage'
 import styles from './Header.module.css'
 
@@ -7,8 +8,9 @@ const NAV_LINKS = [
   { label: 'Sports', href: '/sports' },
   { label: 'Music', href: '/music' },
   { label: 'TV & Film', href: '/tv-film' },
-  { label: 'Love', href: '/love' },
+  { label: 'Relationships', href: '/relationships' },
   { label: 'History', href: '/history' },
+  { label: 'Videos', href: '/videos' },
 ]
 
 function PatreonIcon() {
@@ -29,6 +31,8 @@ function MailIcon() {
 }
 
 export default function Header({ patreonUrl = '#' }) {
+  const pathname = usePathname()
+
   function scrollToNewsletter(e) {
     e.preventDefault()
     const section = document.getElementById('newsletter')
@@ -41,12 +45,31 @@ export default function Header({ patreonUrl = '#' }) {
 
   return (
     <header className={styles.header}>
-      {/* Black top bar — logo + action buttons */}
-      <div className={styles.topBar}>
-        <div className={styles.topInner}>
-          <Link href="/" className={styles.logo} aria-label="The Yasmin Breakdown — Home">
-            <LogoImage height={56} />
-          </Link>
+      {/* Centered logo row */}
+      <div className={styles.logoRow}>
+        <Link href="/" className={styles.logoLink} aria-label="The Yasmin Breakdown — Home">
+          <LogoImage height={210} src="/images/logo.svg" />
+        </Link>
+      </div>
+
+      {/* Nav bar — centered links, action icons on right */}
+      <nav className={styles.navBar} aria-label="Main navigation">
+        <div className={styles.navInner}>
+          <div className={styles.navLinks}>
+            {NAV_LINKS.map(link => {
+              const isActive = pathname === link.href || pathname.startsWith(link.href + '/')
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`${styles.navLink} ${isActive ? styles.active : ''}`}
+                >
+                  {link.label}
+                </Link>
+              )
+            })}
+          </div>
+
           <div className={styles.actions}>
             <a
               href={patreonUrl}
@@ -67,17 +90,6 @@ export default function Header({ patreonUrl = '#' }) {
               <MailIcon />
             </button>
           </div>
-        </div>
-      </div>
-
-      {/* White nav bar below — red bottom border */}
-      <nav className={styles.navBar} aria-label="Main navigation">
-        <div className={styles.navInner}>
-          {NAV_LINKS.map(link => (
-            <Link key={link.href} href={link.href} className={styles.navLink}>
-              {link.label}
-            </Link>
-          ))}
         </div>
       </nav>
     </header>

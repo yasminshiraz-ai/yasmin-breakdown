@@ -1,32 +1,32 @@
-.heroRow {
+/* Two-column layout: feed (max 780px) + trending sidebar (300px) */
+.layout {
   display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 0;
-  max-height: 580px;
-}
-
-.heroWrap {
-  overflow: hidden;
-}
-
-.sidebarWrap {
-  overflow-y: auto;
-  max-height: 580px;
-}
-
-.container {
-  max-width: var(--max-width);
+  grid-template-columns: minmax(0, 780px) 300px;
+  gap: 3rem;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 var(--gutter);
+  padding: 2.5rem var(--gutter) 3rem;
+  align-items: start;
 }
 
-@media (max-width: 900px) {
-  .heroRow {
+.feedCol {
+  min-width: 0; /* prevent grid blowout */
+}
+
+/* Sidebar sticks below the fixed header (logo 210px + navBar 58px + 20px gap = 288px) */
+.sidebarCol {
+  position: sticky;
+  top: 288px;
+}
+
+/* Hide sidebar on smaller screens — feed goes full width */
+@media (max-width: 1024px) {
+  .layout {
     grid-template-columns: 1fr;
-    max-height: none;
+    max-width: 780px;
   }
 
-  .sidebarWrap {
-    max-height: none;
+  .sidebarCol {
+    display: none;
   }
 }

@@ -1,9 +1,8 @@
-import Hero from '@/components/Hero/Hero'
+import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
 import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
-import HomeFeed from '@/components/HomeFeed/HomeFeed'
 import YouTubeRow from '@/components/YouTubeRow/YouTubeRow'
 import Newsletter from '@/components/Newsletter/Newsletter'
-import { getAllArticles, getFeaturedArticle } from '@/lib/articles'
+import { getAllArticles } from '@/lib/articles'
 import styles from './page.module.css'
 
 export const revalidate = 60
@@ -20,27 +19,22 @@ async function getYouTubeVideos() {
 }
 
 export default async function HomePage() {
-  const allArticles = getAllArticles()
-  const featured = getFeaturedArticle()
+  const articles = getAllArticles()
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   const { videos, configured } = await getYouTubeVideos()
 
   return (
     <>
-      <section className={styles.heroRow}>
-        <div className={styles.heroWrap}>
-          <Hero article={featured} />
+      <div className={styles.layout}>
+        <div className={styles.feedCol}>
+          <VerticalFeed articles={articles} siteUrl={siteUrl} />
         </div>
-        <div className={styles.sidebarWrap}>
-          <TrendingSidebar articles={allArticles} />
+        <div className={styles.sidebarCol}>
+          <TrendingSidebar articles={articles} />
         </div>
-      </section>
-
-      <div className={styles.container}>
-        <HomeFeed articles={allArticles} />
       </div>
 
       <YouTubeRow videos={videos} configured={configured} />
-
       <Newsletter />
     </>
   )

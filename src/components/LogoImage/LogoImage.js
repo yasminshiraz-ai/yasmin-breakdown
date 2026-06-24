@@ -1,9 +1,8 @@
 'use client'
-import Image from 'next/image'
 import { useState } from 'react'
 import styles from './LogoImage.module.css'
 
-export default function LogoImage({ height = 60 }) {
+export default function LogoImage({ height = 60, src = '/images/logo.svg' }) {
   const [error, setError] = useState(false)
 
   if (error) {
@@ -15,14 +14,11 @@ export default function LogoImage({ height = 60 }) {
   }
 
   return (
-    <Image
-      src="/images/logo.png"
+    <img
+      src={src}
       alt="The Yasmin Breakdown"
-      width={240}
-      height={height}
-      style={{ height: `${height}px`, width: 'auto', objectFit: 'contain' }}
+      style={{ display: 'block', height: `${height}px`, width: 'auto' }}
       onError={() => setError(true)}
-      priority
     />
   )
 }

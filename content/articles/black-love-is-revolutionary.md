@@ -2,7 +2,7 @@
 title: "Why Black Love Is Revolutionary: A Sociological Breakdown"
 slug: "black-love-is-revolutionary"
 date: "2024-03-05"
-category: "Love"
+category: "Relationships"
 featuredImage: "https://picsum.photos/seed/blacklove/1200/800"
 description: "In a society built on the destruction of Black families, choosing to love — and to stay — is not just personal. It is political."
 featured: false

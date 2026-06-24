@@ -8,8 +8,8 @@
   --color-white: #FFFFFF;
   --color-gray: #777777;
   --color-border: #E8E8E8;
-  --font-body: var(--font-barlow), 'Barlow', sans-serif;
-  --font-headline: var(--font-barlow-condensed), 'Barlow Condensed', sans-serif;
+  --font-body: var(--font-inter), 'Inter', sans-serif;
+  --font-headline: var(--font-montserrat), 'Montserrat', sans-serif;
   --max-width: 1280px;
   --gutter: 1.5rem;
 }
@@ -63,7 +63,7 @@ button {
   background: var(--color-primary);
   color: #fff;
   font-family: var(--font-headline);
-  font-weight: 900;
+  font-weight: 700;
   font-size: 0.65rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;

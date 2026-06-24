@@ -1,0 +1,11 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  height: 2px;
+  background: var(--color-primary);
+  margin: 2.5rem 0;
+  flex-shrink: 0;
+}

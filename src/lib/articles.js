@@ -26,7 +26,7 @@ export function getArticlesByCategory(categorySlug) {
     sports: 'Sports',
     music: 'Music',
     'tv-film': 'TV & Film',
-    love: 'Love',
+    relationships: 'Relationships',
     history: 'History',
   }
   const label = slugToLabel[categorySlug]

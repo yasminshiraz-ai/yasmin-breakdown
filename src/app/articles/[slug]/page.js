@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import Newsletter from '@/components/Newsletter/Newsletter'
 import RelatedArticles from '@/components/RelatedArticles/RelatedArticles'
 import AdSlot from '@/components/AdSlot/AdSlot'
+import ShareButtons from '@/components/ShareButtons/ShareButtons'
 import { getArticleContent, getAllArticles, getAllSlugs } from '@/lib/articles'
 import styles from './page.module.css'
 
@@ -45,7 +46,7 @@ function injectAdAfterP2(html) {
   return html.replace(/<\/p>/g, match => {
     count++
     if (count === 2) {
-      return `</p><div class="ad-slot" data-slot="after-p2" aria-hidden="true" style="min-height:90px;background:#111;border:1px dashed #2A2A2A;display:flex;align-items:center;justify-content:center;color:#888;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;margin:2rem 0;" data-label="Advertisement"></div>`
+      return `</p><div class="ad-slot" data-slot="after-p2" aria-hidden="true" style="min-height:90px;background:#F5F5F5;border:1px dashed #D0D0D0;display:flex;align-items:center;justify-content:center;color:#AAAAAA;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;margin:2rem 0;"></div>`
     }
     return match
   })
@@ -55,7 +56,7 @@ const CATEGORY_SLUG_MAP = {
   Sports: 'sports',
   Music: 'music',
   'TV & Film': 'tv-film',
-  Love: 'love',
+  Relationships: 'relationships',
   History: 'history',
 }
 
@@ -75,6 +76,8 @@ export default async function ArticlePage({ params }) {
   const categorySlug = CATEGORY_SLUG_MAP[article.category] || ''
   const contentWithAd = injectAdAfterP2(article.contentHtml)
   const embedUrl = getYouTubeEmbedUrl(article.videoUrl)
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const articleUrl = `${siteUrl}/articles/${params.slug}`
 
   return (
     <div className={styles.page}>
@@ -91,6 +94,7 @@ export default async function ArticlePage({ params }) {
           <header className={styles.header}>
             <span className={styles.categoryBadge}>{article.category}</span>
             <h1 className={styles.headline}>{article.title}</h1>
+            <ShareButtons url={articleUrl} title={article.title} />
             {article.description && (
               <p className={styles.dek}>{article.description}</p>
             )}

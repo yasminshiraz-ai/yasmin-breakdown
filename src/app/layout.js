@@ -1,4 +1,4 @@
-import { Barlow, Barlow_Condensed } from 'next/font/google'
+import { Montserrat, Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import BreakingNewsTicker from '@/components/BreakingNewsTicker/BreakingNewsTicker'
@@ -7,17 +7,17 @@ import PatreonBanner from '@/components/PatreonBanner/PatreonBanner'
 import Footer from '@/components/Footer/Footer'
 import { getAllArticles } from '@/lib/articles'
 
-const barlow = Barlow({
+const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  variable: '--font-barlow',
+  weight: ['400', '600'],
+  variable: '--font-inter',
   display: 'swap',
 })
 
-const barlowCondensed = Barlow_Condensed({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['900'],
-  variable: '--font-barlow-condensed',
+  weight: ['700', '800'],
+  variable: '--font-montserrat',
   display: 'swap',
 })
 
@@ -39,7 +39,7 @@ export default async function RootLayout({ children }) {
   const patreonUrl = process.env.PATREON_URL || '#'
 
   return (
-    <html lang="en" className={`${barlow.variable} ${barlowCondensed.variable}`}>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body>
         {/* Netlify Identity redirect — required for Decap CMS /admin login */}
         <Script

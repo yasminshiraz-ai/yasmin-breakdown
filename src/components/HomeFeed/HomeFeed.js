@@ -3,7 +3,7 @@ import { useState } from 'react'
 import ArticleCard from '../ArticleCard/ArticleCard'
 import styles from './HomeFeed.module.css'
 
-const CATEGORIES = ['All', 'Sports', 'Music', 'TV & Film', 'Love', 'History']
+const CATEGORIES = ['All', 'Sports', 'Music', 'TV & Film', 'Relationships', 'History']
 
 export default function HomeFeed({ articles = [] }) {
   const [active, setActive] = useState('All')

@@ -30,9 +30,9 @@ collections:
       - label: "TV & Film"
         field: category
         pattern: "TV & Film"
-      - label: "Love"
+      - label: "Relationships"
         field: category
-        pattern: "Love"
+        pattern: "Relationships"
       - label: "History"
         field: category
         pattern: "History"
@@ -64,7 +64,7 @@ collections:
           - "Sports"
           - "Music"
           - "TV & Film"
-          - "Love"
+          - "Relationships"
           - "History"
 
       - label: "Featured Image"
