@@ -1,3 +1,4 @@
+import SponsorForm from './SponsorForm'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -55,18 +56,12 @@ export default function SponsorsPage() {
         <section className={styles.contactSection}>
           <h2 className={styles.sectionHeading}>Get in Touch</h2>
           <p className={styles.contactText}>
-            Interested in sponsoring? We&rsquo;d love to hear from you. Reach out directly:
+            Interested in sponsoring? Fill out the form below or email us directly at{' '}
+            <a href="mailto:sponsors@yasminbreakdown.com" className={styles.emailLink}>
+              sponsors@yasminbreakdown.com
+            </a>
           </p>
-          <a
-            href="mailto:sponsors@yasminbreakdown.com"
-            className={styles.emailLink}
-          >
-            {/* Replace with Yasmin's real sponsorship email */}
-            sponsors@yasminbreakdown.com
-          </a>
-          <p className={styles.contactNote}>
-            We typically respond within 2 business days with a full media kit and rate card.
-          </p>
+          <SponsorForm />
         </section>
 
       </div>

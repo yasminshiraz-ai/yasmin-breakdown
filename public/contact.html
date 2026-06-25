@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- Netlify build-time form detection for Next.js App Router -->
+<form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="bot-field" />
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <select name="subject">
+    <option value="General Inquiry">General Inquiry</option>
+    <option value="Press &amp; Media">Press &amp; Media</option>
+    <option value="Sponsorship">Sponsorship</option>
+    <option value="Booking">Booking</option>
+    <option value="Other">Other</option>
+  </select>
+  <textarea name="message"></textarea>
+  <button type="submit">Send</button>
+</form>
+</body>
+</html>
