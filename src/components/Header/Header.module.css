@@ -13,17 +13,49 @@
 
 .logoRow {
   background: #0A0A0A;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 0;
+  padding: 0.75rem var(--gutter);
   margin: 0;
   width: 100%;
   line-height: 0;
   font-size: 0;
+  box-sizing: border-box;
+}
+
+.socialIcons {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: initial;
+  line-height: initial;
+}
+
+.socialLink {
+  color: #FF3131;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.socialLink:hover {
+  color: #FFFFFF;
+}
+
+.searchWrap {
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: initial;
+  line-height: initial;
 }
 
 .logoLink {
+  grid-column: 2;
+  justify-self: center;
   display: block;
   padding: 0;
   margin: 0;

@@ -64,7 +64,6 @@ export default function YouTubeRow({ videos = [], configured = true }) {
                 </div>
                 <div className={styles.info}>
                   <p className={styles.title}>{video.title}</p>
-                  <span className={styles.views}>{video.viewCount} views</span>
                 </div>
               </a>
             ))}

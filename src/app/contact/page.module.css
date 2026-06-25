@@ -1,0 +1,225 @@
+.page {
+  background: #ffffff;
+  padding: 4rem var(--gutter);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #FF3131;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #FF3131;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Two-column layout ── */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* ── Form ── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.label {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.input,
+.select,
+.textarea {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  color: #0A0A0A;
+  background: #ffffff;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  width: 100%;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: #FF3131;
+  box-shadow: 0 0 0 3px rgba(255, 49, 49, 0.1);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #AAAAAA;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 150px;
+  line-height: 1.6;
+}
+
+.select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+.submitBtn {
+  align-self: flex-start;
+  background: #FF3131;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 32px;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: #cc0000;
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.errorMsg {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: #cc0000;
+}
+
+/* ── Success state ── */
+.successBox {
+  padding: 2.5rem;
+  background: #F9FFF9;
+  border: 1.5px solid #22c55e;
+  border-radius: 6px;
+}
+
+.successHeading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #16a34a;
+  margin-bottom: 0.75rem;
+}
+
+.successText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.resetBtn {
+  background: transparent;
+  border: 1px solid #16a34a;
+  color: #16a34a;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.resetBtn:hover {
+  background: #f0fdf4;
+}
+
+/* ── Info sidebar ── */
+.infoCol {
+  position: sticky;
+  top: 20px;
+}
+
+.infoBox {
+  background: #F9F9F9;
+  border: 1px solid #E8E8E8;
+  border-radius: 6px;
+  padding: 1.75rem;
+}
+
+.infoHeading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #0A0A0A;
+  margin-bottom: 0.5rem;
+}
+
+.infoText {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.emailLink {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #FF3131;
+  text-decoration: underline;
+}
+
+.emailLink:hover {
+  color: #cc0000;
+}
+
+.infoDivider {
+  height: 1px;
+  background: #E8E8E8;
+  margin: 1.5rem 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .infoCol {
+    position: static;
+  }
+}

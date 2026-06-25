@@ -3,6 +3,7 @@ import Script from 'next/script'
 import './globals.css'
 import BreakingNewsTicker from '@/components/BreakingNewsTicker/BreakingNewsTicker'
 import Header from '@/components/Header/Header'
+import SecondaryNav from '@/components/SecondaryNav/SecondaryNav'
 import PatreonBanner from '@/components/PatreonBanner/PatreonBanner'
 import Footer from '@/components/Footer/Footer'
 import { getAllArticles } from '@/lib/articles'
@@ -59,6 +60,7 @@ export default async function RootLayout({ children }) {
         `}</Script>
         <BreakingNewsTicker headlines={tickerHeadlines} />
         <Header patreonUrl={patreonUrl} />
+        <SecondaryNav />
         <main>{children}</main>
         <PatreonBanner patreonUrl={patreonUrl} />
         <Footer />

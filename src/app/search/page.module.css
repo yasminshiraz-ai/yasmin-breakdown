@@ -1,0 +1,41 @@
+.page {
+  background: #ffffff;
+  min-height: 60vh;
+  padding: 3rem var(--gutter) 4rem;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1.75rem;
+  letter-spacing: 0.04em;
+  color: #0A0A0A;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #FF3131;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+
+.empty {
+  color: #777777;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  height: 2px;
+  background: var(--color-primary);
+  margin: 2.5rem 0;
+  flex-shrink: 0;
+}

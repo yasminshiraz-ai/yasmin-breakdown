@@ -10,6 +10,13 @@ const NAV_LINKS = [
   { label: 'History', href: '/history' },
 ]
 
+const COMPANY_LINKS = [
+  { label: 'About', href: '/about' },
+  { label: 'Sponsors', href: '/sponsors' },
+  { label: 'Newsletter', href: '/#newsletter' },
+  { label: 'Contact', href: '/contact' },
+]
+
 function YouTubeIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -87,11 +94,27 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className={styles.secondary}>
+          <nav className={styles.companyNav} aria-label="Company links">
+            {COMPANY_LINKS.map(link => (
+              <Link key={link.href} href={link.href} className={styles.companyLink}>
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+
         <div className={styles.bottom}>
           <p className={styles.copy}>
             &copy; {year} The Yasmin Breakdown. All rights reserved.
           </p>
           <p className={styles.tagline}>With Sociological Analysis</p>
+        </div>
+
+        <div className={styles.poweredBy}>
+          <p className={styles.poweredByText}>
+            All Rights Reserved. Powered By Still Eye Rise Media, LLC.
+          </p>
         </div>
       </div>
     </footer>

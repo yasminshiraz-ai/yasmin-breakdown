@@ -67,6 +67,47 @@
   border-color: var(--color-primary);
 }
 
+.secondary {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: wrap;
+}
+
+.companyNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.companyLink {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  color: #999999;
+  padding: 3px 10px;
+  transition: color 0.15s ease;
+}
+
+.companyLink:hover {
+  color: #FF3131;
+}
+
+.poweredBy {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 0.75rem 0;
+  text-align: center;
+}
+
+.poweredByText {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  color: #666666;
+}
+
 .bottom {
   display: flex;
   align-items: center;

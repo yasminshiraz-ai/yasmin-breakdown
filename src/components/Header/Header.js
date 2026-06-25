@@ -1,7 +1,9 @@
 'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { FaYoutube, FaFacebook, FaPatreon } from 'react-icons/fa'
 import LogoImage from '../LogoImage/LogoImage'
+import SearchBar from '../SearchBar/SearchBar'
 import styles from './Header.module.css'
 
 const NAV_LINKS = [
@@ -11,6 +13,12 @@ const NAV_LINKS = [
   { label: 'Relationships', href: '/relationships' },
   { label: 'History', href: '/history' },
   { label: 'Videos', href: '/videos' },
+]
+
+const SOCIAL_LINKS = [
+  { Icon: FaYoutube, href: 'https://www.youtube.com/@YasminShiraz', label: 'YouTube' },
+  { Icon: FaFacebook, href: 'https://www.facebook.com/yasminshiraz', label: 'Facebook' },
+  { Icon: FaPatreon, href: 'https://www.patreon.com/c/yasminshiraz', label: 'Patreon' },
 ]
 
 function PatreonIcon() {
@@ -45,14 +53,34 @@ export default function Header({ patreonUrl = '#' }) {
 
   return (
     <header className={styles.header}>
-      {/* Centered logo row */}
+      {/* Social icons left, logo center, search right */}
       <div className={styles.logoRow}>
+        <div className={styles.socialIcons}>
+          {SOCIAL_LINKS.map(({ Icon, href, label }) => (
+            <a
+              key={label}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+              aria-label={label}
+              title={label}
+            >
+              <Icon size={24} />
+            </a>
+          ))}
+        </div>
+
         <Link href="/" className={styles.logoLink} aria-label="The Yasmin Breakdown — Home">
           <LogoImage height={210} src="/images/logo.svg" />
         </Link>
+
+        <div className={styles.searchWrap}>
+          <SearchBar />
+        </div>
       </div>
 
-      {/* Nav bar — centered links, action icons on right */}
+      {/* Nav bar */}
       <nav className={styles.navBar} aria-label="Main navigation">
         <div className={styles.navInner}>
           <div className={styles.navLinks}>

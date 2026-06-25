@@ -1,0 +1,36 @@
+.section {
+  background: #ffffff;
+  padding: 2.5rem var(--gutter) 3rem;
+}
+
+.inner {
+  max-width: 780px;
+  margin: 0 auto;
+  border-top: 1px solid #E8E8E8;
+  padding-top: 2.5rem;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #FF3131;
+  margin-bottom: 2.5rem;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  height: 2px;
+  background: var(--color-primary);
+  margin: 2.5rem 0;
+  flex-shrink: 0;
+}

@@ -1,0 +1,129 @@
+.page {
+  background: #ffffff;
+  padding: 4rem var(--gutter);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── Hero heading ── */
+.heroText {
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #FF3131;
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #777777;
+}
+
+/* ── Two-column bio ── */
+.bio {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+.photoWrap {
+  flex-shrink: 0;
+}
+
+.photoPlaceholder {
+  width: 400px;
+  height: 400px;
+  background: #F0F0F0;
+  border: 2px dashed #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.photoLabel {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: #AAAAAA;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.bioText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.bioParagraph {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333333;
+}
+
+/* ── Social links ── */
+.social {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 2.5rem;
+}
+
+.socialHeading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #0A0A0A;
+  margin-bottom: 1.25rem;
+}
+
+.socialLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.socialBtn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1.5px solid #FF3131;
+  color: #FF3131;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.socialBtn:hover {
+  background: #FF3131;
+  color: #ffffff;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .bio {
+    grid-template-columns: 1fr;
+  }
+
+  .photoPlaceholder {
+    width: 100%;
+    height: 300px;
+  }
+}

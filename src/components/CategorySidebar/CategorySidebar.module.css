@@ -1,0 +1,43 @@
+.sidebar {
+  width: 100%;
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #FF3131;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  background: #ffffff;
+  border: 1.5px solid #FF3131;
+  color: #FF3131;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-align: center;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  background: #FF3131;
+  color: #ffffff;
+}

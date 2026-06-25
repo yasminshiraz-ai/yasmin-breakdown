@@ -53,9 +53,7 @@ export default async function VideosPage() {
                 </div>
                 <div className={styles.info}>
                   <p className={styles.title}>{video.title}</p>
-                  <span className={styles.meta}>
-                    {video.viewCount} views · {formatPublishedDate(video.publishedAt)}
-                  </span>
+                  <span className={styles.meta}>{formatPublishedDate(video.publishedAt)}</span>
                 </div>
               </a>
             ))}

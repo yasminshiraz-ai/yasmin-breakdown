@@ -1,32 +1,37 @@
-/* Two-column layout: feed (max 780px) + trending sidebar (300px) */
-.layout {
-  display: grid;
-  grid-template-columns: minmax(0, 780px) 300px;
-  gap: 3rem;
-  max-width: 1140px;
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 2.5rem var(--gutter) 3rem;
-  align-items: start;
+  padding: 0 16px;
+  align-items: flex-start;
 }
 
-.feedCol {
-  min-width: 0; /* prevent grid blowout */
+.leftCol {
+  flex: 1;
+  min-width: 0;
 }
 
-/* Sidebar sticks below the fixed header (logo 210px + navBar 58px + 20px gap = 288px) */
-.sidebarCol {
+.rightCol {
+  width: 280px;
+  flex-shrink: 0;
+  align-self: flex-start;
   position: sticky;
-  top: 288px;
+  top: 60px;
 }
 
-/* Hide sidebar on smaller screens — feed goes full width */
-@media (max-width: 1024px) {
-  .layout {
-    grid-template-columns: 1fr;
-    max-width: 780px;
-  }
+/* Second wrapper: zero top padding so MORE heading aligns with TRENDING heading */
+.moreCol > section {
+  padding-top: 0;
+}
 
-  .sidebarCol {
+.moreCol > section > div {
+  padding-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .rightCol {
     display: none;
   }
 }

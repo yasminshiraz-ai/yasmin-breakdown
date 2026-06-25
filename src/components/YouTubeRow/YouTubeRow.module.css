@@ -114,11 +114,6 @@
   color: var(--color-primary);
 }
 
-.views {
-  font-size: 0.75rem;
-  color: #888888;
-}
-
 .notice {
   color: #888888;
   font-size: 0.85rem;
