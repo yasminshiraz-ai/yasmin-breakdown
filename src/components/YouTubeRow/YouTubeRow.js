@@ -28,7 +28,7 @@ export default function YouTubeRow({ videos = [], configured = true }) {
 
         {!configured && (
           <p className={styles.notice}>
-            Add your <code>YOUTUBE_API_KEY</code> to <code>.env.local</code> to display latest videos.
+            Add your <code>NEXT_PUBLIC_YOUTUBE_API_KEY</code> to <code>.env.local</code> to display latest videos.
           </p>
         )}
 

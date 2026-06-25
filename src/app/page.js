@@ -1,3 +1,4 @@
+// Homepage v2 - two column layout with YouTube row
 import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
 import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
 import YouTubeRow from '@/components/YouTubeRow/YouTubeRow'

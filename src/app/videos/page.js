@@ -17,7 +17,7 @@ export default async function VideosPage() {
 
         {!configured && (
           <p className={styles.notice}>
-            Add your <code>YOUTUBE_API_KEY</code> to <code>.env.local</code> to display videos.
+            Add your <code>NEXT_PUBLIC_YOUTUBE_API_KEY</code> to <code>.env.local</code> to display videos.
           </p>
         )}
 
