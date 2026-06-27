@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/serena/1200/800"
 description: "Serena Williams won 23 Grand Slam singles titles. She also spent her entire career defending her body, her emotions, and her right to exist in a sport that was never designed for her."
 featured: false
 videoUrl: ""
+tags: ["Tennis", "Black Women", "Body Politics"]
 ---
 
 Serena Williams is the greatest tennis player in the Open Era. She has 23 Grand Slam singles titles, more than any other player in the modern game. She won her first in 1999 and was still competing for Grand Slams in 2022. Her career spans a quarter century of athletic dominance that has no parallel in women's sports.

@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/beyonce/1200/800"
 description: "Renaissance wasn't just an album. It was a political act — a reclamation of Black queer joy as the foundation of American popular music."
 featured: false
 videoUrl: ""
+tags: ["Beyoncé", "Black Women", "Pop Culture"]
 ---
 
 When Beyoncé released *Renaissance* in July 2022, critics called it a love letter to the dancefloor. They were right. But they were also only describing the surface. Underneath the house, disco, and ballroom rhythms of *Renaissance* lies one of the most sophisticated sociological statements in contemporary popular music.

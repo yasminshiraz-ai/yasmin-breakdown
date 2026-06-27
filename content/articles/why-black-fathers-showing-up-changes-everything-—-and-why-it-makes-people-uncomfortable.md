@@ -10,6 +10,7 @@ description: When Black fathers show up for their children in sports, music, and
   involved Black fathers trigger resistance — and why it matters.
 videoUrl: https://youtu.be/NVtF3kO7sR4
 featured: true
+tags: ["Black Fatherhood", "Parenting", "Sports", "Social Justice"]
 ---
 There's a pattern hiding in plain sight. Every time a Black father steps into a room — whether it's a sports negotiation, a school classroom, or a record label meeting — something shifts. The energy changes. The conversations change. The outcomes change. And for some people, that shift is deeply uncomfortable.
 

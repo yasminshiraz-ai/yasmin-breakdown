@@ -173,6 +173,33 @@
   margin: 3rem 0;
 }
 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1.25rem;
+}
+
+.tagPill {
+  display: inline-block;
+  background: #fff;
+  color: #FF3131;
+  border: 1.5px solid #FF3131;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.69rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tagPill:hover {
+  background: #FF3131;
+  color: #fff;
+}
+
 .videoWrap {
   position: relative;
   aspect-ratio: 16/9;

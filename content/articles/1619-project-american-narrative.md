@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/1619/1200/800"
 description: "Two competing historical frameworks. One nation. The battle over the 1619 Project reveals the deepest truths about who has the power to define American identity."
 featured: false
 videoUrl: ""
+tags: ["Black History", "American Identity", "Politics"]
 ---
 
 In August 2019, *The New York Times Magazine* published the 1619 Project, a landmark collection of essays, poems, and reporting that reframed American history with slavery — and specifically the arrival of the first enslaved Africans in 1619 — at its center.

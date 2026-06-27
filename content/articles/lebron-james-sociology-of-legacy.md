@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/lebron/1200/800"
 description: "LeBron James is the greatest basketball player alive. So why does his success still generate so much resentment? A sociological breakdown."
 featured: true
 videoUrl: ""
+tags: ["NBA", "LeBron James", "Black Excellence"]
 ---
 
 LeBron James has won four NBA championships. He has four MVP awards, four Finals MVP awards, and is the all-time leading scorer in NBA history. By any objective measure, he is the greatest basketball player alive. And yet, in America, this excellence exists alongside a persistent, unrelenting effort to diminish it.

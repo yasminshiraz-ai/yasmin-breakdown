@@ -100,6 +100,20 @@ export default async function ArticlePage({ params }) {
             {article.description && (
               <p className={styles.dek}>{article.description}</p>
             )}
+            {article.tags && article.tags.length > 0 && (
+              <div className={styles.tags}>
+                {article.tags.map(tag => (
+                  <Link
+                    key={tag}
+                    href={`/tags/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}`}
+                    className={styles.tagPill}
+                  >
+                    {tag}
+                  </Link>
+                ))}
+              </div>
+            )}
+
             <div className={styles.meta}>
               <span className={styles.byline}>By Yasmin Shiraz</span>
               <span className={styles.dot}>·</span>

@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/abbott/1200/800"
 description: "Abbott Elementary is the most important show on television right now. Not because it's funny — though it is — but because of what it's willing to say about who America chooses not to invest in."
 featured: false
 videoUrl: ""
+tags: ["Television", "Public Education", "Black America"]
 ---
 
 *Abbott Elementary* is a workplace comedy set in an underfunded Philadelphia public school. It is also, if you are willing to read it carefully, one of the most incisive sociological documents on American television in years.

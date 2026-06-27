@@ -53,3 +53,17 @@ export function getFeaturedArticle() {
   const articles = getAllArticles()
   return articles.find(a => a.featured) || articles[0] || null
 }
+
+export function getArticlesByTag(tag) {
+  return getAllArticles().filter(a =>
+    Array.isArray(a.tags) && a.tags.some(t => t.toLowerCase() === tag.toLowerCase())
+  )
+}
+
+export function getAllTags() {
+  const tags = new Set()
+  getAllArticles().forEach(a => {
+    if (Array.isArray(a.tags)) a.tags.forEach(t => tags.add(t))
+  })
+  return Array.from(tags)
+}

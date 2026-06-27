@@ -7,6 +7,7 @@ featuredImage: "https://picsum.photos/seed/blacklove/1200/800"
 description: "In a society built on the destruction of Black families, choosing to love — and to stay — is not just personal. It is political."
 featured: false
 videoUrl: ""
+tags: ["Black Love", "Black Families", "Social Justice"]
 ---
 
 There is a scene that plays out on social media with remarkable regularity: images of Black couples — at weddings, on anniversaries, in quiet domestic moments — captioned with some variation of "protect Black love." The response is always enormous. Why does this resonate so deeply? The answer is historical, sociological, and urgent.

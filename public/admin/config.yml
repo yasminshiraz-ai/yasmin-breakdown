@@ -105,3 +105,14 @@ collections:
         widget: "boolean"
         default: false
         hint: "Check this to display the article as the full-width hero on the homepage. Only one article should be featured at a time."
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "Add tags like: Hip Hop, Black History, WNBA, Celebrity, Social Justice"
+        field:
+          name: tag
+          label: Tag
+          widget: string
