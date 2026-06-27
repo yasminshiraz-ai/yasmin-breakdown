@@ -16,7 +16,7 @@ export function getAllArticles() {
       const raw = fs.readFileSync(path.join(articlesDir, fileName), 'utf8')
       const { data, content } = matter(raw)
       const stats = readingTime(content)
-      return { slug, ...data, readingTime: Math.ceil(stats.minutes) }
+      return { ...data, slug, readingTime: Math.ceil(stats.minutes) }
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }

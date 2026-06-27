@@ -5,11 +5,13 @@ import Newsletter from '@/components/Newsletter/Newsletter'
 import RelatedArticles from '@/components/RelatedArticles/RelatedArticles'
 import AdSlot from '@/components/AdSlot/AdSlot'
 import ShareButtons from '@/components/ShareButtons/ShareButtons'
-import { getArticleContent, getAllArticles, getAllSlugs } from '@/lib/articles'
+import { getArticleContent, getAllArticles } from '@/lib/articles'
 import styles from './page.module.css'
 
+export const dynamicParams = false
+
 export async function generateStaticParams() {
-  return getAllSlugs().map(slug => ({ slug }))
+  return getAllArticles().map(a => ({ slug: a.slug }))
 }
 
 export async function generateMetadata({ params }) {
