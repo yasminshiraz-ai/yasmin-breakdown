@@ -4,7 +4,7 @@ title: Why Black Fathers Showing Up Changes Everything — And Why It Makes Peop
 slug: why-black-fathers-showing-up-changes-the-outcome
 date: 2026-06-26
 category: Sports
-featuredImage: https://upload.wikimedia.org/wikipedia/commons/9/9f/Deion_Sanders_%288216060%29_%28cropped%29.jpg
+featuredImage: /images/uploads/960px-deion_sanders_-8216060-_-cropped-.jpg
 description: When Black fathers show up for their children in sports, music, and
   school, the power dynamic shifts immediately. Here's the sociology behind why
   involved Black fathers trigger resistance — and why it matters.
