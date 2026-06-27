@@ -1,6 +1,5 @@
 ---
-title: Why Black Fathers Showing Up Changes Everything. And Why It Makes People
-  Uncomfortable
+title: "Why Black Fathers Showing Up Changes The Outcome "
 slug: why-black-fathers-showing-up-changes-the-outcome
 date: 2026-06-26
 category: Sports
