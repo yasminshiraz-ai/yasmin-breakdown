@@ -15,7 +15,7 @@ export default function AuthorFooter() {
       </div>
       <div className={styles.info}>
         <p className={styles.name}>Yasmin Shiraz</p>
-        <p className={styles.title}>Cultural Analyst &amp; Sociologist</p>
+        <p className={styles.title}>Author, TV Writer / Producer &amp; Cultural Analyst</p>
         <p className={styles.bio}>
           Yasmin Shiraz is a bestselling author, journalist, and cultural analyst delivering
           sociological breakdowns of hip hop, Black history, sports, and entertainment.

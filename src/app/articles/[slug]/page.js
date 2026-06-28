@@ -18,13 +18,28 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   try {
     const article = await getArticleContent(params.slug)
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+    const ogImage = article.featuredImage
+      ? article.featuredImage.startsWith('http')
+        ? article.featuredImage
+        : `${siteUrl}${article.featuredImage}`
+      : null
     return {
       title: article.title,
       description: article.description || '',
+      keywords: Array.isArray(article.tags) ? article.tags.join(', ') : undefined,
       openGraph: {
         title: article.title,
         description: article.description || '',
-        images: article.featuredImage ? [article.featuredImage] : [],
+        type: 'article',
+        url: `${siteUrl}/articles/${params.slug}`,
+        images: ogImage ? [{ url: ogImage, width: 1200, height: 800, alt: article.title }] : [],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: article.title,
+        description: article.description || '',
+        images: ogImage ? [ogImage] : [],
       },
     }
   } catch {
@@ -121,20 +136,6 @@ export default async function ArticlePage({ params }) {
             {article.description && (
               <p className={styles.dek}>{article.description}</p>
             )}
-            {article.tags && article.tags.length > 0 && (
-              <div className={styles.tags}>
-                {article.tags.map(tag => (
-                  <Link
-                    key={tag}
-                    href={`/tags/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}`}
-                    className={styles.tagPill}
-                  >
-                    {tag}
-                  </Link>
-                ))}
-              </div>
-            )}
-
             <div className={styles.meta}>
               <span className={styles.byline}>By Yasmin Shiraz</span>
               <span className={styles.dot}>·</span>
@@ -183,6 +184,23 @@ export default async function ArticlePage({ params }) {
               className={styles.body}
               dangerouslySetInnerHTML={{ __html: bodyAfter }}
             />
+          )}
+
+          {article.tags && article.tags.length > 0 && (
+            <div className={styles.tagsSection}>
+              <span className={styles.tagsLabel}>Tags</span>
+              <div className={styles.tagsRow}>
+                {article.tags.map(tag => (
+                  <Link
+                    key={tag}
+                    href={`/tags/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}`}
+                    className={styles.tagPill}
+                  >
+                    {tag}
+                  </Link>
+                ))}
+              </div>
+            </div>
           )}
 
           <AdSlot slot="above-footer" />
