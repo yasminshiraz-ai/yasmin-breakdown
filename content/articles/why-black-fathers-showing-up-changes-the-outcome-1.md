@@ -32,7 +32,7 @@ The difference isn't symbolic — it's structural. Here's what shifts the moment
 
 **Confidence in children increases.** When a child knows their father has their back, they carry themselves differently. That internal security is visible — and it changes how others interact with them.
 
-<https://youtu.be/NVtF3kO7sR4?si=BxxvhlsoB2K3MDX9>
+
 
 ## The School System and the Quiet Removal of Black Fathers
 
