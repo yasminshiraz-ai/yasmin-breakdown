@@ -36,11 +36,11 @@ export default function SponsorsPage() {
 
         <section className={styles.offerSection}>
           <h2 className={styles.sectionHeading}>What We Offer</h2>
-          <div className={styles.pillGrid}>
+          <ul className={styles.offerList}>
             {OFFER_ITEMS.map(item => (
-              <span key={item} className={styles.pill}>{item}</span>
+              <li key={item} className={styles.offerItem}>{item}</li>
             ))}
-          </div>
+          </ul>
         </section>
 
         <section className={styles.whoSection}>

@@ -68,22 +68,27 @@
   margin-bottom: 3rem;
 }
 
-.pillGrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+.offerList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.pill {
-  display: inline-block;
-  border: 1.5px solid #FF3131;
-  color: #FF3131;
-  background: #ffffff;
+.offerItem {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.9rem;
-  padding: 8px 18px;
-  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #444444;
+  line-height: 2;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.offerItem::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #FF3131;
 }
 
 /* ── Who We Work With ── */
