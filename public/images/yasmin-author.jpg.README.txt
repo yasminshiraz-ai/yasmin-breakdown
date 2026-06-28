@@ -1,0 +1,2 @@
+Place yasmin-author.jpg in this directory (/public/images/).
+Recommended: square crop, minimum 160x160px (displayed at 80x80px with 2x for retina).

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Newsletter from '@/components/Newsletter/Newsletter'
 import RelatedArticles from '@/components/RelatedArticles/RelatedArticles'
+import AuthorFooter from '@/components/AuthorFooter/AuthorFooter'
 import AdSlot from '@/components/AdSlot/AdSlot'
 import ShareButtons from '@/components/ShareButtons/ShareButtons'
 import { getArticleContent, getAllArticles } from '@/lib/articles'
@@ -186,6 +187,8 @@ export default async function ArticlePage({ params }) {
 
           <AdSlot slot="above-footer" />
         </article>
+
+        <AuthorFooter />
 
         <Newsletter />
 
