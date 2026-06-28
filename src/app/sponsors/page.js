@@ -7,7 +7,7 @@ export const metadata = {
 }
 
 const OFFER_ITEMS = [
-  'Sponsored Articles',
+  'Sponsored Yasmin Breakdown Post featuring Your Brand or Story',
   'YouTube Integrations',
   'Podcast Sponsorships',
   'Newsletter Sponsorships',
