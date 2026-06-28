@@ -54,6 +54,20 @@ function injectAdAfterP2(html) {
   })
 }
 
+function splitAtParagraph(html, n) {
+  let count = 0
+  let searchFrom = 0
+  let splitIndex = html.length
+  while (count < n) {
+    const idx = html.indexOf('</p>', searchFrom)
+    if (idx === -1) break
+    count++
+    if (count === n) { splitIndex = idx + 4; break }
+    searchFrom = idx + 4
+  }
+  return [html.slice(0, splitIndex), html.slice(splitIndex)]
+}
+
 const CATEGORY_SLUG_MAP = {
   Sports: 'sports',
   Music: 'music',
@@ -80,6 +94,12 @@ export default async function ArticlePage({ params }) {
   const embedUrl = getYouTubeEmbedUrl(article.videoUrl)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   const articleUrl = `${siteUrl}/articles/${params.slug}`
+
+  let bodyBefore = contentWithAd
+  let bodyAfter = ''
+  if (embedUrl) {
+    ;[bodyBefore, bodyAfter] = splitAtParagraph(contentWithAd, 4)
+  }
 
   return (
     <div className={styles.page}>
@@ -142,7 +162,7 @@ export default async function ArticlePage({ params }) {
 
           <div
             className={styles.body}
-            dangerouslySetInnerHTML={{ __html: contentWithAd }}
+            dangerouslySetInnerHTML={{ __html: bodyBefore }}
           />
 
           {embedUrl && (
@@ -155,6 +175,13 @@ export default async function ArticlePage({ params }) {
                 className={styles.video}
               />
             </div>
+          )}
+
+          {bodyAfter && (
+            <div
+              className={styles.body}
+              dangerouslySetInnerHTML={{ __html: bodyAfter }}
+            />
           )}
 
           <AdSlot slot="above-footer" />
