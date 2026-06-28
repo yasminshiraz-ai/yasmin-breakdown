@@ -70,25 +70,30 @@
 
 .offerList {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
 }
 
 .offerItem {
   font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 16px;
-  color: #444444;
-  line-height: 2;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333333;
   padding-left: 1.25rem;
   position: relative;
 }
 
 .offerItem::before {
-  content: '—';
+  content: '';
   position: absolute;
   left: 0;
-  color: #FF3131;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: #FF3131;
+  border-radius: 50%;
 }
 
 /* ── Who We Work With ── */
