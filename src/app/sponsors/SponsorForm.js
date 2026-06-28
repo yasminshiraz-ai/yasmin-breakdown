@@ -2,18 +2,28 @@
 import { useState } from 'react'
 import styles from './page.module.css'
 
-const BUDGETS = [
-  'Under $500',
-  '$500 - $1,000',
-  '$1,000 - $5,000',
-  '$5,000+',
+const SPONSOR_TYPES = [
+  'Sponsored Article',
+  'YouTube Integration',
+  'Podcast Sponsorship',
+  'Newsletter Sponsorship',
+  'Social Media Campaign',
+  'Full Brand Partnership',
+  'Other',
 ]
+
+const EMPTY = {
+  name: '',
+  email: '',
+  company: '',
+  subject: '',
+  sponsorType: SPONSOR_TYPES[0],
+  message: '',
+}
 
 export default function SponsorForm() {
   const [status, setStatus] = useState('idle')
-  const [fields, setFields] = useState({
-    name: '', company: '', email: '', budget: BUDGETS[0], message: '',
-  })
+  const [fields, setFields] = useState(EMPTY)
 
   function handleChange(e) {
     setFields(prev => ({ ...prev, [e.target.name]: e.target.value }))
@@ -46,7 +56,7 @@ export default function SponsorForm() {
         </p>
         <button
           className={styles.resetBtn}
-          onClick={() => { setStatus('idle'); setFields({ name: '', company: '', email: '', budget: BUDGETS[0], message: '' }) }}
+          onClick={() => { setStatus('idle'); setFields(EMPTY) }}
         >
           Submit another inquiry
         </button>
@@ -67,7 +77,7 @@ export default function SponsorForm() {
 
       <div className={styles.formRow}>
         <div className={styles.field}>
-          <label className={styles.label} htmlFor="sp-name">Your Name</label>
+          <label className={styles.label} htmlFor="sp-name">Name</label>
           <input
             id="sp-name"
             name="name"
@@ -76,25 +86,9 @@ export default function SponsorForm() {
             value={fields.name}
             onChange={handleChange}
             className={styles.input}
-            placeholder="Full name"
+            placeholder="Your full name"
           />
         </div>
-        <div className={styles.field}>
-          <label className={styles.label} htmlFor="sp-company">Company / Brand</label>
-          <input
-            id="sp-company"
-            name="company"
-            type="text"
-            required
-            value={fields.company}
-            onChange={handleChange}
-            className={styles.input}
-            placeholder="Company name"
-          />
-        </div>
-      </div>
-
-      <div className={styles.formRow}>
         <div className={styles.field}>
           <label className={styles.label} htmlFor="sp-email">Email</label>
           <input
@@ -108,24 +102,54 @@ export default function SponsorForm() {
             placeholder="you@company.com"
           />
         </div>
+      </div>
+
+      <div className={styles.formRow}>
         <div className={styles.field}>
-          <label className={styles.label} htmlFor="sp-budget">Monthly Budget</label>
-          <select
-            id="sp-budget"
-            name="budget"
-            value={fields.budget}
+          <label className={styles.label} htmlFor="sp-company">Company / Brand</label>
+          <input
+            id="sp-company"
+            name="company"
+            type="text"
+            required
+            value={fields.company}
             onChange={handleChange}
-            className={styles.select}
-          >
-            {BUDGETS.map(b => (
-              <option key={b} value={b}>{b}</option>
-            ))}
-          </select>
+            className={styles.input}
+            placeholder="Company or brand name"
+          />
+        </div>
+        <div className={styles.field}>
+          <label className={styles.label} htmlFor="sp-subject">Subject</label>
+          <input
+            id="sp-subject"
+            name="subject"
+            type="text"
+            required
+            value={fields.subject}
+            onChange={handleChange}
+            className={styles.input}
+            placeholder="Brief subject line"
+          />
         </div>
       </div>
 
       <div className={styles.field}>
-        <label className={styles.label} htmlFor="sp-message">Tell Us About Your Campaign</label>
+        <label className={styles.label} htmlFor="sp-type">Type of Sponsorship</label>
+        <select
+          id="sp-type"
+          name="sponsorType"
+          value={fields.sponsorType}
+          onChange={handleChange}
+          className={styles.select}
+        >
+          {SPONSOR_TYPES.map(t => (
+            <option key={t} value={t}>{t}</option>
+          ))}
+        </select>
+      </div>
+
+      <div className={styles.field}>
+        <label className={styles.label} htmlFor="sp-message">Message</label>
         <textarea
           id="sp-message"
           name="message"
@@ -133,7 +157,7 @@ export default function SponsorForm() {
           value={fields.message}
           onChange={handleChange}
           className={styles.textarea}
-          placeholder="What are your goals, target audience, and preferred sponsorship type?"
+          placeholder="Tell us about your brand, goals, and target audience."
           rows={5}
         />
       </div>
@@ -149,7 +173,7 @@ export default function SponsorForm() {
         className={styles.submitBtn}
         disabled={status === 'submitting'}
       >
-        {status === 'submitting' ? 'Sending…' : 'Send Inquiry'}
+        {status === 'submitting' ? 'Sending…' : 'Submit Sponsorship Inquiry'}
       </button>
     </form>
   )

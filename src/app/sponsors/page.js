@@ -2,14 +2,17 @@ import SponsorForm from './SponsorForm'
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Sponsors',
-  description: 'Partner with The Yasmin Breakdown and reach an engaged audience passionate about culture, sports, and sociological analysis.',
+  title: 'Partner With Us — The Yasmin Breakdown',
+  description: 'Partner with The Yasmin Breakdown and reach a highly engaged, culturally conscious audience.',
 }
 
-const STATS = [
-  { label: 'Monthly Reach', value: '000,000+', note: 'across all platforms' },
-  { label: 'YouTube Subscribers', value: '00,000+', note: 'and growing' },
-  { label: 'Social Following', value: '00,000+', note: 'engaged followers' },
+const OFFER_ITEMS = [
+  'Sponsored Articles',
+  'YouTube Integrations',
+  'Podcast Sponsorships',
+  'Newsletter Sponsorships',
+  'Social Media Campaigns',
+  'Full Brand Partnerships',
 ]
 
 export default function SponsorsPage() {
@@ -17,50 +20,38 @@ export default function SponsorsPage() {
     <div className={styles.page}>
       <div className={styles.container}>
 
-        {/* Heading */}
         <div className={styles.hero}>
-          <h1 className={styles.heading}>Partner with The Yasmin Breakdown</h1>
-          <p className={styles.subheading}>
-            Reach a highly engaged audience of readers and viewers who care deeply about culture,
-            sports, music, history, and relationships — analyzed through a sociological lens.
-          </p>
+          <h1 className={styles.heading}>Partner with the Yasmin Breakdown</h1>
+          <p className={styles.subheading}>Reaching the culture. Reaching the conversation.</p>
         </div>
 
-        {/* Stat boxes */}
-        <section className={styles.statsSection}>
-          <h2 className={styles.sectionHeading}>By the Numbers</h2>
-          <div className={styles.statsGrid}>
-            {STATS.map(stat => (
-              <div key={stat.label} className={styles.statBox}>
-                <span className={styles.statValue}>{stat.value}</span>
-                <span className={styles.statLabel}>{stat.label}</span>
-                <span className={styles.statNote}>{stat.note}</span>
-              </div>
+        <section className={styles.introSection}>
+          <p className={styles.introText}>
+            The Yasmin Breakdown is a premium media brand delivering sociological analysis of hip hop, Black history, sports, and entertainment to a highly engaged, culturally conscious audience.
+          </p>
+          <p className={styles.introText}>
+            Our audience doesn&rsquo;t just consume content &mdash; they share it, discuss it, and act on it. They are tastemakers, thought leaders, and loyal brand advocates.
+          </p>
+        </section>
+
+        <section className={styles.offerSection}>
+          <h2 className={styles.sectionHeading}>What We Offer</h2>
+          <div className={styles.pillGrid}>
+            {OFFER_ITEMS.map(item => (
+              <span key={item} className={styles.pill}>{item}</span>
             ))}
           </div>
         </section>
 
-        {/* What we offer */}
-        <section className={styles.offerSection}>
-          <h2 className={styles.sectionHeading}>Sponsorship Opportunities</h2>
-          <ul className={styles.offerList}>
-            <li>Newsletter sponsorships — weekly email to a subscribed audience</li>
-            <li>YouTube pre-roll and mid-roll integrations</li>
-            <li>Sponsored article features with sociological framing</li>
-            <li>Social media shoutouts and story placements</li>
-            <li>Podcast sponsorships and host-read ads</li>
-          </ul>
+        <section className={styles.whoSection}>
+          <h2 className={styles.sectionHeading}>Who We Work With</h2>
+          <p className={styles.whoText}>
+            We partner with brands that respect Black culture, support women in media, and want to reach an audience that pays attention.
+          </p>
         </section>
 
-        {/* Contact */}
         <section className={styles.contactSection}>
-          <h2 className={styles.sectionHeading}>Get in Touch</h2>
-          <p className={styles.contactText}>
-            Interested in sponsoring? Fill out the form below or email us directly at{' '}
-            <a href="mailto:sponsors@yasminbreakdown.com" className={styles.emailLink}>
-              sponsors@yasminbreakdown.com
-            </a>
-          </p>
+          <h2 className={styles.sectionHeading}>Let&rsquo;s Work Together</h2>
           <SponsorForm />
         </section>
 

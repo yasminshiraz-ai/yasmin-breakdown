@@ -1,16 +1,17 @@
 .page {
   background: #ffffff;
-  padding: 4rem var(--gutter);
+  padding: 4rem 0 5rem;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
 /* ── Hero ── */
 .hero {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .heading {
@@ -20,15 +21,15 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #FF3131;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .subheading {
   font-family: var(--font-body);
+  font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #555555;
-  max-width: 680px;
+  color: #444444;
 }
 
 /* ── Section heading ── */
@@ -38,95 +39,68 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #0A0A0A;
+  color: #FF3131;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid #FF3131;
   display: inline-block;
   margin-bottom: 1.75rem;
 }
 
-/* ── Stats ── */
-.statsSection {
+/* ── Intro ── */
+.introSection {
   margin-bottom: 3rem;
-}
-
-.statsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.statBox {
-  border: 1.5px solid #E8E8E8;
-  border-radius: 6px;
-  padding: 2rem 1.5rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  transition: border-color 0.15s ease;
+  gap: 1rem;
 }
 
-.statBox:hover {
-  border-color: #FF3131;
-}
-
-.statValue {
-  font-family: var(--font-headline);
-  font-weight: 800;
-  font-size: 2.25rem;
-  color: #FF3131;
-  letter-spacing: -0.02em;
-}
-
-.statLabel {
-  font-family: var(--font-headline);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #0A0A0A;
-}
-
-.statNote {
+.introText {
   font-family: var(--font-body);
-  font-size: 0.8rem;
-  color: #888888;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444444;
+  max-width: 720px;
 }
 
-/* ── Offer list ── */
+/* ── What We Offer ── */
 .offerSection {
   margin-bottom: 3rem;
 }
 
-.offerList {
-  list-style: none;
+.pillGrid {
   display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
-.offerList li {
+.pill {
+  display: inline-block;
+  border: 1.5px solid #FF3131;
+  color: #FF3131;
+  background: #ffffff;
   font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 18px;
+  letter-spacing: 0.02em;
+}
+
+/* ── Who We Work With ── */
+.whoSection {
+  margin-bottom: 3rem;
+}
+
+.whoText {
+  font-family: var(--font-body);
+  font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5;
-  color: #333333;
-  padding-left: 1.25rem;
-  position: relative;
+  line-height: 1.8;
+  color: #444444;
+  max-width: 720px;
 }
 
-.offerList li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.55em;
-  width: 6px;
-  height: 6px;
-  background: #FF3131;
-  border-radius: 50%;
-}
-
-/* ── Contact ── */
+/* ── Contact form section ── */
 .contactSection {
   background: #F9F9F9;
   border: 1px solid #E8E8E8;
@@ -134,40 +108,11 @@
   padding: 2.5rem;
 }
 
-.contactText {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  color: #444444;
-  margin-bottom: 1rem;
-}
-
-.emailLink {
-  display: inline-block;
-  font-family: var(--font-headline);
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #FF3131;
-  text-decoration: underline;
-  margin-bottom: 1rem;
-}
-
-.emailLink:hover {
-  color: #cc0000;
-}
-
-.contactNote {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  color: #888888;
-  margin-top: 0.75rem;
-}
-
 /* ── Sponsor inquiry form ── */
 .sponsorForm {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  margin-top: 1.5rem;
 }
 
 .formRow {
@@ -270,7 +215,6 @@
   background: #F9FFF9;
   border: 1.5px solid #22c55e;
   border-radius: 6px;
-  margin-top: 1.5rem;
 }
 
 .successHeading {
@@ -305,11 +249,11 @@
 }
 
 @media (max-width: 640px) {
-  .statsGrid {
+  .formRow {
     grid-template-columns: 1fr;
   }
 
-  .formRow {
-    grid-template-columns: 1fr;
+  .contactSection {
+    padding: 1.5rem;
   }
 }
