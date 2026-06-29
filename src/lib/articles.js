@@ -16,7 +16,7 @@ export function getAllArticles() {
       const raw = fs.readFileSync(path.join(articlesDir, fileName), 'utf8')
       const { data, content } = matter(raw)
       const stats = readingTime(content)
-      return { ...data, slug, readingTime: Math.ceil(stats.minutes) }
+      return { ...data, slug, readingTime: Math.ceil(stats.minutes), date: data.date ? new Date(data.date).toISOString() : '' }
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }
@@ -39,7 +39,7 @@ export async function getArticleContent(slug) {
   const stats = readingTime(content)
   const processed = await remark().use(html, { sanitize: false }).process(content)
   const contentHtml = processed.toString()
-  return { slug, ...data, contentHtml, readingTime: Math.ceil(stats.minutes) }
+  return { slug, ...data, contentHtml, readingTime: Math.ceil(stats.minutes), date: data.date ? new Date(data.date).toISOString() : '' }
 }
 
 export function getAllSlugs() {
