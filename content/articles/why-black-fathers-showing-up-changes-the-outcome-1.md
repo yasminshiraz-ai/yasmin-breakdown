@@ -1,7 +1,7 @@
 ---
 title: Why Black Fathers Showing Up Changes The Outcome
 slug: why-black-fathers-showing-up-changes-the-outcome
-date: 2026-06-28
+date: 2026-06-27
 category: Sports
 featuredImage: /uploads/960px-deion_sanders_-8216060-_-cropped-.jpg
 description: When Black fathers show up for their children in sports, music, and
