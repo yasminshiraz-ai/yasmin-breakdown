@@ -108,5 +108,3 @@ This is the kind of analysis that mainstream entertainment media won't deliver �
 **👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and tell us in the comments — how do you reckon with Afrika Bambaataa's legacy?*
-
-**Word count: ~1,300 words** **Suggested tags:** Afrika Bambaataa, hip hop history, Universal Zulu Nation, Planet Rock, Bronx, hip hop origins, sexual abuse allegations, Ronald Savage, hip hop legacy, Black community accountability
