@@ -25,6 +25,7 @@ export default function SecondaryNav() {
           <Link href="/#newsletter" className={styles.link}>Newsletter</Link>
         )}
         <Link href="/contact" className={styles.link}>Contact</Link>
+        <Link href="/privacy-policy" className={styles.link}>Privacy Policy</Link>
       </nav>
     </div>
   )

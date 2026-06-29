@@ -18,6 +18,7 @@ const COMPANY_LINKS = [
   { label: 'Sponsors', href: '/sponsors' },
   { label: 'Newsletter', href: '/#newsletter' },
   { label: 'Contact', href: '/contact' },
+  { label: 'Privacy Policy', href: '/privacy-policy' },
 ]
 
 const SOCIAL = [
