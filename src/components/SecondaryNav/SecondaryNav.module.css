@@ -2,6 +2,16 @@
   background: #ffffff;
   border-bottom: 1px solid #E8E8E8;
   width: 100%;
+  position: sticky;
+  top: 295px; /* header: 234px logoRow + 61px navBar */
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .bar {
+    top: 265px; /* header: 210px logoRow (no padding) + 55px navBar */
+  }
 }
 
 .inner {
