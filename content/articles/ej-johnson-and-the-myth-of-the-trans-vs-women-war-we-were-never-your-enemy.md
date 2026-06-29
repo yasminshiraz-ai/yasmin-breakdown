@@ -9,6 +9,17 @@ description: The idea that straight women and trans women are competitors is a
   needs to end.
 videoUrl: https://youtu.be/NqHFIq5Jvnw
 featured: false
+tags:
+  - EJ Johnson
+  - trans women
+  - straight women
+  - Black community
+  - LGBTQ+
+  - gender conflict
+  - down low
+  - Black femininity
+  - social media conflict
+  - community division
 ---
 There is a narrative circulating in certain corners of social media that positions straight women — particularly Black straight women — as enemies, competitors, or threats to trans women and feminine gay men. It is a narrative that gets amplified by conflict-driven content, fueled by specific viral moments, and repeated until it starts to feel like an established fact.
 
@@ -106,4 +117,4 @@ The Yasmin Breakdown exists to go beyond the viral clip and ask the harder socio
 
 *Watch the original video on YouTube and tell us in the comments — where do you think this competition narrative actually comes from?*
 
-**Word count: ~1,250 words** **Suggested tags:** EJ Johnson, trans women, straight women, Black community, LGBTQ+, gender conflict, down low, Black femininity, social media conflict, community division
+EJ Johnson, trans women, straight women, Black community, LGBTQ+, gender conflict, down low, Black femininity, social media conflict, community division
