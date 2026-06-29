@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import ArticleCard from '@/components/ArticleCard/ArticleCard'
-import { getArticlesByCategory } from '@/lib/articles'
+import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
+import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
+import { getArticlesByCategory, getAllArticles } from '@/lib/articles'
 import styles from './page.module.css'
 
 const CATEGORY_MAP = {
@@ -30,31 +31,37 @@ export default function CategoryPage({ params }) {
   if (!label) notFound()
 
   const articles = getArticlesByCategory(params.category)
+  const allArticles = getAllArticles()
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
   return (
     <div className={styles.page}>
-      <div className={styles.container}>
+
+      <div className={styles.headingContainer}>
         <div className={styles.breadcrumb}>
           <Link href="/">Home</Link>
           <span>/</span>
           <span>{label}</span>
         </div>
-
         <h1 className={styles.heading}>
           <span className={styles.stamp}>With Sociological Analysis</span>
           {label}
         </h1>
-
-        {articles.length === 0 ? (
-          <p className={styles.empty}>No articles yet in this category.</p>
-        ) : (
-          <div className={styles.grid}>
-            {articles.map(article => (
-              <ArticleCard key={article.slug} article={article} />
-            ))}
-          </div>
-        )}
       </div>
+
+      <div className={styles.wrapper}>
+        <div className={styles.leftCol}>
+          {articles.length === 0 ? (
+            <p className={styles.empty}>No articles yet in this category.</p>
+          ) : (
+            <VerticalFeed articles={articles} siteUrl={siteUrl} />
+          )}
+        </div>
+        <aside className={styles.rightCol}>
+          <TrendingSidebar articles={allArticles} />
+        </aside>
+      </div>
+
     </div>
   )
 }

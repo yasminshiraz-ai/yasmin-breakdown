@@ -1,13 +1,13 @@
 .page {
-  min-height: 60vh;
-  padding: 3rem 0 5rem;
   background: #FFFFFF;
+  padding-bottom: 5rem;
 }
 
-.container {
-  max-width: var(--max-width);
+/* ── Heading section — full width, centred ── */
+.headingContainer {
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 var(--gutter);
+  padding: 3rem 16px 2rem;
 }
 
 .breadcrumb {
@@ -25,17 +25,19 @@
 
 .heading {
   font-family: var(--font-headline);
-  font-weight: 900;
+  font-weight: 800;
   font-size: clamp(2.5rem, 6vw, 5rem);
   text-transform: uppercase;
   letter-spacing: -0.02em;
   line-height: 1;
   color: #0A0A0A;
-  margin-bottom: 2.5rem;
-  position: relative;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid var(--color-primary);
+  width: fit-content;
 }
 
 .stamp {
@@ -46,14 +48,38 @@
   font-weight: 900;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1rem;
+/* ── Two-column feed layout — matches homepage ── */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  align-items: flex-start;
+}
+
+.leftCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.rightCol {
+  width: 280px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  position: sticky;
+  top: 60px;
 }
 
 .empty {
   color: #888888;
   padding: 3rem 0;
   font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+  .rightCol {
+    display: none;
+  }
 }
