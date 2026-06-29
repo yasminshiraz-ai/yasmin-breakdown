@@ -8,7 +8,7 @@ description: Relationship coaches who've never had relationships. Real estate
   mentors who don't own property. Pro-Black voices taking backroom deals.
   Grifters are everywhere — and the Black community is paying the price. Here's
   how to spot them and protect yourself.
-videoUrl: https://youtu.be/uzsqncS_tvo
+videoUrl: https://youtu.be/9apfe0G3I10
 featured: false
 tags:
   - grifters
