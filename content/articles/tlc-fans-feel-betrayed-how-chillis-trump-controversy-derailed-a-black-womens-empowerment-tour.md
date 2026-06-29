@@ -4,11 +4,25 @@ title: "TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black
 slug: tlc-fans-feel-betrayed-chilli-trump-controversy
 date: 2026-06-07
 category: Music
+featuredImage: /uploads/tlc_2016.jpg
 description: The Salt-N-Pepa, TLC, and En Vogue tour was supposed to be a
   celebration of Black women. Then receipts surfaced about Chilli and Trump.
   Here's why 300,000 displaced Black women aren't ready to forgive — and why the
   apology isn't landing.
+videoUrl: https://youtu.be/XvgCzr7NT8Y
 featured: false
+tags:
+  - TLC
+  - Chilli
+  - Salt-N-Pepa
+  - En Vogue
+  - Trump
+  - DEI rollbacks
+  - Black women
+  - Spinderella
+  - tour controversy
+  - Black political alignment
+  - Michelle Obama
 ---
 When the Salt-N-Pepa, TLC, and En Vogue tour was announced, it felt like something meaningful. Three iconic groups. Decades of music that soundtracked Black women's lives. A lineup that read less like a nostalgia cash grab and more like a statement — Black women, together, still standing. For a core fan base of women in their late 40s and 50s who have been navigating one of the most difficult political climates of their lifetimes, this tour felt like a moment.
 
@@ -85,5 +99,3 @@ When cultural moments like this one intersect with politics, history, and the li
 **👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and tell us in the comments — are you still going to the tour?*
-
-**Word count: ~1,200 words** **Suggested tags:** TLC, Chilli, Salt-N-Pepa, En Vogue, Trump, DEI rollbacks, Black women, Spinderella, tour controversy, Black political alignment, Michelle Obama
