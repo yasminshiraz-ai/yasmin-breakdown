@@ -9,6 +9,19 @@ description:  When John Davidson's Tourette's tic disrupted the BAFTA ceremony,
   a layer most people weren't ready to hear. Here's the full breakdown.
 videoUrl: https://youtu.be/dXeMXJU_rKk
 featured: false
+tags:
+  - BAFTA  controversy
+  - n-word
+  - tourette's syndrome
+  - John Davidson
+  - Michael B. Jordan
+  - Delroy Lindo
+  - BBC
+  - anti-Blackness
+  - ableism
+  - Black media
+  - entertainment industry
+  - racism
 ---
 The BAFTA n-word controversy sent shockwaves through entertainment, social media, and the Black community. Most people picked a side quickly. But in the middle of that firestorm, a Black woman with Tourette's syndrome stepped forward with testimony that added a layer to this conversation that most people weren't prepared to sit with — and it deserves a serious hearing.
 
@@ -100,4 +113,4 @@ The Yasmin Breakdown exists for exactly these moments — when the story is too 
 
 *Watch the original video on YouTube and share this article with someone who's still trying to figure out how they feel about this one.*
 
-**Word count: ~1,150 words** **Suggested tags:** BAFTA controversy, n-word, Tourette's syndrome, John Davidson, Michael B. Jordan, Delroy Lindo, BBC, anti-Blackness, ableism, Black media, entertainment industry racism
+ BAFTA controversy, n-word, Tourette's syndrome, John Davidson, Michael B. Jordan, Delroy Lindo, BBC, anti-Blackness, ableism, Black media, entertainment industry racism
