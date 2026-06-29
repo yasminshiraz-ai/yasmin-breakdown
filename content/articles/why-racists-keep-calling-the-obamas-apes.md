@@ -10,8 +10,16 @@ description: When a video depicting Barack and Michelle Obama as apes appeared
 videoUrl: https://youtu.be/oFMBELyLUj0
 featured: true
 tags:
-  - Barack Obama, Michelle Obama, racism, white supremacy, dehumanization, Black
-    history, ape trope, racial violence, Truth Social, voter suppression
+  - Barack Obama
+  - Michelle Obama
+  - racism
+  - white supremacy
+  - dehumanization
+  - Black history
+  - ape trope
+  - racial violence
+  - Truth Social
+  - voter suppression
 ---
 In 2026, a video depicting former President Barack Obama and former First Lady Michelle Obama as apes surfaced on Truth Social. It stayed up for approximately 12 hours before being removed. For many people, it was shocking. For historians and sociologists, it was entirely predictable — because this isn't a new insult. It's a centuries-old weapon, and understanding where it comes from is the only way to understand why it keeps being used.
 
