@@ -45,6 +45,10 @@ export default function StoryBlock({ article, siteUrl }) {
           <p className={styles.dek}>{article.excerpt || article.description}</p>
         )}
 
+        <Link href={articlePath} className={styles.keepReading}>
+          Keep Reading
+        </Link>
+
         <div className={styles.meta}>
           <span className={styles.byline}>By Yasmin Shiraz</span>
           <span className={styles.dot}>·</span>

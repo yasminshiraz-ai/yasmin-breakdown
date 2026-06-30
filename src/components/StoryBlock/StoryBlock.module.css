@@ -79,6 +79,28 @@
   margin-bottom: 0.6rem;
 }
 
+/* ── Keep Reading ── */
+.keepReading {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.9rem;
+  padding: 8px 16px;
+  border: 2px solid #FF3131;
+  color: #0A0A0A;
+  background: transparent;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.keepReading:hover {
+  background: #FF3131;
+  color: #ffffff;
+}
+
 /* ── Meta ── */
 .meta {
   display: flex;
