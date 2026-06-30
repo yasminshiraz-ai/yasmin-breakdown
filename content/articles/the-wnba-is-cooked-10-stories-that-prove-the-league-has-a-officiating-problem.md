@@ -8,6 +8,7 @@ featuredImage: /uploads/wnba-is-cooked-by-yasmin-shiraz.png
 description: A sociological breakdown of 10 WNBA controversies in 2026 — from
   Alyssa Thomas's flagrant foul on Caitlin Clark to inconsistent officiating,
   technical fouls, and the league's referee crisis.
+videoUrl: https://youtube.com/live/uFe5wFvtLoE?feature=share
 featured: false
 ---
 The WNBA is having a moment — and not the good kind. Between flagrant fouls that go uncalled in real time, technical fouls for *clapping*, and a referee crew that admitted it got a 2024 ejection flat-out wrong, fans are starting to ask the same question: **what is actually going on with WNBA officiating in 2026?**
