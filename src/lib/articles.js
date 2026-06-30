@@ -7,6 +7,13 @@ import readingTime from 'reading-time'
 
 const articlesDir = path.join(process.cwd(), 'content/articles')
 
+// Handles both YAML array (old list widget) and comma-separated string (new string widget)
+function normalizeTags(tags) {
+  if (!tags) return []
+  if (Array.isArray(tags)) return tags.map(t => String(t).trim()).filter(Boolean)
+  return String(tags).split(',').map(t => t.trim()).filter(Boolean)
+}
+
 function extractSentences(markdown, n) {
   function cleanParagraph(text) {
     return text
@@ -68,6 +75,7 @@ export function getAllArticles() {
         readingTime: Math.ceil(stats.minutes),
         date: data.date ? new Date(data.date).toISOString() : '',
         excerpt: extractSentences(content, 5),
+        tags: normalizeTags(data.tags),
       }
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -91,7 +99,7 @@ export async function getArticleContent(slug) {
   const stats = readingTime(content)
   const processed = await remark().use(html, { sanitize: false }).process(content)
   const contentHtml = processed.toString()
-  return { slug, ...data, contentHtml, readingTime: Math.ceil(stats.minutes), date: data.date ? new Date(data.date).toISOString() : '' }
+  return { slug, ...data, contentHtml, readingTime: Math.ceil(stats.minutes), date: data.date ? new Date(data.date).toISOString() : '', tags: normalizeTags(data.tags) }
 }
 
 export function getAllSlugs() {
@@ -108,14 +116,12 @@ export function getFeaturedArticle() {
 
 export function getArticlesByTag(tag) {
   return getAllArticles().filter(a =>
-    Array.isArray(a.tags) && a.tags.some(t => t.toLowerCase() === tag.toLowerCase())
+    a.tags.some(t => t.toLowerCase() === tag.toLowerCase())
   )
 }
 
 export function getAllTags() {
   const tags = new Set()
-  getAllArticles().forEach(a => {
-    if (Array.isArray(a.tags)) a.tags.forEach(t => tags.add(t))
-  })
+  getAllArticles().forEach(a => a.tags.forEach(t => tags.add(t)))
   return Array.from(tags)
 }

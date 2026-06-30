@@ -84,10 +84,9 @@
                 hint: 'Check this to display the article as the full-width hero on the homepage.'
               },
               {
-                label: 'Tags', name: 'tags', widget: 'list',
-                required: false, allow_add: true,
-                hint: 'Add tags like: Hip Hop, Black History, WNBA, Celebrity, Social Justice',
-                field: { name: 'tag', label: 'Tag', widget: 'string' }
+                label: 'Tags', name: 'tags', widget: 'string',
+                required: false,
+                hint: 'Comma-separated, e.g. Hip Hop, Black History, WNBA'
               }
             ]
           }

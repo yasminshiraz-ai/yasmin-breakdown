@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
     return {
       title: article.title,
       description: article.description || '',
-      keywords: Array.isArray(article.tags) ? article.tags.join(', ') : undefined,
+      keywords: article.tags.length ? article.tags.join(', ') : undefined,
       openGraph: {
         title: article.title,
         description: article.description || '',
