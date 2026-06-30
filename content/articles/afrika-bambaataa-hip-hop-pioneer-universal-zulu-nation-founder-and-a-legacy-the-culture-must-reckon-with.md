@@ -63,9 +63,9 @@ Thirty-four years after *Planet Rock*, the story took a devastating turn.
 
 In 2016, multiple individuals came forward with allegations of child sexual abuse against Afrika Bambaataa, with accounts going back decades. Many of the accusers were young Black boys from the Bronx — young men who said they had sought mentorship, connection, and belonging through the Universal Zulu Nation and instead experienced serious harm.
 
-Among the accusers was Ronald Savage, a Bronx political activist who alleged that Bambaataa sexually molested him in 1980 when Savage was 15 years old. Bambaataa denied all allegations. There was no criminal conviction. But the number of accusers, the consistency of their accounts, and the decades-long pattern they described forced a reckoning that hip hop could not sidestep.
+One of the accusers, Bronx political activist Ronald Savage, accused Bambaataa of sexually molesting him in 1980 when Savage was a young teen. [Savage told the Associated Press in 2016](https://www.usnews.com/news/best-states/new-york/articles/2026-04-09/hip-hop-pioneer-afrika-bambaataa-dies-at-age-68), "I was scared, but at the same time I was like, 'This is Afrika Bambaataa.'" Bambaataa denied all allegations. Bambaataa denied the allegations, and there was no criminal conviction. However, in [May 2025, Bambaataa lost a separate civil case](https://en.wikipedia.org/wiki/Afrika_Bambaataa) after failing to respond to or appear for a sex abuse lawsuit filed under the New York Child Victims Act — resulting in a default judgment against him. The number of accusers, the consistency of their accounts, and the decades-long pattern they described forced a reckoning that hip hop could not sidestep.
 
-In May 2016 — one month after the allegations became public — Bambaataa resigned from the Universal Zulu Nation, the organization he had founded and led for decades.
+The allegations became public in April 2016, and in [May 2016, Bambaataa resigned from the Universal Zulu Nation](https://en.wikipedia.org/wiki/Afrika_Bambaataa) amid the mounting accusations, the organization he had founded and led for decades.
 
 ## Why These Allegations Hit the Black Community Differently
 
