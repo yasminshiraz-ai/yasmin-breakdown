@@ -25,7 +25,7 @@ tags:
   - redistricting
   - Black political power
 ---
-On April 29, 2026, the United States Supreme Court issued a 6-3 ruling in *Louisiana v. Callais* that effectively dismantled Section 2 of the Voting Rights Act of 1965 — the legislation that civil rights leaders have long called the crown jewel of the Civil Rights Movement. This is not a procedural adjustment. This is not a technical legal clarification. This is a fundamental shift in the legal protection available to Black voters in America, and the consequences are already unfolding in real time.
+On April 29th, 2026, the United States Supreme Court issued a [6-3 ruling in *Louisiana v. Callais*](https://www.supremecourt.gov/opinions/25pdf/24-109_21o3.pdf) that effectively dismantled Section 2 of the Voting Rights Act of 1965 — the legislation that civil rights leaders have long called the crown jewel of the Civil Rights Movement. This is not a procedural adjustment. This is not a technical legal clarification. This is a fundamental shift in the legal protection available to Black voters in America, and the consequences are already unfolding in real time.
 
 If you are not sure what this ruling actually means or why it matters, this breakdown is for you.
 
@@ -36,6 +36,8 @@ Here is the simplest way to understand what changed.
 Imagine a teacher gives a test. Every Black student fails. Every white student passes. For 40 years, the Voting Rights Act said that what matters is the result — Black students keep failing. You did not have to prove the teacher designed the test with racist intent. You just had to show the pattern of harm.
 
 The Supreme Court just changed that standard. Now you have to prove the teacher *meant* to do it.
+
+According to the [Brennan Center for Justice's analysis](https://www.brennancenter.org/our-work/research-reports/louisiana-v-callais), the ruling reworked the 40-year-old legal standard from *Thornburg v. Gingles*, making three specific changes that collectively make it far harder for voters of color to win Section 2 cases — including a new requirement that plaintiffs show "present-day intentional racial discrimination," with historical evidence and ongoing disparities now counted for "much less weight."
 
 And here is the problem with that standard: nobody writes racist intent into an email. Nobody puts it in the meeting notes. Nobody leaves a paper trail that says "we designed this voting map to dilute Black political power." They never have. The entire history of voter suppression in America is a history of neutral-sounding rules producing racially discriminatory outcomes — on purpose, but without documentation.
 
@@ -85,7 +87,7 @@ Each ruling left the law technically on the books while making it functionally w
 
 This is not abstract. The consequences are already materializing in specific, countable ways.
 
-At least 15 House districts — from Louisiana to North Carolina — are now at risk of elimination or redrawing in ways that dilute Black voting power. Florida has already entered a special legislative session to redraw maps that could flip four additional seats. Texas, Missouri, North Carolina, and Ohio have redrawn maps. Republican politicians in Georgia, Mississippi, and across the South are calling for immediate special redistricting sessions.
+At least 15 House districts — from Louisiana to North Carolina — are now at risk of elimination or redrawing in ways that dilute Black voting power. According to the [League of Women Voters](https://www.lwv.org/blog/scotuss-final-blow-dismantling-voting-rights-act), Florida passed new congressional maps within hours of the *Callais* decision, part of a broader wave of mid-cycle redistricting across Florida, Tennessee, South Carolina, and Alabama in the weeks that followed.Texas, Missouri, North Carolina, and Ohio have redrawn maps. Republican politicians in Georgia, Mississippi, and across the South are calling for immediate special redistricting sessions.
 
 The Congressional Black Caucus — which was born directly from the political power the Voting Rights Act made possible in 1971 — could be significantly reduced in numbers. City council seats, state legislative seats, and judicial seats where Black voters have fought for decades to achieve representation are all now more vulnerable.
 
