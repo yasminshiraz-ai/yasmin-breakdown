@@ -82,16 +82,17 @@
 /* ── Keep Reading ── */
 .keepReading {
   display: inline-block;
+  align-self: flex-start;
   margin-top: 0.75rem;
   margin-bottom: 0.9rem;
   padding: 8px 16px;
   border: 2px solid #FF3131;
   color: #0A0A0A;
   background: transparent;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 0.03em;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
   text-decoration: none;
   transition: background 0.15s ease, color 0.15s ease;
 }
