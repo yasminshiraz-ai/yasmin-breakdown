@@ -55,6 +55,8 @@ In 1982, Bambaataa released *Planet Rock* with the Soulsonic Force. The track 
 
 *Planet Rock* did not just change hip hop. It helped create the conditions for electronic dance music, techno, house, and the entire landscape of electronic-influenced popular music that followed. The sonic DNA of that record runs through decades of music that came after it, in genres that many of their creators may not even trace back to a DJ from the Bronx.
 
+As producer Ellis Williams, known as Mr. Biggs and a member of Bambaataa's own Soulsonic Force, [told the Associated Press](https://www.france24.com/en/culture/20260410-hip-hop-pioneer-afrika-bambaataa-dies-at-68-from-prostate-cancer) following his death, "Our music made people feel like they belong to a movement and not a moment... it gave people identity, unity, and a way out."
+
 That is the scale of Bambaataa's musical contribution. It was genuinely historic.
 
 ## 2016 — When the Allegations Broke and Changed Everything
