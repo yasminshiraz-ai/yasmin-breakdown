@@ -93,6 +93,7 @@
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
   text-decoration: none;
   transition: background 0.15s ease, color 0.15s ease;
 }
