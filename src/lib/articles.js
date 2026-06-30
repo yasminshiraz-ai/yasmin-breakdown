@@ -7,6 +7,32 @@ import readingTime from 'reading-time'
 
 const articlesDir = path.join(process.cwd(), 'content/articles')
 
+function extractSentences(markdown, n) {
+  const plain = markdown
+    .replace(/#{1,6} .+/g, '')
+    .replace(/!?\[([^\]]*)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/__([^_]+)__/g, '$1')
+    .replace(/_([^_]+)_/g, '$1')
+    .replace(/`[^`]+`/g, '')
+    .replace(/^\s*[-*+>]\s*/gm, '')
+    .replace(/\n+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+  // Mask periods in common abbreviations to avoid false sentence splits
+  const abbrevPattern = /\b(Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|Ave|Blvd|vs|etc|U\.S|i\.e|e\.g|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./g
+  const safePlain = plain.replace(abbrevPattern, (m) => m.slice(0, -1) + '\x00')
+
+  const sentences = safePlain
+    .split(/(?<=[.!?])\s+(?=[A-Z"'"])/)
+    .map((s) => s.replace(/\x00/g, '.').trim())
+    .filter(Boolean)
+
+  return sentences.slice(0, n).join(' ') || plain.slice(0, 500)
+}
+
 export function getAllArticles() {
   const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.md'))
 
@@ -16,7 +42,13 @@ export function getAllArticles() {
       const raw = fs.readFileSync(path.join(articlesDir, fileName), 'utf8')
       const { data, content } = matter(raw)
       const stats = readingTime(content)
-      return { ...data, slug, readingTime: Math.ceil(stats.minutes), date: data.date ? new Date(data.date).toISOString() : '' }
+      return {
+        ...data,
+        slug,
+        readingTime: Math.ceil(stats.minutes),
+        date: data.date ? new Date(data.date).toISOString() : '',
+        excerpt: extractSentences(content, 5),
+      }
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }
