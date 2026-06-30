@@ -4,6 +4,7 @@ title: "Angel Reese Makes WNBA History With 1,000 Rebounds: But the Flagrant
 slug: angel-reese-1000-rebounds-wnba-history-flagrant-foul-controversy
 date: 2026-06-30
 category: Sports
+featuredImage: /uploads/angel-reese-makes-wnba-history.png
 description: Angel Reese became the fastest player in WNBA history to reach
   1,000 rebounds during Atlanta Dream's 113-96 win over Indiana Fever. But a
   controversial flagrant foul call is raising real questions about whether the
