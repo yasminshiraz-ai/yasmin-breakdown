@@ -8,29 +8,49 @@ import readingTime from 'reading-time'
 const articlesDir = path.join(process.cwd(), 'content/articles')
 
 function extractSentences(markdown, n) {
-  const plain = markdown
-    .replace(/#{1,6} .+/g, '')
-    .replace(/!?\[([^\]]*)\]\([^)]+\)/g, '$1')
-    .replace(/\*\*([^*]+)\*\*/g, '$1')
-    .replace(/\*([^*]+)\*/g, '$1')
-    .replace(/__([^_]+)__/g, '$1')
-    .replace(/_([^_]+)_/g, '$1')
-    .replace(/`[^`]+`/g, '')
-    .replace(/^\s*[-*+>]\s*/gm, '')
-    .replace(/\n+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
+  function cleanParagraph(text) {
+    return text
+      .replace(/#{1,6} .+/g, '')
+      .replace(/!?\[([^\]]*)\]\([^)]+\)/g, '$1')
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/\*([^*]+)\*/g, '$1')
+      .replace(/__([^_]+)__/g, '$1')
+      .replace(/_([^_]+)_/g, '$1')
+      .replace(/`[^`]+`/g, '')
+      .replace(/^\s*[-*+>]\s*/gm, '')
+      .replace(/\n+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+  }
 
-  // Mask periods in common abbreviations to avoid false sentence splits
-  const abbrevPattern = /\b(Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|Ave|Blvd|vs|etc|U\.S|i\.e|e\.g|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./g
-  const safePlain = plain.replace(abbrevPattern, (m) => m.slice(0, -1) + '\x00')
+  function splitSentences(plain) {
+    const safe = plain.replace(
+      /\b(Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|Ave|Blvd|vs|etc|U\.S|i\.e|e\.g|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./g,
+      (m) => m.slice(0, -1) + '\x00'
+    )
+    return safe
+      .split(/(?<=[.!?])\s+(?=[A-Z"'"])/)
+      .map((s) => s.replace(/\x00/g, '.').trim())
+      .filter(Boolean)
+  }
 
-  const sentences = safePlain
-    .split(/(?<=[.!?])\s+(?=[A-Z"'"])/)
-    .map((s) => s.replace(/\x00/g, '.').trim())
-    .filter(Boolean)
+  // Walk paragraphs in order, accumulate sentences until we hit n
+  const paragraphs = markdown.split(/\n\n+/)
+  const resultParagraphs = []
+  let total = 0
 
-  return sentences.slice(0, n).join(' ') || plain.slice(0, 500)
+  for (const para of paragraphs) {
+    if (total >= n) break
+    const plain = cleanParagraph(para)
+    if (!plain) continue
+    const sentences = splitSentences(plain)
+    if (!sentences.length) continue
+    const needed = n - total
+    resultParagraphs.push(sentences.slice(0, needed).join(' '))
+    total += Math.min(sentences.length, needed)
+  }
+
+  return resultParagraphs.join('\n\n') || markdown.slice(0, 500)
 }
 
 export function getAllArticles() {

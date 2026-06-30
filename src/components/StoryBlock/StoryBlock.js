@@ -53,9 +53,14 @@ export default function StoryBlock({ article, siteUrl }) {
           )}
         </div>
 
-        {(article.excerpt || article.description) && (
-          <p className={styles.dek}>{article.excerpt || article.description}</p>
-        )}
+        {(article.excerpt || article.description) &&
+          (article.excerpt || article.description)
+            .split('\n\n')
+            .filter(Boolean)
+            .map((para, i) => (
+              <p key={i} className={styles.dek}>{para}</p>
+            ))
+        }
 
         <Link href={articlePath} className={styles.keepReading}>
           Keep Reading
