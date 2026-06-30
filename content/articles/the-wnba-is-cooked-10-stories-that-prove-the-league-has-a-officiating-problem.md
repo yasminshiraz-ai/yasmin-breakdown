@@ -17,9 +17,9 @@ As a sociologist who studies cultural patterns in sports and media, I don't thin
 
 ## 1. Alyssa Thomas's Uncalled Hit on Caitlin Clark Sparks Outrage
 
-On June 24, 2026, Alyssa Thomas made contact with her fist near Caitlin Clark's throat during a Fever-Mercury matchup, with under seven minutes left in the second quarter. The play went uncalled in real time — the WNBA only upgraded it to a flagrant 2 after a post-game review, then suspended Thomas for one game.
+On June 24, 2026, Alyssa Thomas made contact with her fist near Caitlin Clark's throat during a [Fever-Mercury matchup](https://www.cbsnews.com/news/wnba-flagrant-foul-caitlin-clark-alyssa-thomas-hit/), with under seven minutes left in the second quarter. The play went uncalled in real time — the WNBA only upgraded it to a flagrant 2 after a post-game review, then suspended Thomas for one game.
 
-Fever head coach Stephanie White did not hold back, calling the no-call "absolutely egregious and utterly disrespectful." Watching the replay, the contact looked unnecessary — but I didn't see a punch to the throat the way some headlines framed it. What stood out more was White's language: invoking a "generational talent" and a "superstar" to justify the outrage. That phrasing raises a real question worth sitting with — would the same hit get the same reaction if it happened to a player without Clark's star power?
+Fever head coach Stephanie White did not hold back, calling the no-call "absolutely egregious and utterly disrespectful." The WNBA's official [suspension announcement](https://www.wnba.com/news/alyssa-thomas-one-game-suspension) confirmed the league deemed it a non-basketball act warranting a Flagrant Foul 2 and a one-game ban.Watching the replay, the contact looked unnecessary — but I didn't see a punch to the throat the way some headlines framed it. What stood out more was White's language: invoking a "generational talent" and a "superstar" to justify the outrage. That phrasing raises a real question worth sitting with — would the same hit get the same reaction if it happened to a player without Clark's star power?
 
 ## 2. Six Technicals, One Ejection: The Fever-Mercury "Monday Night Chaos"
 
@@ -57,7 +57,7 @@ I keep coming back to one observation: the Fever keep showing up at the center o
 
 ## 8. Marina Mabrey's Flagrant Upgrade Set the Precedent
 
-During the 2025 season, Marina Mabrey — then with the Connecticut Sun — was called for a technical in a game against Indiana that the league later upgraded to a flagrant 2. That call set the precedent for the after-the-fact review pattern that resurfaced with Clark in 2025 and again with Alyssa Thomas in 2026.
+During the 2025 season, Marina Mabrey — then with the Connecticut Sun — was called for a technical in a game against Indiana that the league later upgraded to a flagrant 2. That call set the [precedent ](https://www.espn.com/wnba/story/_/id/49200618/mercury-nate-tibbetts-irked-wnba-suspension-process)for the after-the-fact review pattern that resurfaced with Clark in 2025 and again with Alyssa Thomas in 2026.
 
 This is the core sociological pattern worth naming: when officials reclassify a call after the broadcast and public reaction roll in, it suggests outside pressure — not just rulebook application — is shaping outcomes. That's a credibility problem the league needs to solve from the inside, not after the headlines write themselves.
 
