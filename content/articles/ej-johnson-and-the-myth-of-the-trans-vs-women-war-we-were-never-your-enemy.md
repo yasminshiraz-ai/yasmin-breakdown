@@ -2,7 +2,7 @@
 title: "EJ Johnson and the Myth of the Trans vs. Women War: We Were Never Your Enemy."
 slug: ej-johnson-straight-women-were-never-your-enemy
 date: 2026-06-06
-category: TV & Film
+category: Relationships
 featuredImage: /uploads/ej-johnson.png
 description: The idea that straight women and trans women are competitors is a
   myth — and Black women are tired of being cast as the enemy. Here's the
