@@ -1,8 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: yasminshiraz-ai/yasmin-breakdown
   branch: main
-  site_url: https://yasminbreakdown.netlify.app
-  base_url: https://yasminbreakdown.netlify.app
+  base_url: https://yasminbreakdown.com
 
 # Allow editorial workflow (drafts → review → published)
 publish_mode: editorial_workflow
