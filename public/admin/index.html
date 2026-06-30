@@ -4,11 +4,95 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager — The Yasmin Breakdown</title>
-  <!-- Netlify Identity Widget — handles CMS login -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <!-- Decap CMS will mount here -->
+  <script>window.CMS_MANUAL_INIT = true</script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'yasminshiraz-ai/yasmin-breakdown',
+          branch: 'main',
+          base_url: 'https://yasminbreakdown.com'
+        },
+        publish_mode: 'editorial_workflow',
+        media_folder: 'public/uploads',
+        public_folder: '/uploads',
+        collections: [
+          {
+            name: 'articles',
+            label: 'Articles',
+            label_singular: 'Article',
+            folder: 'content/articles',
+            create: true,
+            slug: '{{slug}}',
+            identifier_field: 'title',
+            summary: '{{title}} — {{category}} — {{date}}',
+            sortable_fields: ['date', 'title', 'category'],
+            view_filters: [
+              { label: 'Sports',        field: 'category', pattern: 'Sports' },
+              { label: 'Music',         field: 'category', pattern: 'Music' },
+              { label: 'TV & Film',     field: 'category', pattern: 'TV & Film' },
+              { label: 'Relationships', field: 'category', pattern: 'Relationships' },
+              { label: 'History',       field: 'category', pattern: 'History' }
+            ],
+            fields: [
+              {
+                label: 'Title', name: 'title', widget: 'string',
+                hint: 'The full article headline'
+              },
+              {
+                label: 'Slug', name: 'slug', widget: 'string',
+                hint: 'URL-safe identifier. Only change if you need a custom URL.',
+                pattern: ['^[a-z0-9-]+$', 'Lowercase letters, numbers, and hyphens only']
+              },
+              {
+                label: 'Publish Date', name: 'date', widget: 'datetime',
+                format: 'YYYY-MM-DD', date_format: 'MMMM D, YYYY', time_format: false
+              },
+              {
+                label: 'Category', name: 'category', widget: 'select',
+                options: ['Sports', 'Music', 'TV & Film', 'Relationships', 'History']
+              },
+              {
+                label: 'Featured Image', name: 'featuredImage', widget: 'image',
+                required: false,
+                hint: 'Recommended: 1200x800px or wider. JPG or PNG.',
+                media_library: { config: { multiple: false } }
+              },
+              {
+                label: 'Description / Dek', name: 'description', widget: 'text',
+                hint: '1-2 sentence summary shown on cards and in meta tags',
+                pattern: ['^.{20,300}$', 'Keep it between 20 and 300 characters']
+              },
+              {
+                label: 'Body', name: 'body', widget: 'markdown',
+                hint: 'Full article content. Use ## for section headers, **bold**, *italic*.'
+              },
+              {
+                label: 'YouTube Video URL', name: 'videoUrl', widget: 'string',
+                required: false,
+                hint: 'Optional: paste a full YouTube URL. Renders as a mid-article embed.',
+                pattern: ['^(https?://)?(www\\.)?(youtube\\.com|youtu\\.be)/.+$|^$', 'Must be a valid YouTube URL or leave blank']
+              },
+              {
+                label: 'Featured Article (Homepage Hero)', name: 'featured', widget: 'boolean',
+                default: false,
+                hint: 'Check this to display the article as the full-width hero on the homepage.'
+              },
+              {
+                label: 'Tags', name: 'tags', widget: 'list',
+                required: false, allow_add: true,
+                hint: 'Add tags like: Hip Hop, Black History, WNBA, Celebrity, Social Justice',
+                field: { name: 'tag', label: 'Tag', widget: 'string' }
+              }
+            ]
+          }
+        ]
+      }
+    })
+  </script>
 </body>
 </html>

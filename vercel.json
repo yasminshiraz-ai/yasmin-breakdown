@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/admin", "destination": "/admin/index.html" },
-    { "source": "/admin/:file", "destination": "/admin/:file" }
+    { "source": "/admin", "destination": "/admin/index.html" }
   ]
 }
