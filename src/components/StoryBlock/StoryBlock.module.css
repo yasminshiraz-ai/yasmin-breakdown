@@ -99,8 +99,8 @@
 }
 
 .keepReading:hover {
-  background: #FF3131;
-  color: #ffffff;
+  background: transparent;
+  color: #0A0A0A;
 }
 
 /* ── Meta ── */
