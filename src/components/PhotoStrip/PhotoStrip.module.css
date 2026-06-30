@@ -1,0 +1,96 @@
+.strip {
+  border-bottom: 1px solid #E8E8E8;
+  background: #ffffff;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem 16px;
+}
+
+/* 5-column grid on desktop */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover .title {
+  color: var(--color-primary);
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #EBEBEB;
+}
+
+.imageWrap img {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .imageWrap img {
+  transform: scale(1.03);
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #E8E8E8 0%, #D8D8D8 100%);
+}
+
+.title {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  margin: 0;
+  transition: color 0.15s ease;
+}
+
+/* Tablet: 3 columns */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile: horizontal scroll strip */
+@media (max-width: 600px) {
+  .inner {
+    padding: 1rem 0 1rem 16px;
+  }
+
+  .grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 12px;
+    padding-right: 16px;
+    /* hide scrollbar visually but keep functionality */
+    scrollbar-width: none;
+  }
+
+  .grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    flex: 0 0 55vw;
+    scroll-snap-align: start;
+  }
+}
