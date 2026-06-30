@@ -6,7 +6,7 @@
 .inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 1.25rem 16px;
+  padding: 1.25rem 16px 3rem;
 }
 
 /* 5-column grid on desktop */
