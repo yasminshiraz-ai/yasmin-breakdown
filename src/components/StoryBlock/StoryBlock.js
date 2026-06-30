@@ -41,14 +41,6 @@ export default function StoryBlock({ article, siteUrl }) {
 
         <ShareButtons url={articleUrl} title={article.title} />
 
-        {(article.excerpt || article.description) && (
-          <p className={styles.dek}>{article.excerpt || article.description}</p>
-        )}
-
-        <Link href={articlePath} className={styles.keepReading}>
-          Keep Reading
-        </Link>
-
         <div className={styles.meta}>
           <span className={styles.byline}>By Yasmin Shiraz</span>
           <span className={styles.dot}>·</span>
@@ -60,6 +52,14 @@ export default function StoryBlock({ article, siteUrl }) {
             </>
           )}
         </div>
+
+        {(article.excerpt || article.description) && (
+          <p className={styles.dek}>{article.excerpt || article.description}</p>
+        )}
+
+        <Link href={articlePath} className={styles.keepReading}>
+          Keep Reading
+        </Link>
       </div>
     </article>
   )
