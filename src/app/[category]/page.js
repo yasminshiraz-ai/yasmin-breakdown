@@ -6,11 +6,12 @@ import { getArticlesByCategory, getAllArticles } from '@/lib/articles'
 import styles from './page.module.css'
 
 const CATEGORY_MAP = {
+  entertainment: 'Entertainment',
   sports: 'Sports',
-  music: 'Music',
-  'tv-film': 'TV & Film',
-  relationships: 'Relationships',
+  crime: 'Crime',
+  society: 'Society',
   history: 'History',
+  videos: 'Videos',
 }
 
 export async function generateStaticParams() {

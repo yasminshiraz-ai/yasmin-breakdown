@@ -3,7 +3,7 @@ title: "TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black
   Women's Empowerment Tour"
 slug: tlc-fans-feel-betrayed-chilli-trump-controversy
 date: 2026-06-07
-category: Music
+category: Entertainment
 featuredImage: /uploads/tlc_2016.jpg
 description: The Salt-N-Pepa, TLC, and En Vogue tour was supposed to be a
   celebration of Black women. Then receipts surfaced about Chilli and Trump.

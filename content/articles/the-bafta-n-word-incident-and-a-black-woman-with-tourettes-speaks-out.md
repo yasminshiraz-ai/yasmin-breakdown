@@ -2,7 +2,7 @@
 title: The BAFTA N-Word Incident and A Black Woman With Tourette's Speaks Out
 slug: bafta-n-word-incident-black-woman-tourettes
 date: 2026-06-04
-category: TV & Film
+category: Entertainment
 featuredImage: /uploads/bafta-n-word-incident.jpg
 description:  When John Davidson's Tourette's tic disrupted the BAFTA ceremony,
   the internet exploded. Then a Black woman with Tourette's spoke up — and added

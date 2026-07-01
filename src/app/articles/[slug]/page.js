@@ -87,11 +87,12 @@ function splitAtParagraph(html, n) {
 }
 
 const CATEGORY_SLUG_MAP = {
+  Entertainment: 'entertainment',
   Sports: 'sports',
-  Music: 'music',
-  'TV & Film': 'tv-film',
-  Relationships: 'relationships',
+  Crime: 'crime',
+  Society: 'society',
   History: 'history',
+  Videos: 'videos',
 }
 
 export default async function ArticlePage({ params }) {

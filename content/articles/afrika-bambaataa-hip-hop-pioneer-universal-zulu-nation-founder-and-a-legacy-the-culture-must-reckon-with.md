@@ -3,7 +3,7 @@ title: "Afrika Bambaataa: Hip Hop Pioneer, Universal Zulu Nation Founder, and a
   Legacy the Culture Must Reckon With"
 slug: afrika-bambaataa-hip-hop-pioneer-legacy-allegations
 date: 2026-06-08
-category: Music
+category: Entertainment
 featuredImage: /uploads/afrika_bambaataa_in_bogota.jpg
 description: Afrika Bambaataa helped build hip hop from the streets of the Bronx
   into a global cultural force. But his legacy cannot be told without

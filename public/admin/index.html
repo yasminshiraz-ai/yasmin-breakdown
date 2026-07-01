@@ -33,11 +33,12 @@
             summary: '{{title}} — {{category}} — {{date}}',
             sortable_fields: ['date', 'title', 'category'],
             view_filters: [
+              { label: 'Entertainment', field: 'category', pattern: 'Entertainment' },
               { label: 'Sports',        field: 'category', pattern: 'Sports' },
-              { label: 'Music',         field: 'category', pattern: 'Music' },
-              { label: 'TV & Film',     field: 'category', pattern: 'TV & Film' },
-              { label: 'Relationships', field: 'category', pattern: 'Relationships' },
-              { label: 'History',       field: 'category', pattern: 'History' }
+              { label: 'Crime',         field: 'category', pattern: 'Crime' },
+              { label: 'Society',       field: 'category', pattern: 'Society' },
+              { label: 'History',       field: 'category', pattern: 'History' },
+              { label: 'Videos',        field: 'category', pattern: 'Videos' }
             ],
             fields: [
               {
@@ -55,7 +56,13 @@
               },
               {
                 label: 'Category', name: 'category', widget: 'select',
-                options: ['Sports', 'Music', 'TV & Film', 'Relationships', 'History']
+                options: ['Entertainment', 'Sports', 'Crime', 'Society', 'History', 'Videos']
+              },
+              {
+                label: 'Secondary Categories', name: 'secondaryCategories', widget: 'select',
+                multiple: true, required: false,
+                options: ['Entertainment', 'Sports', 'Crime', 'Society', 'History', 'Videos'],
+                hint: 'Optional: cross-list this article under additional categories.'
               },
               {
                 label: 'Featured Image', name: 'featuredImage', widget: 'image',

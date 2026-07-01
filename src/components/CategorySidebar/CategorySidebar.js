@@ -2,11 +2,12 @@ import Link from 'next/link'
 import styles from './CategorySidebar.module.css'
 
 const CATEGORIES = [
+  { label: 'Entertainment', href: '/entertainment' },
   { label: 'Sports', href: '/sports' },
-  { label: 'Music', href: '/music' },
-  { label: 'TV & Film', href: '/tv-film' },
-  { label: 'Relationships', href: '/relationships' },
+  { label: 'Crime', href: '/crime' },
+  { label: 'Society', href: '/society' },
   { label: 'History', href: '/history' },
+  { label: 'Videos', href: '/videos' },
 ]
 
 export default function CategorySidebar() {

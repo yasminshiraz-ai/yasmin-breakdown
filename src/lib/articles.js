@@ -83,14 +83,18 @@ export function getAllArticles() {
 
 export function getArticlesByCategory(categorySlug) {
   const slugToLabel = {
+    entertainment: 'Entertainment',
     sports: 'Sports',
-    music: 'Music',
-    'tv-film': 'TV & Film',
-    relationships: 'Relationships',
+    crime: 'Crime',
+    society: 'Society',
     history: 'History',
+    videos: 'Videos',
   }
   const label = slugToLabel[categorySlug]
-  return getAllArticles().filter(a => a.category === label)
+  return getAllArticles().filter(a =>
+    a.category === label ||
+    (Array.isArray(a.secondaryCategories) && a.secondaryCategories.includes(label))
+  )
 }
 
 export async function getArticleContent(slug) {

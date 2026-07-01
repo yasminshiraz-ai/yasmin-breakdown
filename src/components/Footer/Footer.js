@@ -6,11 +6,12 @@ import { SiApplepodcasts } from 'react-icons/si'
 import styles from './Footer.module.css'
 
 const NAV_LINKS = [
+  { label: 'Entertainment', href: '/entertainment' },
   { label: 'Sports', href: '/sports' },
-  { label: 'Music', href: '/music' },
-  { label: 'TV & Film', href: '/tv-film' },
-  { label: 'Relationships', href: '/relationships' },
+  { label: 'Crime', href: '/crime' },
+  { label: 'Society', href: '/society' },
   { label: 'History', href: '/history' },
+  { label: 'Videos', href: '/videos' },
 ]
 
 const COMPANY_LINKS = [

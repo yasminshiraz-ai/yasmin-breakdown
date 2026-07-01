@@ -3,7 +3,7 @@ title: Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion
   Breakup And What It Really Reveals
 slug: black-men-celebrating-klay-thompson-meg-thee-stallion-breakup
 date: 2026-06-09
-category: Music
+category: Entertainment
 featuredImage: /uploads/megan-thee-stallion-hot-girl-summer-swimwear.jpg
 description: When Meg Thee Stallion announced her breakup with Klay Thompson,
   some Black men didn't offer sympathy — they celebrated. The response exposed

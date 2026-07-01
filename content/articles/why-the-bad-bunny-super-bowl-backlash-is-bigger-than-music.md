@@ -2,7 +2,7 @@
 title: Why the Bad Bunny Super Bowl Backlash Is Bigger Than Music
 slug: why-the-bad-bunny-super-bowl-backlash-is-bigger-than-music
 date: 2026-06-03
-category: Music
+category: Entertainment
 featuredImage: /uploads/bad_bunny_performs.jpg
 description: "The backlash against Bad Bunny performing at the Super Bowl isn't
   really about music. It's about Puerto Rico, anti-Blackness, and a century-old
