@@ -11,10 +11,9 @@ description: Naomi Osaka threw a dinner party for Black tennis players before
   controversial — it was necessary.
 videoUrl: https://youtube.com/live/BcmHB4EqFYE?feature=share
 featured: false
-tags: ' Naomi Osaka, Black tennis party, French Open 2026, Roland Garros, Taylor
+tags: " Naomi Osaka, Black tennis party, French Open 2026, Roland Garros, Taylor
   Townsend, Coco Gauff, Althea Gibson, Arthur Ashe, Serena Williams, Black women
   in sports, mental health, affinity spaces, tennis history, racial exclusion"
-  ]'
 ---
 On the night before the 2026 French Open main draw began at Roland Garros, Naomi Osaka did something radical. She threw a dinner party. She invited Black tennis players. They ate, laughed, shared stories, and took photos. And then the internet exploded — not in celebration, but in outrage.
 
