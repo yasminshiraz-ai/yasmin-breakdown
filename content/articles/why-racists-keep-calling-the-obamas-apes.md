@@ -1,7 +1,7 @@
 ---
 title: Why Racists Keep Calling The Obamas Apes
 slug: why-racists-keep-calling-the-obamas-apes
-date: 2026-06-28
+date: 2026-06-10
 category: History
 featuredImage: /uploads/960px-barack_obama_and_michelle_obama_in_inaugural_parade_01-21-13.jpg
 description: When a video depicting Barack and Michelle Obama as apes appeared
