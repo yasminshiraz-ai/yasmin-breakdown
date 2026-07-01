@@ -43,6 +43,7 @@
   flex-shrink: 0;
 }
 
+/* .photoPlaceholder — fallback if image is unavailable */
 .photoPlaceholder {
   width: 400px;
   height: 400px;
@@ -52,14 +53,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-}
-
-.photoLabel {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  color: #AAAAAA;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 .bioText {

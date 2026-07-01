@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -19,10 +20,14 @@ export default function AboutPage() {
         {/* Two-column: photo + bio */}
         <div className={styles.bio}>
           <div className={styles.photoWrap}>
-            <div className={styles.photoPlaceholder}>
-              {/* Replace this div with an <Image> component once Yasmin's photo is added */}
-              <span className={styles.photoLabel}>Photo Coming Soon</span>
-            </div>
+            <Image
+              src="/images/yasmin-shiraz-writer-producer-sociologist.jpg"
+              alt="Yasmin Shiraz, television writer, producer, and sociologist,"
+              width={400}
+              height={400}
+              style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+              priority
+            />
           </div>
 
           <div className={styles.bioText}>
