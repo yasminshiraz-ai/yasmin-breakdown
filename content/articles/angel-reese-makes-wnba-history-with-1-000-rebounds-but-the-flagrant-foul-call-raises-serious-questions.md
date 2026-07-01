@@ -99,8 +99,4 @@ The Yasmin Breakdown covers WNBA, Black women in sports, and the cultural and so
 
 **Support independent analysis that centers Black women in sports.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
 
-**👉 \[Join on Patreon — Link Here]**
-
 *Watch the original video on YouTube and tell us in the comments — did that flagrant foul call look justified to you?*
-
-Angel Reese, WNBA, Atlanta Dream, Indiana Fever, Caitlin Clark, 1000 rebounds, WNBA record, Tina Charles, flagrant foul, WNBA officiating, State Farm Arena, Black women in sports
