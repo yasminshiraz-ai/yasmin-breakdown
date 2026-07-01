@@ -2,7 +2,7 @@
 title: Grifters Are Destroying the Black Community. Here's How to Protect Yourself.
 slug: grifters-are-destroying-the-black-community
 date: 2026-06-05
-category: History
+category: Society
 featuredImage: /uploads/grifters-on-the-rise.jpg
 description: Relationship coaches who've never had relationships. Real estate
   mentors who don't own property. Pro-Black voices taking backroom deals.
