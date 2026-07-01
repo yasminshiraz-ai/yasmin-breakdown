@@ -2,7 +2,7 @@
 title: "Daphne Joy vs. Megan Thee Stallion: The Double Standard That Reveals
   Exactly How America Treats Black Women"
 slug: daphne-joy-megan-thee-stallion-double-standard-black-women
-date: 2026-06-29
+date: 2026-06-30
 category: Society
 featuredImage: /uploads/daphne-joy-vs-meg-thee-stallion-why-the-double-standard.png
 description: Daphne Joy's breezy Cam Newton interview about her sexuality drew
