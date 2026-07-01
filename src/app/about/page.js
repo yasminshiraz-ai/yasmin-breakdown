@@ -26,23 +26,18 @@ export default function AboutPage() {
           </div>
 
           <div className={styles.bioText}>
-            {/*
-              ============================================================
-              BIO TEXT — PASTE YASMIN'S BIO HERE
-              Replace the placeholder paragraphs below with the real bio.
-              You can use multiple <p> tags for separate paragraphs.
-              ============================================================
-            */}
             <p className={styles.bioParagraph}>
-              [Yasmin&rsquo;s bio goes here. This is the first paragraph — introduce who you are, your background, and what drives your work.]
+              Yasmin Shiraz is a television writer, producer, author, and sociologist whose work sits at the intersection of pop culture and social analysis. As the creator of The Yasmin Breakdown, she brings a rare combination of academic rigor and industry insider experience to conversations about hip hop, Black history, sports, and entertainment — helping audiences understand the patterns and power structures behind the headlines.
             </p>
             <p className={styles.bioParagraph}>
-              [Second paragraph — your sociological approach, education, or methodology.]
+              Yasmin&rsquo;s path to cultural analysis began in the newsroom of her own making: in the late 1990s, she founded Mad Rhythms, a hip hop magazine that built a substantial readership before she closed it at the height of its success to raise her family with her husband. She went on to write for television, including true crime staple Cold Case Files, sharpening a storytelling instinct that now shapes every breakdown she publishes.
             </p>
             <p className={styles.bioParagraph}>
-              [Third paragraph — your audience, why this work matters, or a personal note.]
+              Her academic foundation — undergraduate and graduate degrees in sociology and criminology — gives her commentary a depth that goes beyond hot takes. Whether she&rsquo;s unpacking a WNBA controversy, tracing the history behind a viral moment, or examining Black fatherhood and voting rights, Yasmin&rsquo;s work asks the sociological question: what does this really tell us about who we are?
             </p>
-            {/* ============================================================ */}
+            <p className={styles.bioParagraph}>
+              Yasmin is also an author of multiple books, including American Library Award-winning nonfiction and Amazon bestsellers, and has built a career as a speaker and podcast producer. Today, through The Yasmin Breakdown — spanning YouTube, podcast, and this platform — she continues the work she&rsquo;s always done: taking culture apart, piece by piece, so we can see it clearly.
+            </p>
           </div>
         </div>
 
