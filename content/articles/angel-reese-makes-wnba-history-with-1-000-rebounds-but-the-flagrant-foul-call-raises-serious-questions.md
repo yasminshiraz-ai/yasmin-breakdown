@@ -16,6 +16,10 @@ tags:
   - 1000 rebounds
   - WNBA
   - Atlanta Dream
+  - WNBA
+  - Indiana Fever
+  - Caitlin Clark
+  - State farm Arena
 ---
 Angel Reese just made WNBA history. But instead of letting the milestone breathe, the conversation is already being pulled toward a controversial officiating call that raises questions every serious WNBA fan needs to be asking right now. This is not just a sports story. It is a story about a young Black woman who keeps delivering record-breaking results while fighting for the basic respect those results deserve.
 
@@ -99,4 +103,4 @@ The Yasmin Breakdown covers WNBA, Black women in sports, and the cultural and so
 
 *Watch the original video on YouTube and tell us in the comments — did that flagrant foul call look justified to you?*
 
-**Word count: ~1,300 words** **Suggested tags:** Angel Reese, WNBA, Atlanta Dream, Indiana Fever, Caitlin Clark, 1000 rebounds, WNBA record, Tina Charles, flagrant foul, WNBA officiating, State Farm Arena, Black women in sports
+Angel Reese, WNBA, Atlanta Dream, Indiana Fever, Caitlin Clark, 1000 rebounds, WNBA record, Tina Charles, flagrant foul, WNBA officiating, State Farm Arena, Black women in sports
