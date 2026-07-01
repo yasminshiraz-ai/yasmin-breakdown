@@ -1,6 +1,5 @@
 ---
-title: The Shreveport Massacre and the Gun Law Loophole That Let It Happen —
-  Eight Children Paid the Price
+title: The Shreveport Massacre and the Gun Law Loophole That Let It Happen
 slug: shreveport-massacre-gun-law-loophole-eight-children
 date: 2026-05-01
 category: Crime
