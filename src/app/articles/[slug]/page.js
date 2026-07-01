@@ -188,6 +188,17 @@ export default async function ArticlePage({ params }) {
             />
           )}
 
+          <div className={styles.patreonCta}>
+            <a
+              href="https://patreon.com/c/yasminshiraz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.patreonLink}
+            >
+              Join Patreon
+            </a>
+          </div>
+
           {article.tags && article.tags.length > 0 && (
             <div className={styles.tagsSection}>
               <span className={styles.tagsLabel}>Tags</span>

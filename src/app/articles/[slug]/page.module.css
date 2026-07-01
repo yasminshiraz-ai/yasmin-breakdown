@@ -214,6 +214,30 @@
   color: #fff;
 }
 
+.patreonCta {
+  margin: 2.5rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 2px solid var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patreonLink {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.patreonLink:hover {
+  color: #0A0A0A;
+}
+
 .videoWrap {
   position: relative;
   aspect-ratio: 16/9;
