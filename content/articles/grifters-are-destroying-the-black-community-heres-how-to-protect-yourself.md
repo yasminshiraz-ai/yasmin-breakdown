@@ -10,16 +10,9 @@ description: Relationship coaches who've never had relationships. Real estate
   how to spot them and protect yourself.
 videoUrl: https://youtu.be/9apfe0G3I10
 featured: false
-tags:
-  - grifters
-  - Black community
-  - online scams
-  - relationship coaches
-  - real estate fraud
-  - pro-Black grifters
-  - prosperity gospel
-  - wealth gap
-  - financial exploitation
+tags: '"grifters", "Black community", "online scams", "relationship coaches",
+  "real estate fraud", "pro-Black grifters", "prosperity gospel", "wealth gap",
+  "financial exploitation" '
 ---
 Look at the data. The racial wealth gap. Black business survival rates. Black home ownership numbers. Black marriage rates. By almost every measurable economic and social indicator, the Black community is not where it should be. And yet, scroll through social media for five minutes and you will find an endless parade of people selling salvation — courses, coaching, blueprints, and divine downloads — often to the very people who can least afford to lose money chasing an illusion.
 
