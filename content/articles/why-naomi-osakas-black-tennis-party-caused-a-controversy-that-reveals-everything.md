@@ -2,7 +2,7 @@
 title: Why Naomi Osaka's Black Tennis Party Caused a Controversy That Reveals
   Everything
 slug: naomi-osaka-black-tennis-party-french-open-controversy
-date: 2026-06-25
+date: 2026-06-17
 category: Sports
 featuredImage: /uploads/naomi_osaka-.jpg
 description: Naomi Osaka threw a dinner party for Black tennis players before
