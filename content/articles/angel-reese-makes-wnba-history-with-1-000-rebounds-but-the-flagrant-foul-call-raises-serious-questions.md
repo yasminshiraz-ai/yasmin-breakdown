@@ -2,7 +2,7 @@
 title: "Angel Reese Makes WNBA History With 1,000 Rebounds: But the Flagrant
   Foul Call Raises Serious Questions"
 slug: angel-reese-1000-rebounds-wnba-history-flagrant-foul-controversy
-date: 2026-06-30
+date: 2026-06-25
 category: Sports
 featuredImage: /uploads/angel-reese-makes-wnba-history.png
 description: Angel Reese became the fastest player in WNBA history to reach
