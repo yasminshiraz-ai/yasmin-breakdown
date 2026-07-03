@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -12,38 +12,44 @@
   gap: 2.5rem;
 }
 
-/* ── Cover placeholder ── */
-.coverWrap {
-  width: 100%;
-  max-width: 520px;
-}
-
-.coverPlaceholder {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  background: linear-gradient(160deg, #FF3131 0%, #c02020 45%, #F7BB18 100%);
-  border: 3px solid #0A0A0A;
-  border-radius: 4px;
+/* ── Two-image preview grid ── */
+.previewGrid {
   display: flex;
-  align-items: center;
+  gap: 2rem;
+  width: 100%;
   justify-content: center;
-  box-shadow: 6px 6px 0 #0A0A0A;
+  align-items: flex-start;
 }
 
-.coverLabel {
+.previewItem {
+  flex: 1;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.imageWrap {
+  border: 2px solid #E8E8E8;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.caption {
   font-family: var(--font-headline);
   font-weight: 800;
-  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--color-primary);
   text-align: center;
-  padding: 0 1.5rem;
 }
 
 /* ── Copy ── */
 .copy {
   width: 100%;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -101,4 +107,17 @@
   font-size: 0.75rem;
   color: var(--color-gray);
   text-align: center;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .previewGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .previewItem {
+    max-width: 100%;
+    width: 100%;
+  }
 }

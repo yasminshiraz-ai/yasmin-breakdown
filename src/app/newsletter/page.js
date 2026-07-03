@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -10,11 +11,34 @@ export default function NewsletterPage() {
     <div className={styles.page}>
       <div className={styles.container}>
 
-        {/* Cover image area */}
-        <div className={styles.coverWrap}>
-          {/* TODO: Replace this placeholder div with a next/image component once the cover image is uploaded to /public/images/ */}
-          <div className={styles.coverPlaceholder}>
-            <span className={styles.coverLabel}>Newsletter Cover Coming Soon</span>
+        {/* What You'll Get — two image blocks */}
+        <div className={styles.previewGrid}>
+          <div className={styles.previewItem}>
+            <div className={styles.imageWrap}>
+              <Image
+                src="/images/yasmin-breakdown-newsletter-preview.png"
+                alt="Preview of The Yasmin Breakdown newsletter"
+                width={1702}
+                height={630}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                priority
+              />
+            </div>
+            <p className={styles.caption}>The Newsletter</p>
+          </div>
+
+          <div className={styles.previewItem}>
+            <div className={styles.imageWrap}>
+              <Image
+                src="/images/yasmin-shiraz-free-mindset-guide.png"
+                alt="Free Mindset Guide by Yasmin Shiraz"
+                width={600}
+                height={600}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                priority
+              />
+            </div>
+            <p className={styles.caption}>Your Free Gift</p>
           </div>
         </div>
 
