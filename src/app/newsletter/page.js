@@ -1,9 +1,8 @@
 import styles from './page.module.css'
-import NewsletterSignup from './NewsletterSignup'
 
 export const metadata = {
   title: 'Newsletter',
-  description: 'Subscribe to The Yasmin Breakdown and get a free digital guide — plus weekly sociological analysis of culture, sports, music, and relationships delivered to your inbox.',
+  description: 'Get the free Mindset Guide PDF and join The Yasmin Breakdown — weekly sociological analysis of culture, sports, music, and relationships delivered to your inbox.',
 }
 
 export default function NewsletterPage() {
@@ -21,17 +20,23 @@ export default function NewsletterPage() {
 
         {/* Headline + description */}
         <div className={styles.copy}>
-          <h1 className={styles.heading}>Get The Free Guide + Join The Breakdown</h1>
+          <h1 className={styles.heading}>Get Your Free Mindset Guide</h1>
           <p className={styles.sub}>
-            Subscribe and instantly receive a free digital guide — plus the weekly Yasmin Breakdown
-            newsletter with sociological analysis of culture, sports, music, and relationships
-            that you won&rsquo;t find anywhere else.
+            Subscribe and instantly receive the free Mindset Guide PDF — plus the weekly Yasmin
+            Breakdown newsletter with sociological analysis of culture, sports, music, and
+            relationships that you won&rsquo;t find anywhere else.
           </p>
         </div>
 
-        {/* Email capture */}
-        <div className={styles.formWrap}>
-          <NewsletterSignup />
+        {/* CTA */}
+        <div className={styles.ctaWrap}>
+          <a
+            href="https://preview.mailerlite.io/forms/925592/172436536958125375/share"
+            rel="noopener"
+            className={styles.ctaBtn}
+          >
+            Sign Up &amp; Get The Guide
+          </a>
           <p className={styles.fine}>No spam. Unsubscribe any time.</p>
         </div>
 

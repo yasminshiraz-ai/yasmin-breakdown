@@ -67,86 +67,33 @@
   margin: 0 auto;
 }
 
-/* ── Form ── */
-.formWrap {
-  width: 100%;
-  max-width: 520px;
+/* ── CTA ── */
+.ctaWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
 }
 
-.form {
-  display: flex;
-  width: 100%;
-  gap: 0;
-}
-
-.input {
-  flex: 1;
-  background: #ffffff;
-  border: 2px solid #0A0A0A;
-  border-right: none;
-  color: #0A0A0A;
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  padding: 0.9rem 1rem;
-  outline: none;
-  transition: border-color 0.15s;
-  min-width: 0;
-}
-
-.input:focus {
-  border-color: var(--color-primary);
-}
-
-.input::placeholder {
-  color: #999999;
-}
-
-.btn {
+.ctaBtn {
+  display: inline-block;
   background: var(--color-primary);
   border: 2px solid var(--color-primary);
   color: #ffffff;
   font-family: var(--font-headline);
   font-weight: 900;
-  font-size: 0.78rem;
+  font-size: 1rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 0.9rem 1.4rem;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: background 0.15s ease;
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-.btn:hover:not(:disabled) {
-  background: #d42020;
-  border-color: #d42020;
-}
-
-.btn:disabled {
-  opacity: 0.6;
-  cursor: default;
-}
-
-/* ── States ── */
-.success {
-  font-family: var(--font-headline);
-  font-weight: 900;
-  font-size: 1.15rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-primary);
-  text-align: center;
-  padding: 1.5rem 0;
-}
-
-.error {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  color: var(--color-primary);
-  text-align: center;
+.ctaBtn:hover {
+  background: #F7BB18;
+  border-color: #F7BB18;
+  color: #0A0A0A;
 }
 
 .fine {
@@ -154,24 +101,4 @@
   font-size: 0.75rem;
   color: var(--color-gray);
   text-align: center;
-}
-
-/* ── Responsive ── */
-@media (max-width: 520px) {
-  .form {
-    flex-direction: column;
-  }
-
-  .input {
-    border-right: 2px solid #0A0A0A;
-    border-bottom: none;
-  }
-
-  .input:focus {
-    border-color: var(--color-primary);
-  }
-
-  .btn {
-    padding: 0.9rem 1rem;
-  }
 }
