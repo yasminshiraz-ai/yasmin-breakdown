@@ -110,6 +110,46 @@
   }
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 3rem;
+}
+
+.pageBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 2px solid #E8E8E8;
+  border-radius: 4px;
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1rem;
+  color: #0A0A0A;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.pageBtn:hover {
+  border-color: #FF3131;
+  color: #FF3131;
+}
+
+.pageBtnActive {
+  background: #FF3131;
+  border-color: #FF3131;
+  color: #ffffff;
+}
+
+.pageBtnActive:hover {
+  background: #FF3131;
+  border-color: #FF3131;
+  color: #ffffff;
+}
+
 @media (max-width: 600px) {
   .heading {
     font-size: 2rem;

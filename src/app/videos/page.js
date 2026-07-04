@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { getYouTubeVideos, formatPublishedDate } from '@/lib/youtube'
 import styles from './page.module.css'
 
@@ -7,8 +8,17 @@ export const metadata = {
   description: 'Watch the latest videos from The Yasmin Breakdown.',
 }
 
-export default async function VideosPage() {
-  const { videos, configured } = await getYouTubeVideos(12)
+const TOTAL_PAGES = 3
+const PER_PAGE = 12
+
+export default async function VideosPage({ searchParams }) {
+  const rawPage = parseInt(searchParams?.page, 10)
+  const currentPage = rawPage >= 1 && rawPage <= TOTAL_PAGES ? rawPage : 1
+
+  const { videos, configured } = await getYouTubeVideos(36)
+
+  const start = (currentPage - 1) * PER_PAGE
+  const pageVideos = videos.slice(start, start + PER_PAGE)
 
   return (
     <div className={styles.page}>
@@ -25,9 +35,13 @@ export default async function VideosPage() {
           <p className={styles.notice}>No videos found. Check your YouTube API key.</p>
         )}
 
-        {videos.length > 0 && (
+        {configured && videos.length > 0 && pageVideos.length === 0 && (
+          <p className={styles.notice}>No more videos.</p>
+        )}
+
+        {pageVideos.length > 0 && (
           <div className={styles.grid}>
-            {videos.map(video => (
+            {pageVideos.map(video => (
               <a
                 key={video.id}
                 href={video.url}
@@ -58,6 +72,20 @@ export default async function VideosPage() {
               </a>
             ))}
           </div>
+        )}
+
+        {configured && (
+          <nav className={styles.pagination} aria-label="Video pages">
+            {[1, 2, 3].map(page => (
+              <Link
+                key={page}
+                href={`/videos?page=${page}`}
+                className={`${styles.pageBtn} ${currentPage === page ? styles.pageBtnActive : ''}`}
+              >
+                {page}
+              </Link>
+            ))}
+          </nav>
         )}
       </div>
     </div>

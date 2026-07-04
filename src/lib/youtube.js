@@ -1,4 +1,4 @@
-export async function getYouTubeVideos(maxResults = 12) {
+export async function getYouTubeVideos(maxResults = 36) {
   const apiKey = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
 
   if (!apiKey || apiKey === 'your_youtube_api_key_here') {
