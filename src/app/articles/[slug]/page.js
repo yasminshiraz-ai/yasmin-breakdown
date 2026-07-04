@@ -104,8 +104,19 @@ export default async function ArticlePage({ params }) {
   }
 
   const allArticles = getAllArticles()
+  const currentTags = new Set(article.tags || [])
   const related = allArticles
-    .filter(a => a.category === article.category && a.slug !== params.slug)
+    .filter(a => a.slug !== params.slug)
+    .map(a => ({
+      ...a,
+      _tagOverlap: (a.tags || []).filter(t => currentTags.has(t)).length,
+      _categoryBonus: a.category === article.category ? 1 : 0,
+    }))
+    .sort((a, b) => {
+      if (b._tagOverlap !== a._tagOverlap) return b._tagOverlap - a._tagOverlap
+      if (b._categoryBonus !== a._categoryBonus) return b._categoryBonus - a._categoryBonus
+      return new Date(b.date) - new Date(a.date)
+    })
     .slice(0, 3)
 
   const categorySlug = CATEGORY_SLUG_MAP[article.category] || ''
@@ -189,6 +200,8 @@ export default async function ArticlePage({ params }) {
             />
           )}
 
+          <RelatedArticles articles={related} />
+
           <div className={styles.patreonCta}>
             <a
               href="https://patreon.com/c/yasminshiraz"
@@ -223,8 +236,6 @@ export default async function ArticlePage({ params }) {
         <AuthorFooter />
 
         <Newsletter />
-
-        <RelatedArticles articles={related} />
       </div>
     </div>
   )
