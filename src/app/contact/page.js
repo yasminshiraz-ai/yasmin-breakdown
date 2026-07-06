@@ -19,16 +19,6 @@ export default function ContactPage() {
 
           <div className={styles.infoCol}>
             <div className={styles.infoBox}>
-              <h2 className={styles.infoHeading}>Direct Contact</h2>
-              <p className={styles.infoText}>You can also reach us at:</p>
-              <a
-                href="mailto:hello@yasminbreakdown.com"
-                className={styles.emailLink}
-              >
-                {/* Replace with Yasmin's real email address */}
-                hello@yasminbreakdown.com
-              </a>
-
               <div className={styles.infoDivider} />
 
               <h2 className={styles.infoHeading}>Response Time</h2>

@@ -164,7 +164,7 @@ export default function SponsorForm() {
 
       {status === 'error' && (
         <p className={styles.errorMsg}>
-          Something went wrong. Please try again or email sponsors@yasminbreakdown.com directly.
+          Something went wrong. Please refresh the page and try again.
         </p>
       )}
 
