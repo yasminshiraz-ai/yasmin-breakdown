@@ -19,6 +19,7 @@ const EMPTY = {
   subject: '',
   sponsorType: SPONSOR_TYPES[0],
   message: '',
+  _honey: '',
 }
 
 export default function SponsorForm() {
@@ -33,14 +34,12 @@ export default function SponsorForm() {
     e.preventDefault()
     setStatus('submitting')
     try {
-      await fetch('/', {
+      const res = await fetch('/api/sponsor', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          'form-name': 'sponsor-inquiry',
-          ...fields,
-        }).toString(),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(fields),
       })
+      if (!res.ok) throw new Error('Send failed')
       setStatus('success')
     } catch {
       setStatus('error')
@@ -65,15 +64,19 @@ export default function SponsorForm() {
   }
 
   return (
-    <form
-      name="sponsor-inquiry"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      onSubmit={handleSubmit}
-      className={styles.sponsorForm}
-    >
-      <input type="hidden" name="form-name" value="sponsor-inquiry" />
-      <input type="hidden" name="bot-field" />
+    <form onSubmit={handleSubmit} className={styles.sponsorForm} noValidate>
+
+      {/* Honeypot — hidden from humans, filled by bots */}
+      <input
+        type="text"
+        name="_honey"
+        value={fields._honey}
+        onChange={handleChange}
+        tabIndex="-1"
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ position: 'absolute', opacity: 0, top: '-9999px', left: '-9999px', width: '1px', height: '1px' }}
+      />
 
       <div className={styles.formRow}>
         <div className={styles.field}>

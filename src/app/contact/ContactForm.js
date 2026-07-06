@@ -10,11 +10,11 @@ const SUBJECTS = [
   'Other',
 ]
 
+const EMPTY = { name: '', email: '', subject: SUBJECTS[0], message: '', _honey: '' }
+
 export default function ContactForm() {
   const [status, setStatus] = useState('idle') // idle | submitting | success | error
-  const [fields, setFields] = useState({
-    name: '', email: '', subject: SUBJECTS[0], message: '',
-  })
+  const [fields, setFields] = useState(EMPTY)
 
   function handleChange(e) {
     setFields(prev => ({ ...prev, [e.target.name]: e.target.value }))
@@ -24,14 +24,12 @@ export default function ContactForm() {
     e.preventDefault()
     setStatus('submitting')
     try {
-      await fetch('/', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          'form-name': 'contact',
-          ...fields,
-        }).toString(),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(fields),
       })
+      if (!res.ok) throw new Error('Send failed')
       setStatus('success')
     } catch {
       setStatus('error')
@@ -47,7 +45,7 @@ export default function ContactForm() {
         </p>
         <button
           className={styles.resetBtn}
-          onClick={() => { setStatus('idle'); setFields({ name: '', email: '', subject: SUBJECTS[0], message: '' }) }}
+          onClick={() => { setStatus('idle'); setFields(EMPTY) }}
         >
           Send another message
         </button>
@@ -56,16 +54,19 @@ export default function ContactForm() {
   }
 
   return (
-    <form
-      name="contact"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      onSubmit={handleSubmit}
-      className={styles.form}
-    >
-      {/* Netlify hidden fields */}
-      <input type="hidden" name="form-name" value="contact" />
-      <input type="hidden" name="bot-field" />
+    <form onSubmit={handleSubmit} className={styles.form} noValidate>
+
+      {/* Honeypot — hidden from humans, filled by bots */}
+      <input
+        type="text"
+        name="_honey"
+        value={fields._honey}
+        onChange={handleChange}
+        tabIndex="-1"
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ position: 'absolute', opacity: 0, top: '-9999px', left: '-9999px', width: '1px', height: '1px' }}
+      />
 
       <div className={styles.field}>
         <label className={styles.label} htmlFor="name">Name</label>
@@ -126,7 +127,7 @@ export default function ContactForm() {
 
       {status === 'error' && (
         <p className={styles.errorMsg}>
-          Something went wrong. Please try again or email us directly.
+          Something went wrong. Please try again.
         </p>
       )}
 
