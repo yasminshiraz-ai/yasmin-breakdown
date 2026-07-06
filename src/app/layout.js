@@ -42,6 +42,13 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7535265627912146"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         {/* Netlify Identity redirect — required for Decap CMS /admin login */}
         <Script
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"
