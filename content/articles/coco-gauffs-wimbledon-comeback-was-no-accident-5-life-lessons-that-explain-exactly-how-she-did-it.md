@@ -1,7 +1,7 @@
 ---
-title: Coco Gauff's Wimbledon Comeback Was No Accident. 5 Life Lessons That
-  Explain Exactly How She Did It.
-slug: coco-gauff-wimbledon-comeback-five-life-lessons
+title: Coco Gauff's Wimbledon Run Was No Accident. 5 Life Lessons That Explain
+  Exactly How She Did It.
+slug: coco-gauff-wimbledon-run-five-life-lessons
 date: 2026-07-02
 category: Sports
 featuredImage: /uploads/coco_gauff_-48164193957-.jpg
