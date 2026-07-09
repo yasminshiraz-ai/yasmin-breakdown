@@ -97,6 +97,6 @@ Watch the calls. Track the pattern. And in the meantime, argue with your mama ab
 
 The Yasmin Breakdown covers WNBA, Black women in sports, and the cultural and sociological forces that shape how these athletes are received — on the court and off it.
 
-**Support independent analysis that centers Black women in sports.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
+**Support independent analysis that centers Black women in sports.** Join the Y[asmin Breakdown on Patreon](https://www.patreon.com/c/yasminshiraz) for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
 
 *Watch the original video on YouTube and tell us in the comments — did that flagrant foul call look justified to you?*
