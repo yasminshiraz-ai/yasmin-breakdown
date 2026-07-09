@@ -32,7 +32,7 @@
 .inner {
   display: flex;
   white-space: nowrap;
-  animation: ticker 45s linear infinite;
+  animation: ticker 25s linear infinite;
   will-change: transform;
 }
 
