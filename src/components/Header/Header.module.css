@@ -67,7 +67,6 @@
   display: block;
   margin: 0;
   padding: 0;
-  filter: brightness(0) saturate(100%) invert(18%) sepia(99%) saturate(7404%) hue-rotate(355deg) brightness(97%) contrast(117%);
 }
 
 .navBar {
