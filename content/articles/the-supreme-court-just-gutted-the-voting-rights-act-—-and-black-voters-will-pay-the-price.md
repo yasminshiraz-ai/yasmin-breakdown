@@ -68,8 +68,6 @@ None of those laws mentioned race. Every single one of them was designed to eras
 In 1980, the Supreme Court tried a similar move — requiring proof of intent. Congress responded directly. In 1982, lawmakers rewrote the Voting Rights Act specifically to override that standard and restore the harm-based test. Congress fixed this once before, explicitly and deliberately. The Supreme Court has now gone around Congress and broken it again.
 
 > *\[Internal link: The History of Voter Suppression in America — From Poll Taxes to Gerrymandering]*
->
-> *\[Internal link: What Reconstruction Actually Was — and Why Its Destruction Still Matters Today]*
 
 ## The Slow Dismantling Nobody Announced
 
@@ -122,8 +120,6 @@ The Supreme Court's dismantling of the Voting Rights Act is one of the most cons
 That is what the Yasmin Breakdown exists to deliver.
 
 **Support independent Black media that connects the dots between history and today.** Join the Yasmin Breakdown on Patreon for deeper dives, extended analysis, and the conversations that give you the full picture — not just the headline.
-
-**👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and tell us in the comments — what does this ruling mean to you personally?*
 
