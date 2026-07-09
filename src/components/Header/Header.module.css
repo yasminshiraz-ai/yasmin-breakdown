@@ -155,7 +155,7 @@
 }
 
 @media (max-width: 768px) {
-  .logoRow { padding: 0; margin: 0; }
+  .logoRow { padding: 0; margin: 0; grid-template-columns: auto 1fr auto; }
 
   .navInner { height: 52px; }
 

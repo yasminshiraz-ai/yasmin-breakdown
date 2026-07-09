@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useState, useEffect } from 'react'
 import { FaYoutube, FaFacebook, FaPatreon } from 'react-icons/fa'
 import LogoImage from '../LogoImage/LogoImage'
 import SearchBar from '../SearchBar/SearchBar'
@@ -40,6 +41,15 @@ function MailIcon() {
 
 export default function Header({ patreonUrl = '#' }) {
   const pathname = usePathname()
+  const [logoHeight, setLogoHeight] = useState(210)
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 768px)')
+    const update = () => setLogoHeight(mq.matches ? 80 : 210)
+    update()
+    mq.addEventListener('change', update)
+    return () => mq.removeEventListener('change', update)
+  }, [])
 
   function scrollToNewsletter(e) {
     e.preventDefault()
@@ -72,7 +82,7 @@ export default function Header({ patreonUrl = '#' }) {
         </div>
 
         <Link href="/" className={styles.logoLink} aria-label="The Yasmin Breakdown — Home">
-          <LogoImage height={210} src="/images/logo.svg" />
+          <LogoImage height={logoHeight} src="/images/logo.svg" />
         </Link>
 
         <div className={styles.searchWrap}>
