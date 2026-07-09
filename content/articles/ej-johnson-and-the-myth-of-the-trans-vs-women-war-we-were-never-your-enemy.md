@@ -46,9 +46,7 @@ A Black woman can wake up in a 2X t-shirt and boxer shorts, no makeup, natural h
 
 When womanhood gets reduced to a costume — to the accumulation of the right products and the right presentation — it actually diminishes what womanhood is for everyone, including the women doing the reducing.
 
-> *\[Internal link: The Sociology of Black Femininity — How Black Women Have Always Defined Beauty on Their Own Terms]*
-
-## Straight Black Women Are Not in Competition With Feminine Gay Men
+> *[Why Black Men Are Celebrating Klay Thompson After The Meg Thee Stallion Breakup And What It Really Reveals](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)*
 
 This needs to be stated plainly because the narrative keeps suggesting otherwise.
 
@@ -70,9 +68,7 @@ Straight women have their own set of challenges — fibroids, fertility pressure
 
 The idea that straight women are enemies or competitors to trans women is not coming from straight women. It is a narrative being imposed on a relationship that, from the straight woman's side, is not characterized by hostility at all.
 
-> *\[Internal link: Black Women and the LGBTQ+ Community — The History of Solidarity and Tension]*
-
-## Where Does This Competition Narrative Actually Come From?
+>
 
 This is the sociological question worth asking: if straight women are not generating this competition narrative, where is it coming from and why does it keep circulating?
 
@@ -86,7 +82,7 @@ A few contributing factors:
 
 None of these explanations justify the competition narrative. But understanding where it comes from is the first step toward dismantling it.
 
-> *\[Internal link: The Down-Low Culture in the Black Community — What It Costs Everyone]*
+>
 
 ## The Infighting Problem in the Black Community
 
@@ -112,9 +108,7 @@ We are not your enemy. We never were. And it is past time for this narrative to 
 
 The Yasmin Breakdown exists to go beyond the viral clip and ask the harder sociological questions — where does this narrative come from, who does it serve, and what does the history actually tell us?
 
-**If you want analysis that goes deeper than the hot take, support independent Black media directly.** Join the Yasmin Breakdown on Patreon for extended breakdowns, deeper dives, and the conversations that move the community forward instead of tearing it apart.
-
-**👉 \[Join on Patreon — Link Here]**
+**If you want analysis that goes deeper than the hot take, support independent Black media directly.** Join the [Yasmin Breakdown on Patreon](https://www.patreon.com/c/yasminshiraz) for extended breakdowns, deeper dives, and the conversations that move the community forward instead of tearing it apart.
 
 *Watch the original video on YouTube and tell us in the comments — where do you think this competition narrative actually comes from?*
 
