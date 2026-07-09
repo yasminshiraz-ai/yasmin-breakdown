@@ -12,6 +12,22 @@
   .bar {
     top: 132px; /* header: 80px logoRow + 52px navBar */
   }
+
+  .inner {
+    gap: 1rem;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .link {
+    font-size: 12px;
+  }
 }
 
 .inner {
