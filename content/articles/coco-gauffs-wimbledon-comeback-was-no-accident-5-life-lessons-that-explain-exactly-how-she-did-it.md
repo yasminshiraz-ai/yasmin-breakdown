@@ -1,7 +1,7 @@
 ---
-title: Coco Gauff's Wimbledon Comeback Was No Accident. 5 Life Lessons That
-  Explain Exactly How She Did It.
-slug: coco-gauff-wimbledon-comeback-five-life-lessons
+title: Coco Gauff's Wimbledon Run Was No Accident. 5 Life Lessons That Explain
+  Exactly How She Did It.
+slug: coco-gauff-wimbledon-run-five-life-lessons
 date: 2026-07-02
 category: Sports
 featuredImage: /uploads/coco_gauff_-48164193957-.jpg
@@ -45,7 +45,7 @@ For Black girls who are often the target of criticism and doubt from a very youn
 
 Althea Gibson opened the door. Venus and Serena dismantled every assumption about who could walk through it. Coco Gauff walked through it — and now she is the visual proof for the next generation of girls watching.
 
-> *\[Internal link: Naomi Osaka's Black Tennis Party — Why Representation in Elite Sports Matters]*
+> *[Naomi Osaka's Black Tennis Party — Why Representation in Elite Sports Matters](https://yasminbreakdown.com/articles/why-naomi-osakas-black-tennis-party-caused-a-controversy-that-reveals-everything)*
 
 ## Lesson 2: Keep the Faith at All Times — One Point at a Time
 
@@ -100,8 +100,6 @@ This is something worth naming: it costs Coco Gauff nothing to say Serena Willia
 Gauff moves differently. She gives credit. She acknowledges excellence wherever she finds it. She celebrates her opponents when they play well. And that spirit — the ability to hold both confidence in yourself and genuine admiration for others — is part of what makes her presence on and off the court feel like something beyond just tennis.
 
 Game respects game. And when you carry that spirit with you, people see it. And it changes how you move through every room you enter.
-
-> *\[Internal link: Angel Reese, Coco Gauff, and the Relentless Scrutiny of Young Black Women in Elite Sports]*
 
 ## The Bigger Picture: What Coco Gauff's Wimbledon Run Means
 
