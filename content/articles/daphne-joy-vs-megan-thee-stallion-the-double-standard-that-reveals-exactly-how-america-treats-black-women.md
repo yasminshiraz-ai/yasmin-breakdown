@@ -46,9 +46,7 @@ The core message from a significant portion of Black male social media was simpl
 
 Now ask yourself: what is the actual difference between these two situations? And why does the race of the woman involved change the entire tenor of the response?
 
-> *\[Internal link: Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion Breakup]*
-
-## The Sociology of the Double Standard — What Misogynoir Actually Means
+> *[Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion Breakup](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)*
 
 The term misogynoir was coined by scholar Moya Bailey to describe the specific intersection of anti-Blackness and misogyny directed at Black women. It is not simply sexism. It is sexism compounded by racial hatred — a specific form of contempt reserved for Black women that does not apply to women of other racial backgrounds navigating the same circumstances.
 
@@ -80,7 +78,7 @@ This is the double standard in concrete, documented form. And it is not new. It 
 
 Black women in the public eye are held to a standard that does not apply to anyone else — and when they fail to meet it, the punishment is designed to permanently diminish them.
 
-> *\[Internal link: Why Black Women Athletes Are Never Allowed to Be Human]*
+>
 
 ## The "Just Own It" Exemption — Who Gets to Be Sexually Free
 
