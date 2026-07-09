@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
   .bar {
-    top: 265px; /* header: 210px logoRow (no padding) + 55px navBar */
+    top: 132px; /* header: 80px logoRow + 52px navBar */
   }
 }
 
