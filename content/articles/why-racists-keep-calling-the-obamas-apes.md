@@ -8,7 +8,7 @@ description: When a video depicting Barack and Michelle Obama as apes appeared
   on Truth Social in 2026, it wasn't random. It was a centuries-old weapon.
   Here's the history, the ideology, and why this trope has never been harmless.
 videoUrl: https://youtu.be/oFMBELyLUj0
-featured: true
+featured: false
 tags:
   - Barack Obama
   - Michelle Obama
