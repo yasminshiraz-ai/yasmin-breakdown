@@ -25,27 +25,19 @@ export async function getYouTubeVideos(maxResults = 36) {
     if (!videoIds) return { videos: [], configured: true }
 
     const statsRes = await fetch(
-      `https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet,contentDetails&id=${videoIds}&key=${apiKey}`,
+      `https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=${videoIds}&key=${apiKey}`,
       { next: { revalidate: 3600 } }
     )
     const statsData = await statsRes.json()
 
-    const videos = (statsData.items || [])
-      .filter(v => {
-        const dur = v.contentDetails?.duration || ''
-        const m = dur.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
-        if (!m) return true
-        const seconds = (Number(m[1] || 0) * 3600) + (Number(m[2] || 0) * 60) + Number(m[3] || 0)
-        return seconds > 90
-      })
-      .map(v => ({
-        id: v.id,
-        title: v.snippet.title,
-        thumbnail: v.snippet.thumbnails?.high?.url || v.snippet.thumbnails?.default?.url,
-        viewCount: Number(v.statistics.viewCount).toLocaleString(),
-        publishedAt: v.snippet.publishedAt,
-        url: `https://www.youtube.com/watch?v=${v.id}`,
-      }))
+    const videos = statsData.items?.map(v => ({
+      id: v.id,
+      title: v.snippet.title,
+      thumbnail: v.snippet.thumbnails?.high?.url || v.snippet.thumbnails?.default?.url,
+      viewCount: Number(v.statistics.viewCount).toLocaleString(),
+      publishedAt: v.snippet.publishedAt,
+      url: `https://www.youtube.com/watch?v=${v.id}`,
+    })) || []
 
     return { videos, configured: true }
   } catch (err) {
