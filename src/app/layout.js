@@ -22,16 +22,28 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
-export const metadata = {
-  title: {
-    default: 'The Yasmin Breakdown — With Sociological Analysis',
-    template: '%s | The Yasmin Breakdown',
-  },
-  description: 'Sociological analysis of sports, music, TV & film, love, and history by Yasmin Shiraz.',
-  openGraph: {
-    siteName: 'The Yasmin Breakdown',
-    type: 'website',
-  },
+export async function generateMetadata() {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yasminbreakdown.com'
+  const articles = getAllArticles()
+  const ogImage = articles[0]?.featuredImage || '/images/logo.svg'
+
+  return {
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: 'The Yasmin Breakdown — With Sociological Analysis',
+      template: '%s | The Yasmin Breakdown',
+    },
+    description: 'Sociological analysis of sports, music, TV & film, love, and history by Yasmin Shiraz.',
+    openGraph: {
+      siteName: 'The Yasmin Breakdown',
+      type: 'website',
+      images: [{ url: ogImage }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: [ogImage],
+    },
+  }
 }
 
 export default async function RootLayout({ children }) {
