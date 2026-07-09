@@ -22,17 +22,9 @@ const SOCIAL_LINKS = [
   { Icon: FaPatreon, href: 'https://www.patreon.com/c/yasminshiraz', label: 'Patreon' },
 ]
 
-function PatreonIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M14.82 2.41c3.96 0 7.18 3.24 7.18 7.21 0 3.96-3.22 7.18-7.18 7.18-3.97 0-7.19-3.22-7.19-7.18 0-3.97 3.22-7.21 7.19-7.21zM2 21.6h3.5V2.41H2V21.6z" />
-    </svg>
-  )
-}
-
 function MailIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <rect width="20" height="16" x="2" y="4" rx="2"/>
       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
     </svg>
@@ -79,6 +71,14 @@ export default function Header({ patreonUrl = '#' }) {
               <Icon size={24} />
             </a>
           ))}
+          <button
+            onClick={scrollToNewsletter}
+            className={styles.socialLink}
+            aria-label="Subscribe to newsletter"
+            title="Subscribe to newsletter"
+          >
+            <MailIcon />
+          </button>
         </div>
 
         <Link href="/" className={styles.logoLink} aria-label="The Yasmin Breakdown — Home">
@@ -106,27 +106,6 @@ export default function Header({ patreonUrl = '#' }) {
                 </Link>
               )
             })}
-          </div>
-
-          <div className={styles.actions}>
-            <a
-              href={patreonUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.iconBtn}
-              aria-label="Support on Patreon"
-              title="Support on Patreon"
-            >
-              <PatreonIcon />
-            </a>
-            <button
-              onClick={scrollToNewsletter}
-              className={styles.iconBtn}
-              aria-label="Subscribe to newsletter"
-              title="Subscribe to newsletter"
-            >
-              <MailIcon />
-            </button>
           </div>
         </div>
       </nav>
