@@ -7,8 +7,8 @@ category: Sports
 featuredImage: /uploads/coco_gauff_-48164193957-.jpg
 description: Coco Gauff was two points from elimination at Wimbledon 2026. Then
   she won six straight points and changed everything. Here are the five mindset
-  lessons behind her comeback — and why every Black girl watching needs to see
-  them.
+  lessons behind her historic run — and why every Black girl watching needs to
+  see them.
 videoUrl: https://youtu.be/LfouYf9liEE
 featured: false
 tags: Coco Gauff, Wimbledon 2026, Coco Gauff comeback, Solana Sierra, impostor
