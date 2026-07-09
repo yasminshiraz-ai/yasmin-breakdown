@@ -30,7 +30,7 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(siteUrl),
     title: {
-      default: 'Yasmin Breakdown',
+      default: 'Sports News | Entertainment News | Culture Commentary | YasminBreakdown.com',
       template: '%s | The Yasmin Breakdown',
     },
     description: 'Sociological analysis of sports, music, TV & film, love, and history by Yasmin Shiraz.',
