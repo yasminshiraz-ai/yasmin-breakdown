@@ -115,6 +115,6 @@ Five lessons. One remarkable run. And more than enough inspiration for every Bla
 
 The Yasmin Breakdown covers Black women in sports with the depth, the history, and the sociological context they deserve — because what happens on these courts is always bigger than the game.
 
-**Support independent Black media that centers Black women's full story.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations that go beyond the scoreboard.
+**Support independent Black media that centers Black women's full story.** Join the Yasmin Breakdown on [Patreon](https://www.patreon.com/c/yasminshiraz) for deeper dives, extended breakdowns, and the conversations that go beyond the scoreboard.
 
 *Watch the original video on YouTube and tell us in the comments — which of these five lessons hits home for you most?*
