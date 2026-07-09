@@ -2,12 +2,14 @@
 title: Coco Gauff's Wimbledon Comeback Was No Accident. 5 Life Lessons That
   Explain Exactly How She Did It.
 slug: coco-gauff-wimbledon-comeback-five-life-lessons
-date: 2026-07-09
+date: 2026-07-02
 category: Sports
+featuredImage: /uploads/coco_gauff_-48164193957-.jpg
 description: Coco Gauff was two points from elimination at Wimbledon 2026. Then
   she won six straight points and changed everything. Here are the five mindset
   lessons behind her comeback — and why every Black girl watching needs to see
   them.
+videoUrl: https://youtu.be/LfouYf9liEE
 featured: false
 tags: Coco Gauff, Wimbledon 2026, Coco Gauff comeback, Solana Sierra, impostor
   syndrome, Black women in sports, Venus Williams, Serena Williams, tennis
