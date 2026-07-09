@@ -25,7 +25,7 @@ const montserrat = Montserrat({
 export async function generateMetadata() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yasminbreakdown.com'
   const articles = getAllArticles()
-  const ogImage = '/images/logo.svg'
+  const ogImage = '/images/logo-og.png'
 
   return {
     metadataBase: new URL(siteUrl),
