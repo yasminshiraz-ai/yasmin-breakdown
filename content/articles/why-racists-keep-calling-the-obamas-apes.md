@@ -105,7 +105,7 @@ The trope keeps getting deployed because the lie keeps needing defending. And ev
 
 Understanding the history behind racist tropes isn't just academic. It is the difference between dismissing something harmful as a joke and recognizing it as what it actually is — a continuation of ideological warfare that has cost Black people their lives, their rights, and their dignity for centuries.
 
-The Yasmin Breakdown exists to give you that historical and sociological context — because you cannot fight what you don't understand.
+Yasmin Breakdown exists to give you that historical and sociological context — because you cannot fight what you don't understand.
 
 **If this kind of analysis matters to you, support the work directly.** Join the Yasmin Breakdown community on Patreon and get access to deeper dives, extended breakdowns, and the conversations that don't fit into a short video.
 

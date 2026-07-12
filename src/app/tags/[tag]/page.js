@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const displayTag = decodeURIComponent(params.tag).replace(/-/g, ' ')
   return {
-    title: `${displayTag} — The Yasmin Breakdown`,
+    title: `${displayTag} — Yasmin Breakdown`,
     description: `Articles tagged "${displayTag}" with sociological analysis by Yasmin Shiraz.`,
   }
 }

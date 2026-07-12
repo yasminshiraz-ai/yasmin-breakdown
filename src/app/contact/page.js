@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export const metadata = {
   title: 'Contact',
-  description: 'Get in touch with The Yasmin Breakdown.',
+  description: 'Get in touch with Yasmin Breakdown.',
 }
 
 const TYPE_CONFIG = {

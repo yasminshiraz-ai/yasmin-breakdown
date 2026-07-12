@@ -102,7 +102,7 @@ Black women deserve better than a community of men who celebrate when they get h
 
 ## This Is the Analysis Black Women Deserve — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown exists to name these patterns clearly, connect them to their historical and sociological roots, and give Black women the analysis that validates what they are already seeing with their own eyes.
+Yasmin Breakdown exists to name these patterns clearly, connect them to their historical and sociological roots, and give Black women the analysis that validates what they are already seeing with their own eyes.
 
 **If this kind of honest, unflinching cultural commentary matters to you, support it directly.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations the rest of the internet is too afraid to have.
 

@@ -81,7 +81,7 @@ export default function Header({ patreonUrl = '#' }) {
           </button>
         </div>
 
-        <Link href="/" className={styles.logoLink} aria-label="The Yasmin Breakdown — Home">
+        <Link href="/" className={styles.logoLink} aria-label="Yasmin Breakdown — Home">
           <LogoImage height={logoHeight} src="/images/logo.svg" />
         </Link>
 

@@ -20,17 +20,17 @@ export async function generateMetadata({ params }) {
     ? author.photo.startsWith('http') ? author.photo : `${siteUrl}${author.photo}`
     : null
   return {
-    title: `${author.name} — The Yasmin Breakdown`,
+    title: `${author.name} — Yasmin Breakdown`,
     description: author.short_bio || `Articles and analysis by ${author.name}.`,
     openGraph: {
-      title: `${author.name} — The Yasmin Breakdown`,
+      title: `${author.name} — Yasmin Breakdown`,
       description: author.short_bio || `Articles and analysis by ${author.name}.`,
       url: `${siteUrl}/author/${params.slug}`,
       images: ogImage ? [{ url: ogImage }] : [],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${author.name} — The Yasmin Breakdown`,
+      title: `${author.name} — Yasmin Breakdown`,
       description: author.short_bio || `Articles and analysis by ${author.name}.`,
       images: ogImage ? [ogImage] : [],
     },

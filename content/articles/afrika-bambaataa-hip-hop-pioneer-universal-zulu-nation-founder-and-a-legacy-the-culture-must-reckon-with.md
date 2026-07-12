@@ -97,9 +97,9 @@ That conversation is not comfortable. It was not comfortable when the allegation
 
 Hip hop is big enough and mature enough to tell the full story. The question is whether the people who love it are willing to.
 
-## The Yasmin Breakdown — Where Hip Hop History Gets Told in Full
+## Yasmin Breakdown — Where Hip Hop History Gets Told in Full
 
-This is the kind of analysis that mainstream entertainment media won't deliver — the history, the sociology, the accountability, and the complexity that the culture actually deserves. The Yasmin Breakdown exists to give you all of it.
+This is the kind of analysis that mainstream entertainment media won't deliver — the history, the sociology, the accountability, and the complexity that the culture actually deserves. Yasmin Breakdown exists to give you all of it.
 
 **Support independent analysis of hip hop culture and Black history.** Join the [Yasmin Breakdown on Patreon](https://www.patreon.com/c/yasminshiraz) for deeper dives, extended breakdowns, and conversations that go where other platforms won't.
 

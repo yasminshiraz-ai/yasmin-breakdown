@@ -1,8 +1,8 @@
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Privacy Policy — The Yasmin Breakdown',
-  description: 'Privacy policy for The Yasmin Breakdown, operated by Still Eye Rise Media, LLC.',
+  title: 'Privacy Policy — Yasmin Breakdown',
+  description: 'Privacy policy for Yasmin Breakdown, operated by Still Eye Rise Media, LLC.',
 }
 
 export default function PrivacyPolicyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
         <p className={styles.effective}>Effective Date: June 29, 2026</p>
 
         <p className={styles.intro}>
-          This Privacy Policy describes how <strong>The Yasmin Breakdown</strong>, operated by
+          This Privacy Policy describes how <strong>Yasmin Breakdown</strong>, operated by
           Still Eye Rise Media, LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;),
           collects, uses, and shares information when you visit our website at
           yasminbreakdown.com (&ldquo;the Site&rdquo;). By using the Site, you agree to the
@@ -234,7 +234,7 @@ export default function PrivacyPolicyPage() {
           </p>
           <div className={styles.contactBlock}>
             <p><strong>Still Eye Rise Media, LLC</strong></p>
-            <p>Operating: The Yasmin Breakdown</p>
+            <p>Operating: Yasmin Breakdown</p>
             <p>
               Email:{' '}
               <a href="mailto:team@yasminbreakdown.com" className={styles.link}>

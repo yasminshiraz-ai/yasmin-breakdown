@@ -31,11 +31,11 @@ export async function generateMetadata() {
     metadataBase: new URL(siteUrl),
     title: {
       default: 'Sports News | Entertainment News | Culture Commentary | YasminBreakdown.com',
-      template: '%s | The Yasmin Breakdown',
+      template: '%s | Yasmin Breakdown',
     },
     description: 'Sociological analysis of sports, music, TV & film, love, and history by Yasmin Shiraz.',
     openGraph: {
-      siteName: 'The Yasmin Breakdown',
+      siteName: 'Yasmin Breakdown',
       type: 'website',
       images: [{ url: ogImage }],
     },

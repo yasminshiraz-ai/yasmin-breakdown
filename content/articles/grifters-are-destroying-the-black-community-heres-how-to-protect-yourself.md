@@ -104,7 +104,7 @@ That is why this conversation is worth having loudly, repeatedly, and without ap
 
 ## Raise the Standard — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown exists to give you the analysis, the history, and the sociological framework to see these patterns clearly — so you can protect yourself, your money, and your community.
+Yasmin Breakdown exists to give you the analysis, the history, and the sociological framework to see these patterns clearly — so you can protect yourself, your money, and your community.
 
 **If this kind of accountability journalism matters to you, support it directly.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations that the algorithm buries but the community needs.
 

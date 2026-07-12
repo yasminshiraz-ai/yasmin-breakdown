@@ -46,7 +46,7 @@ collections:
         name: "title"
         widget: "string"
         required: false
-        hint: "e.g. Founder, The Yasmin Breakdown"
+        hint: "e.g. Founder, Yasmin Breakdown"
 
       - label: "Short Bio"
         name: "short_bio"

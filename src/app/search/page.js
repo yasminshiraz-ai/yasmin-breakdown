@@ -7,7 +7,7 @@ export function generateMetadata({ searchParams }) {
   const q = searchParams?.q || ''
   return {
     title: q ? `Search: "${q}"` : 'Search',
-    description: `Search results for ${q} on The Yasmin Breakdown.`,
+    description: `Search results for ${q} on Yasmin Breakdown.`,
   }
 }
 

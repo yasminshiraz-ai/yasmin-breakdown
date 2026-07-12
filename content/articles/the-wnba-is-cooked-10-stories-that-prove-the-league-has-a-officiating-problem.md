@@ -79,4 +79,4 @@ Looking at these 10 stories together, the pattern is clear: inconsistent calls, 
 
 *Related reading: \[The Angel Reese Flagrant Foul Breakdown — Link Placeholder] | \[Caitlin Clark's Rookie Year Media Treatment — Link Placeholder] | \[How Sports Media Frames Black Women Athletes — Link Placeholder]*
 
-**Want the deeper sociological breakdowns behind stories like this one — before they hit the main feed?** [Join The Yasmin Breakdown on Patreon](https://patreon.com/c/yasminshiraz) for exclusive analysis, early access to videos, and a seat at the table for the conversations everyone else is just catching up to.
+**Want the deeper sociological breakdowns behind stories like this one — before they hit the main feed?** [Join Yasmin Breakdown on Patreon](https://patreon.com/c/yasminshiraz) for exclusive analysis, early access to videos, and a seat at the table for the conversations everyone else is just catching up to.

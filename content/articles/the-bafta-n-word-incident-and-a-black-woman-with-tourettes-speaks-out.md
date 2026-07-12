@@ -105,7 +105,7 @@ All of those things happened. All of them matter.
 
 ## Keep This Conversation Going — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown exists for exactly these moments — when the story is too layered for a hot take, too important to reduce to a single narrative, and too connected to history to understand without context.
+Yasmin Breakdown exists for exactly these moments — when the story is too layered for a hot take, too important to reduce to a single narrative, and too connected to history to understand without context.
 
 **If you want analysis that goes beyond the headline, support independent media directly.** Join the Yasmin Breakdown community on Patreon for deeper dives, extended breakdowns, and the conversations that actually move us forward.
 

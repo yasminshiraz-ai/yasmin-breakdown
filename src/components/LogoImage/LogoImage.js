@@ -8,7 +8,7 @@ export default function LogoImage({ height = 60, src = '/images/logo.svg' }) {
   if (error) {
     return (
       <span className={styles.fallback} style={{ fontSize: height > 50 ? '1.4rem' : '1rem' }}>
-        The Yasmin Breakdown
+        Yasmin Breakdown
       </span>
     )
   }
@@ -16,7 +16,7 @@ export default function LogoImage({ height = 60, src = '/images/logo.svg' }) {
   return (
     <img
       src={src}
-      alt="The Yasmin Breakdown"
+      alt="Yasmin Breakdown"
       style={{ display: 'block', height: `${height}px`, width: 'auto' }}
       onError={() => setError(true)}
     />

@@ -1,8 +1,8 @@
 import styles from '../privacy-policy/page.module.css'
 
 export const metadata = {
-  title: 'Terms of Service — The Yasmin Breakdown',
-  description: 'Terms of Service for The Yasmin Breakdown, operated by Still Eye Rise Media, LLC.',
+  title: 'Terms of Service — Yasmin Breakdown',
+  description: 'Terms of Service for Yasmin Breakdown, operated by Still Eye Rise Media, LLC.',
 }
 
 export default function TermsPage() {
@@ -105,7 +105,7 @@ export default function TermsPage() {
           <p>Questions about these Terms can be sent to:</p>
           <div className={styles.contactBlock}>
             <p><strong>Still Eye Rise Media, LLC</strong></p>
-            <p>Operating: The Yasmin Breakdown</p>
+            <p>Operating: Yasmin Breakdown</p>
             <p>
               Email:{' '}
               <a href="mailto:team@yasminbreakdown.com" className={styles.link}>

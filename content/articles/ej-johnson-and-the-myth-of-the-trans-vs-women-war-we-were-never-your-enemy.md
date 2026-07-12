@@ -106,7 +106,7 @@ We are not your enemy. We never were. And it is past time for this narrative to 
 
 ## This Is the Conversation the Community Needs — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown exists to go beyond the viral clip and ask the harder sociological questions — where does this narrative come from, who does it serve, and what does the history actually tell us?
+Yasmin Breakdown exists to go beyond the viral clip and ask the harder sociological questions — where does this narrative come from, who does it serve, and what does the history actually tell us?
 
 **If you want analysis that goes deeper than the hot take, support independent Black media directly.** Join the [Yasmin Breakdown on Patreon](https://www.patreon.com/c/yasminshiraz) for extended breakdowns, deeper dives, and the conversations that move the community forward instead of tearing it apart.
 

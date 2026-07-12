@@ -90,9 +90,9 @@ The straightforward path forward for Chilli specifically is not more statements 
 
 Whether that happens remains to be seen.
 
-## The Yasmin Breakdown Is Where the Culture Gets Analyzed — Join Us on Patreon
+## Yasmin Breakdown Is Where the Culture Gets Analyzed — Join Us on Patreon
 
-When cultural moments like this one intersect with politics, history, and the lived experiences of Black women, the story is always more layered than the headline. The Yasmin Breakdown exists to give you that full picture — the sociology, the history, and the honest analysis that the entertainment press won't deliver.
+When cultural moments like this one intersect with politics, history, and the lived experiences of Black women, the story is always more layered than the headline. Yasmin Breakdown exists to give you that full picture — the sociology, the history, and the honest analysis that the entertainment press won't deliver.
 
 **Support independent Black media that tells the truth about what's happening in our culture.** Join the Yasmin Breakdown on Patreon for extended breakdowns, deeper dives, and the conversations that keep the community informed and equipped.
 

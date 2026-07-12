@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export const metadata = {
   title: 'Newsletter',
-  description: 'Get the free Mindset Guide PDF and join The Yasmin Breakdown — weekly sociological analysis of culture, sports, music, and relationships delivered to your inbox.',
+  description: 'Get the free Mindset Guide PDF and join Yasmin Breakdown — weekly sociological analysis of culture, sports, music, and relationships delivered to your inbox.',
 }
 
 export default function NewsletterPage() {
@@ -17,7 +17,7 @@ export default function NewsletterPage() {
             <div className={styles.imageWrap}>
               <Image
                 src="/images/yasmin-breakdown-newsletter-preview.png"
-                alt="Preview of The Yasmin Breakdown newsletter"
+                alt="Preview of Yasmin Breakdown newsletter"
                 width={1702}
                 height={630}
                 style={{ width: '100%', height: 'auto', display: 'block' }}

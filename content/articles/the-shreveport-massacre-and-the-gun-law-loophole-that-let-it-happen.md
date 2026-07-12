@@ -121,9 +121,9 @@ We write laws in this country. We vote for people who make those laws. We have t
 
 We have not done these things. And the question that follows is not complicated: how many more children do we have to bury before we stop calling this a tragedy and start calling it what it actually is — a policy choice?
 
-## The Yasmin Breakdown — Where Policy Gets Connected to People
+## Yasmin Breakdown — Where Policy Gets Connected to People
 
-The Yasmin Breakdown exists to connect the dots between what happens in our communities and the systems that either protect us or fail us. Gun violence, domestic violence, and the loopholes that make both more deadly are not separate issues. They are the same issue — and they demand the same sustained attention.
+Yasmin Breakdown exists to connect the dots between what happens in our communities and the systems that either protect us or fail us. Gun violence, domestic violence, and the loopholes that make both more deadly are not separate issues. They are the same issue — and they demand the same sustained attention.
 
 **Support independent Black media that refuses to normalize what is not normal.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations that keep the community informed and activated.
 

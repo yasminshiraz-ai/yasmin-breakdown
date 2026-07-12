@@ -95,7 +95,7 @@ Watch the calls. Track the pattern. And in the meantime, argue with your mama ab
 
 ## Get the Full Breakdown Every Week — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown covers WNBA, Black women in sports, and the cultural and sociological forces that shape how these athletes are received — on the court and off it.
+Yasmin Breakdown covers WNBA, Black women in sports, and the cultural and sociological forces that shape how these athletes are received — on the court and off it.
 
 **Support independent analysis that centers Black women in sports.** Join the Y[asmin Breakdown on Patreon](https://www.patreon.com/c/yasminshiraz) for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
 

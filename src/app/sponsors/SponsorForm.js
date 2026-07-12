@@ -51,7 +51,7 @@ export default function SponsorForm() {
       <div className={styles.successBox}>
         <h3 className={styles.successHeading}>Inquiry Received!</h3>
         <p className={styles.successText}>
-          Thanks for your interest in partnering with The Yasmin Breakdown. We&rsquo;ll be in touch within 2 business days with our media kit and rate card.
+          Thanks for your interest in partnering with Yasmin Breakdown. We&rsquo;ll be in touch within 2 business days with our media kit and rate card.
         </p>
         <button
           className={styles.resetBtn}

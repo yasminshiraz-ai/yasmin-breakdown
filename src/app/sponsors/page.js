@@ -2,8 +2,8 @@ import SponsorForm from './SponsorForm'
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Partner With Us — The Yasmin Breakdown',
-  description: 'Partner with The Yasmin Breakdown and reach a highly engaged, culturally conscious audience.',
+  title: 'Partner With Us — Yasmin Breakdown',
+  description: 'Partner with Yasmin Breakdown and reach a highly engaged, culturally conscious audience.',
 }
 
 const OFFER_ITEMS = [
@@ -21,13 +21,13 @@ export default function SponsorsPage() {
       <div className={styles.container}>
 
         <div className={styles.hero}>
-          <h1 className={styles.heading}>Partner with the Yasmin Breakdown</h1>
+          <h1 className={styles.heading}>Partner with Yasmin Breakdown</h1>
           <p className={styles.subheading}>Reaching the culture. Reaching the conversation.</p>
         </div>
 
         <section className={styles.introSection}>
           <p className={styles.introText}>
-            The Yasmin Breakdown is a premium media brand delivering sociological analysis of hip hop, Black history, sports, and entertainment to a highly engaged, culturally conscious audience.
+            Yasmin Breakdown is a premium media brand delivering sociological analysis of hip hop, Black history, sports, and entertainment to a highly engaged, culturally conscious audience.
           </p>
           <p className={styles.introText}>
             Our audience doesn&rsquo;t just consume content &mdash; they share it, discuss it, and act on it. They are tastemakers, thought leaders, and loyal brand advocates.

@@ -5,7 +5,7 @@ import styles from './page.module.css'
 
 export const metadata = {
   title: 'Videos',
-  description: 'Watch the latest videos from The Yasmin Breakdown.',
+  description: 'Watch the latest videos from Yasmin Breakdown.',
 }
 
 const TOTAL_PAGES = 3

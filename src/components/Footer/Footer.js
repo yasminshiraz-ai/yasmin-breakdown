@@ -79,7 +79,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copy}>
-            &copy; {year} The Yasmin Breakdown. All rights reserved.
+            &copy; {year} Yasmin Breakdown. All rights reserved.
           </p>
           <p className={styles.tagline}>With Sociological Analysis</p>
         </div>

@@ -127,7 +127,7 @@ The lineage is unbroken. The table keeps growing. And the people who want to dis
 
 ## This Is the Analysis Black Women in Sports Deserve — Join the Yasmin Breakdown on Patreon
 
-The Yasmin Breakdown exists to give you the history, the sociology, and the cultural context behind the stories dominating the sports world — with Black women at the center of that conversation, always.
+Yasmin Breakdown exists to give you the history, the sociology, and the cultural context behind the stories dominating the sports world — with Black women at the center of that conversation, always.
 
 **Support independent media that tells this story the way it deserves to be told.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
 

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   const label = CATEGORY_MAP[params.category]
   if (!label) return {}
   return {
-    title: `${label} — The Yasmin Breakdown`,
+    title: `${label} — Yasmin Breakdown`,
     description: `All ${label} breakdowns with sociological analysis by Yasmin Shiraz.`,
   }
 }

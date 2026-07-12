@@ -113,7 +113,7 @@ Power does not give itself up willingly. It never has. And the decision issued o
 >
 > *\[Internal link: Gerrymandering and Black Communities — How Maps Become Weapons]*
 
-## The Yasmin Breakdown — Because This Is Too Important for a Hot Take
+## Yasmin Breakdown — Because This Is Too Important for a Hot Take
 
 The Supreme Court's dismantling of the Voting Rights Act is one of the most consequential civil rights developments in decades. It deserves more than a tweet. It deserves the historical context, the sociological analysis, and the plain-language explanation that makes it possible to understand what is actually at stake.
 

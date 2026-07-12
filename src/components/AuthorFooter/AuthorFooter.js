@@ -5,7 +5,7 @@ import styles from './AuthorFooter.module.css'
 const FALLBACK = {
   slug: 'yasmin-shiraz',
   name: 'Yasmin Shiraz',
-  title: 'Founder, The Yasmin Breakdown',
+  title: 'Founder, Yasmin Breakdown',
   photo: '/images/yasmin-shiraz-writer-producer-sociologist.jpg',
   short_bio: 'Yasmin Shiraz is a bestselling author, journalist, and cultural analyst delivering sociological breakdowns of hip hop, Black history, sports, and entertainment.',
 }

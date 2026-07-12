@@ -93,7 +93,7 @@ That monopoly has always been a myth. And every time an artist like Bad Bunny st
 
 ## Keep Up With the Culture — Join the Yasmin Breakdown on Patreon
 
-This is the kind of analysis you won't get from a sports highlight reel or a three-minute news segment. The Yasmin Breakdown exists to give you the history, the sociology, and the power dynamics behind the stories dominating the cultural conversation.
+This is the kind of analysis you won't get from a sports highlight reel or a three-minute news segment. Yasmin Breakdown exists to give you the history, the sociology, and the power dynamics behind the stories dominating the cultural conversation.
 
 **If this kind of depth matters to you, support independent analysis directly.** Join the Yasmin Breakdown community on Patreon for extended breakdowns, deeper dives, and conversations that go beyond the headlines.
 

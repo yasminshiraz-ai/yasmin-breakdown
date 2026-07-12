@@ -4,7 +4,7 @@ import styles from './page.module.css'
 
 export const metadata = {
   title: 'About',
-  description: 'The Yasmin Breakdown is a media brand built to break down culture, sports, and entertainment with sociological and criminological depth — and to elevate the stories of women who deserve more than a passing mention.',
+  description: 'Yasmin Breakdown is a media brand built to break down culture, sports, and entertainment with sociological and criminological depth — and to elevate the stories of women who deserve more than a passing mention.',
 }
 
 export default function AboutPage() {
@@ -14,17 +14,17 @@ export default function AboutPage() {
 
         {/* 1. Brand intro */}
         <div className={styles.heroText}>
-          <h1 className={styles.heading}>About The Yasmin Breakdown</h1>
+          <h1 className={styles.heading}>About Yasmin Breakdown</h1>
         </div>
 
         <div className={styles.missionSection}>
           <div className={styles.missionGrid}>
             <div className={styles.missionText}>
               <p className={styles.bioParagraph}>
-                The Yasmin Breakdown was created to solve a simple problem: too much of what circulates online about culture, sports, and entertainment is miscommunication dressed up as fact. Half-truths spread faster than context. Narratives get flattened before anyone asks why. The Yasmin Breakdown exists to be a beacon of truth — breaking down the stories everyone&rsquo;s talking about with the sociological and criminological grounding they&rsquo;re rarely given.
+                Yasmin Breakdown was created to solve a simple problem: too much of what circulates online about culture, sports, and entertainment is miscommunication dressed up as fact. Half-truths spread faster than context. Narratives get flattened before anyone asks why. Yasmin Breakdown exists to be a beacon of truth — breaking down the stories everyone&rsquo;s talking about with the sociological and criminological grounding they&rsquo;re rarely given.
               </p>
               <p className={styles.bioParagraph}>
-                But truth-telling is only half the mission. In building this brand, it became impossible to ignore how few real outlets exist for Black women in sports, entertainment, and business to have their stories told with depth and accuracy — rather than reduced to a headline or a soundbite. The Yasmin Breakdown is a media brand built to close that gap: elevating the stories of women whose work and impact too often go under-covered, and doing it through content that creates positive, accurate narratives rather than recycling the same shallow ones.
+                But truth-telling is only half the mission. In building this brand, it became impossible to ignore how few real outlets exist for Black women in sports, entertainment, and business to have their stories told with depth and accuracy — rather than reduced to a headline or a soundbite. Yasmin Breakdown is a media brand built to close that gap: elevating the stories of women whose work and impact too often go under-covered, and doing it through content that creates positive, accurate narratives rather than recycling the same shallow ones.
               </p>
               <p className={styles.bioParagraph}>
                 That&rsquo;s the throughline across every video, article, and live: break down what&rsquo;s actually happening, give credit and context where it&rsquo;s due, and make room for the stories — especially women&rsquo;s stories — that deserve more than a passing mention.
@@ -33,7 +33,7 @@ export default function AboutPage() {
             <div className={styles.heroImageWrap}>
               <Image
                 src="/images/about-hero-viral-moment.png"
-                alt="The Yasmin Breakdown viral video moment on Facebook."
+                alt="Yasmin Breakdown viral video moment on Facebook."
                 width={540}
                 height={600}
                 style={{ width: '100%', height: 'auto', display: 'block' }}
@@ -50,7 +50,7 @@ export default function AboutPage() {
             <div className={styles.founderPhotoWrap}>
               <Image
                 src="/images/yasmin-shiraz-writer-producer-sociologist.jpg"
-                alt="Yasmin Shiraz, founder of The Yasmin Breakdown"
+                alt="Yasmin Shiraz, founder of Yasmin Breakdown"
                 width={400}
                 height={400}
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
@@ -59,7 +59,7 @@ export default function AboutPage() {
             </div>
             <div className={styles.founderBody}>
               <p className={styles.bioParagraph}>
-                The Yasmin Breakdown was founded by Yasmin Shiraz, a professional TV, film, and podcast writer with a background in sociology and criminology. She is the author of the groundbreaking, genre-defining book <em>The Blueprint For My Girls: How To Build A Life Full Of Encouragement, Determination &amp; Self-Love</em> (Simon &amp; Schuster), and the American Library Award&ndash;winning author of <em>Retaliation: A Novel</em>. Her versatile work includes writing for <em>Cold Case Files</em>, producing the award-winning podcasts <em>Killer Psyche</em> and <em>Scamfluencers</em>, as well as founding Mad Rhythms hip hop magazine and creating The How To Get Into The Entertainment Business tour. She created The Yasmin Breakdown to apply that same rigor — asking not just what happened, but why it happened and who it actually affects — to the culture conversations everyone else covers on the surface.
+                Yasmin Breakdown was founded by Yasmin Shiraz, a professional TV, film, and podcast writer with a background in sociology and criminology. She is the author of the groundbreaking, genre-defining book <em>The Blueprint For My Girls: How To Build A Life Full Of Encouragement, Determination &amp; Self-Love</em> (Simon &amp; Schuster), and the American Library Award&ndash;winning author of <em>Retaliation: A Novel</em>. Her versatile work includes writing for <em>Cold Case Files</em>, producing the award-winning podcasts <em>Killer Psyche</em> and <em>Scamfluencers</em>, as well as founding Mad Rhythms hip hop magazine and creating The How To Get Into The Entertainment Business tour. She created Yasmin Breakdown to apply that same rigor — asking not just what happened, but why it happened and who it actually affects — to the culture conversations everyone else covers on the surface.
               </p>
             </div>
           </div>

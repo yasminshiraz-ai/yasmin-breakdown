@@ -118,9 +118,9 @@ But the through line is there. It runs from Daphne Joy's Funky Friday interview 
 
 Naming that pattern is not victim culture. It is sociology. And the data is in plain sight.
 
-## The Yasmin Breakdown — Because Black Women Deserve Analysis, Not Just Apologies
+## Yasmin Breakdown — Because Black Women Deserve Analysis, Not Just Apologies
 
-The Yasmin Breakdown exists to name these patterns clearly, connect them to their historical and sociological roots, and give Black women the cultural analysis that validates what they are already experiencing with their own eyes.
+Yasmin Breakdown exists to name these patterns clearly, connect them to their historical and sociological roots, and give Black women the cultural analysis that validates what they are already experiencing with their own eyes.
 
 **Support independent Black media that centers Black women's full humanity.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations the rest of the internet won't have.
 
