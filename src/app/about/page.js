@@ -39,7 +39,7 @@ export default function AboutPage() {
                 alt="Yasmin Shiraz, founder of The Yasmin Breakdown"
                 width={400}
                 height={400}
-                style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 priority
               />
             </div>

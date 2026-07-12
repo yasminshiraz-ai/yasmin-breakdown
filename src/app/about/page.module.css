@@ -58,13 +58,15 @@
 
 .founderGrid {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 38% 1fr;
   gap: 2.5rem;
-  align-items: start;
+  align-items: center;
 }
 
 .founderPhotoWrap {
-  flex-shrink: 0;
+  height: 440px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .founderBody {
