@@ -78,9 +78,7 @@
   font-size: 0.82rem;
   color: #888888;
   flex-wrap: wrap;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #E8E8E8;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .byline {
@@ -96,7 +94,9 @@
 .authorCredentials {
   font-size: 0.78rem;
   color: #888888;
-  margin-top: 0.3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 1.5rem;
 }
 
 .dot {
