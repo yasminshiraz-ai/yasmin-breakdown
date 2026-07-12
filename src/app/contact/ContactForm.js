@@ -3,6 +3,9 @@ import { useState } from 'react'
 import styles from './page.module.css'
 
 const SUBJECTS = [
+  'Story Suggestion',
+  'Media Inquiry',
+  'Advertising Inquiry',
   'General Inquiry',
   'Press & Media',
   'Sponsorship',
@@ -10,9 +13,13 @@ const SUBJECTS = [
   'Other',
 ]
 
-const EMPTY = { name: '', email: '', subject: SUBJECTS[0], message: '', _honey: '' }
+export default function ContactForm({ heading, defaultSubject }) {
+  const initialSubject = (defaultSubject && SUBJECTS.includes(defaultSubject))
+    ? defaultSubject
+    : SUBJECTS[3] // 'General Inquiry'
 
-export default function ContactForm() {
+  const EMPTY = { name: '', email: '', subject: initialSubject, message: '', _honey: '' }
+
   const [status, setStatus] = useState('idle') // idle | submitting | success | error
   const [fields, setFields] = useState(EMPTY)
 
@@ -54,90 +61,94 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form} noValidate>
+    <>
+      {heading && <h2 className={styles.formHeading}>{heading}</h2>}
 
-      {/* Honeypot — hidden from humans, filled by bots */}
-      <input
-        type="text"
-        name="_honey"
-        value={fields._honey}
-        onChange={handleChange}
-        tabIndex="-1"
-        autoComplete="off"
-        aria-hidden="true"
-        style={{ position: 'absolute', opacity: 0, top: '-9999px', left: '-9999px', width: '1px', height: '1px' }}
-      />
+      <form onSubmit={handleSubmit} className={styles.form} noValidate>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="name">Name</label>
+        {/* Honeypot — hidden from humans, filled by bots */}
         <input
-          id="name"
-          name="name"
           type="text"
-          required
-          value={fields.name}
+          name="_honey"
+          value={fields._honey}
           onChange={handleChange}
-          className={styles.input}
-          placeholder="Your full name"
+          tabIndex="-1"
+          autoComplete="off"
+          aria-hidden="true"
+          style={{ position: 'absolute', opacity: 0, top: '-9999px', left: '-9999px', width: '1px', height: '1px' }}
         />
-      </div>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="email">Email</label>
-        <input
-          id="email"
-          name="email"
-          type="email"
-          required
-          value={fields.email}
-          onChange={handleChange}
-          className={styles.input}
-          placeholder="your@email.com"
-        />
-      </div>
+        <div className={styles.field}>
+          <label className={styles.label} htmlFor="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            value={fields.name}
+            onChange={handleChange}
+            className={styles.input}
+            placeholder="Your full name"
+          />
+        </div>
 
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="subject">Subject</label>
-        <select
-          id="subject"
-          name="subject"
-          value={fields.subject}
-          onChange={handleChange}
-          className={styles.select}
+        <div className={styles.field}>
+          <label className={styles.label} htmlFor="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            value={fields.email}
+            onChange={handleChange}
+            className={styles.input}
+            placeholder="your@email.com"
+          />
+        </div>
+
+        <div className={styles.field}>
+          <label className={styles.label} htmlFor="subject">Subject</label>
+          <select
+            id="subject"
+            name="subject"
+            value={fields.subject}
+            onChange={handleChange}
+            className={styles.select}
+          >
+            {SUBJECTS.map(s => (
+              <option key={s} value={s}>{s}</option>
+            ))}
+          </select>
+        </div>
+
+        <div className={styles.field}>
+          <label className={styles.label} htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            value={fields.message}
+            onChange={handleChange}
+            className={styles.textarea}
+            placeholder="Tell us what's on your mind..."
+            rows={6}
+          />
+        </div>
+
+        {status === 'error' && (
+          <p className={styles.errorMsg}>
+            Something went wrong. Please try again.
+          </p>
+        )}
+
+        <button
+          type="submit"
+          className={styles.submitBtn}
+          disabled={status === 'submitting'}
         >
-          {SUBJECTS.map(s => (
-            <option key={s} value={s}>{s}</option>
-          ))}
-        </select>
-      </div>
-
-      <div className={styles.field}>
-        <label className={styles.label} htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          required
-          value={fields.message}
-          onChange={handleChange}
-          className={styles.textarea}
-          placeholder="Tell us what's on your mind..."
-          rows={6}
-        />
-      </div>
-
-      {status === 'error' && (
-        <p className={styles.errorMsg}>
-          Something went wrong. Please try again.
-        </p>
-      )}
-
-      <button
-        type="submit"
-        className={styles.submitBtn}
-        disabled={status === 'submitting'}
-      >
-        {status === 'submitting' ? 'Sending…' : 'Send Message'}
-      </button>
-    </form>
+          {status === 'submitting' ? 'Sending…' : 'Send Message'}
+        </button>
+      </form>
+    </>
   )
 }

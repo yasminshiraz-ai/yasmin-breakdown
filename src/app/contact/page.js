@@ -6,7 +6,15 @@ export const metadata = {
   description: 'Get in touch with The Yasmin Breakdown.',
 }
 
-export default function ContactPage() {
+const TYPE_CONFIG = {
+  'story-suggestion':   { heading: 'Story Suggestion',   defaultSubject: 'Story Suggestion' },
+  'media-inquiry':      { heading: 'Media Inquiry',       defaultSubject: 'Media Inquiry' },
+  'advertising-inquiry':{ heading: 'Advertising Inquiry', defaultSubject: 'Advertising Inquiry' },
+}
+
+export default function ContactPage({ searchParams }) {
+  const config = TYPE_CONFIG[searchParams?.type] || {}
+
   return (
     <div className={styles.page}>
       <div className={styles.container}>
@@ -14,7 +22,7 @@ export default function ContactPage() {
 
         <div className={styles.layout}>
           <div className={styles.formCol}>
-            <ContactForm />
+            <ContactForm heading={config.heading} defaultSubject={config.defaultSubject} />
           </div>
 
           <div className={styles.infoCol}>
