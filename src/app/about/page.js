@@ -22,8 +22,8 @@ export default function AboutPage() {
             <Image
               src="/images/about-hero-viral-moment.png"
               alt="The Yasmin Breakdown viral video moment on Facebook."
-              width={1290}
-              height={2022}
+              width={540}
+              height={600}
               style={{ width: '100%', height: 'auto', display: 'block' }}
               priority
             />
