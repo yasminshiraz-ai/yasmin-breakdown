@@ -68,6 +68,23 @@
   color: #333333;
 }
 
+/* ── Founder section ── */
+.founderSection {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.founderHeading {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #0A0A0A;
+  margin-bottom: 1.25rem;
+}
+
 /* ── Social links ── */
 .social {
   border-top: 1px solid #E8E8E8;

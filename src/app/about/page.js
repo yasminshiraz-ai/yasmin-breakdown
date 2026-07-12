@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export const metadata = {
   title: 'About',
-  description: 'Learn about Yasmin Shiraz and The Yasmin Breakdown — sociological analysis of culture, sports, music, and relationships.',
+  description: 'The Yasmin Breakdown is a media brand built to break down culture, sports, and entertainment with sociological and criminological depth — and to elevate the stories of women who deserve more than a passing mention.',
 }
 
 export default function AboutPage() {
@@ -11,18 +11,15 @@ export default function AboutPage() {
     <div className={styles.page}>
       <div className={styles.container}>
 
-        {/* Hero heading */}
         <div className={styles.heroText}>
           <h1 className={styles.heading}>About The Yasmin Breakdown</h1>
-          <p className={styles.subheading}>With Sociological Analysis</p>
         </div>
 
-        {/* Two-column: photo + bio */}
         <div className={styles.bio}>
           <div className={styles.photoWrap}>
             <Image
               src="/images/yasmin-shiraz-writer-producer-sociologist.jpg"
-              alt="Yasmin Shiraz, television writer, producer, and sociologist,"
+              alt="Yasmin Shiraz, founder of The Yasmin Breakdown"
               width={400}
               height={400}
               style={{ width: '100%', height: 'auto', borderRadius: '4px' }}
@@ -32,21 +29,24 @@ export default function AboutPage() {
 
           <div className={styles.bioText}>
             <p className={styles.bioParagraph}>
-              Yasmin Shiraz is a television writer, producer, author, and sociologist whose work sits at the intersection of pop culture and social analysis. As the creator of The Yasmin Breakdown, she brings a rare combination of academic rigor and industry insider experience to conversations about hip hop, Black history, sports, and entertainment — helping audiences understand the patterns and power structures behind the headlines.
+              The Yasmin Breakdown was created to solve a simple problem: too much of what circulates online about culture, sports, and entertainment is miscommunication dressed up as fact. Half-truths spread faster than context. Narratives get flattened before anyone asks why. The Yasmin Breakdown exists to be a beacon of truth — breaking down the stories everyone&rsquo;s talking about with the sociological and criminological grounding they&rsquo;re rarely given.
             </p>
             <p className={styles.bioParagraph}>
-              Yasmin&rsquo;s path to cultural analysis began in the newsroom of her own making: in the late 1990s, she founded Mad Rhythms, a hip hop magazine that built a substantial readership before she closed it at the height of its success to raise her family with her husband. She went on to write for television, including true crime staple Cold Case Files, sharpening a storytelling instinct that now shapes every breakdown she publishes.
+              But truth-telling is only half the mission. In building this brand, it became impossible to ignore how few real outlets exist for Black women in sports, entertainment, and business to have their stories told with depth and accuracy — rather than reduced to a headline or a soundbite. The Yasmin Breakdown is a media brand built to close that gap: elevating the stories of women whose work and impact too often go under-covered, and doing it through content that creates positive, accurate narratives rather than recycling the same shallow ones.
             </p>
             <p className={styles.bioParagraph}>
-              Her academic foundation — undergraduate and graduate degrees in sociology and criminology — gives her commentary a depth that goes beyond hot takes. Whether she&rsquo;s unpacking a WNBA controversy, tracing the history behind a viral moment, or examining Black fatherhood and voting rights, Yasmin&rsquo;s work asks the sociological question: what does this really tell us about who we are?
-            </p>
-            <p className={styles.bioParagraph}>
-              Yasmin is also an author of multiple books, including American Library Award-winning nonfiction and Amazon bestsellers, and has built a career as a speaker and podcast producer. Today, through The Yasmin Breakdown — spanning YouTube, podcast, and this platform — she continues the work she&rsquo;s always done: taking culture apart, piece by piece, so we can see it clearly.
+              That&rsquo;s the throughline across every video, article, and live: break down what&rsquo;s actually happening, give credit and context where it&rsquo;s due, and make room for the stories — especially women&rsquo;s stories — that deserve more than a passing mention.
             </p>
           </div>
         </div>
 
-        {/* Social links */}
+        <div className={styles.founderSection}>
+          <h2 className={styles.founderHeading}>About the founder</h2>
+          <p className={styles.bioParagraph}>
+            The Yasmin Breakdown was founded by Yasmin Shiraz, a professional TV, film, and podcast writer with a background in sociology and criminology. She is the author of the groundbreaking, genre-defining book <em>The Blueprint For My Girls: How To Build A Life Full Of Encouragement, Determination &amp; Self-Love</em> (Simon &amp; Schuster), and the American Library Award&ndash;winning author of <em>Retaliation: A Novel</em>. Her versatile work includes writing for <em>Cold Case Files</em>, producing the award-winning podcasts <em>Killer Psyche</em> and <em>Scamfluencers</em>, as well as founding Mad Rhythms hip hop magazine and creating The How To Get Into The Entertainment Business tour. She created The Yasmin Breakdown to apply that same rigor — asking not just what happened, but why it happened and who it actually affects — to the culture conversations everyone else covers on the surface.
+          </p>
+        </div>
+
         <div className={styles.social}>
           <h2 className={styles.socialHeading}>Follow the Breakdown</h2>
           <div className={styles.socialLinks}>
@@ -64,25 +64,22 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className={styles.socialBtn}
             >
-              {/* Replace href with Yasmin's Instagram URL */}
               Instagram
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/yasminshiraz"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialBtn}
             >
-              {/* Replace href with Yasmin's Facebook URL */}
               Facebook
             </a>
             <a
-              href="#"
+              href="https://podcasts.apple.com/us/podcast/the-yasmin-breakdown/id1884706158"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialBtn}
             >
-              {/* Replace href with Yasmin's Podcast URL */}
               Podcast
             </a>
           </div>
