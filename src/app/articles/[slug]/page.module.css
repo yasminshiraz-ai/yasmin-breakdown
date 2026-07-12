@@ -86,6 +86,17 @@
 .byline {
   color: var(--color-primary);
   font-weight: 600;
+  text-decoration: none;
+}
+
+.byline:hover {
+  text-decoration: underline;
+}
+
+.authorCredentials {
+  font-size: 0.78rem;
+  color: #888888;
+  margin-top: 0.3rem;
 }
 
 .dot {

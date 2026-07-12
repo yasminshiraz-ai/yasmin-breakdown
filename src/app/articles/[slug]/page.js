@@ -7,6 +7,7 @@ import AuthorFooter from '@/components/AuthorFooter/AuthorFooter'
 import AdSlot from '@/components/AdSlot/AdSlot'
 import ShareButtons from '@/components/ShareButtons/ShareButtons'
 import { getArticleContent, getAllArticles } from '@/lib/articles'
+import { getAuthorBySlug } from '@/lib/authors'
 import styles from './page.module.css'
 
 export const dynamicParams = false
@@ -119,6 +120,9 @@ export default async function ArticlePage({ params }) {
     })
     .slice(0, 3)
 
+  const authorSlug = article.author || 'yasmin-shiraz'
+  const author = getAuthorBySlug(authorSlug)
+
   const categorySlug = CATEGORY_SLUG_MAP[article.category] || ''
   const contentWithAd = injectAdAfterP2(article.contentHtml)
   const embedUrl = getYouTubeEmbedUrl(article.videoUrl)
@@ -151,7 +155,9 @@ export default async function ArticlePage({ params }) {
               <p className={styles.dek}>{article.description}</p>
             )}
             <div className={styles.meta}>
-              <span className={styles.byline}>By Yasmin Shiraz</span>
+              <Link href={`/author/${authorSlug}`} className={styles.byline}>
+                By {author?.name || 'Yasmin Shiraz'}
+              </Link>
               <span className={styles.dot}>·</span>
               <time dateTime={article.date}>{formatDate(article.date)}</time>
               {article.readingTime && (
@@ -161,6 +167,11 @@ export default async function ArticlePage({ params }) {
                 </>
               )}
             </div>
+            {author?.credentials && author.credentials.length > 0 && (
+              <p className={styles.authorCredentials}>
+                {author.credentials.slice(0, 2).join(' · ')}
+              </p>
+            )}
           </header>
 
           {article.featuredImage && (
@@ -233,7 +244,7 @@ export default async function ArticlePage({ params }) {
           <AdSlot slot="above-footer" />
         </article>
 
-        <AuthorFooter />
+        <AuthorFooter author={author} />
 
         <Newsletter />
       </div>

@@ -12,6 +12,83 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "authors"
+    label: "Authors"
+    label_singular: "Author"
+    folder: "content/authors"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "name"
+    summary: "{{name}}"
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL identifier — used for /author/[slug]. Lowercase letters and hyphens only."
+        pattern:
+          - "^[a-z0-9-]+$"
+          - "Lowercase letters, numbers, and hyphens only"
+
+      - label: "Photo"
+        name: "photo"
+        widget: "image"
+        required: false
+        hint: "Square crop recommended, minimum 160×160px."
+        media_library:
+          config:
+            multiple: false
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: false
+        hint: "e.g. Founder, The Yasmin Breakdown"
+
+      - label: "Short Bio"
+        name: "short_bio"
+        widget: "text"
+        required: false
+        hint: "2–3 sentences — shown in the author box at the bottom of articles."
+
+      - label: "Full Bio"
+        name: "body"
+        widget: "markdown"
+        required: false
+        hint: "Longer bio shown on the /author/[slug] page. Supports markdown formatting."
+
+      - label: "Credentials"
+        name: "credentials"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "e.g. Sociology & criminology background, Cold Case Files writer"
+        field:
+          name: credential
+          label: Credential
+          widget: string
+
+      - label: "Social Links"
+        name: "social_links"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Platform"
+            name: "platform"
+            widget: "string"
+            hint: "e.g. Instagram, Twitter, Facebook"
+          - label: "URL"
+            name: "url"
+            widget: "string"
+
+      - label: "Contact Email"
+        name: "contact_email"
+        widget: "string"
+        required: false
+
   - name: "articles"
     label: "Articles"
     label_singular: "Article"
@@ -116,3 +193,14 @@ collections:
           name: tag
           label: Tag
           widget: string
+
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["name"]
+        value_field: "slug"
+        display_fields: ["name"]
+        default: "yasmin-shiraz"
+        required: false
+        hint: "Defaults to Yasmin Shiraz if left blank."

@@ -1,4 +1,5 @@
 import { getAllArticles } from '@/lib/articles'
+import { getAllAuthors } from '@/lib/authors'
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://yasminbreakdown.com'
 
@@ -47,5 +48,13 @@ export default function sitemap() {
     priority: 0.7,
   }))
 
-  return [...staticEntries, ...categoryEntries, ...articleEntries]
+  const authors = getAllAuthors()
+  const authorEntries = authors.map(author => ({
+    url: `${SITE_URL}/author/${author.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }))
+
+  return [...staticEntries, ...categoryEntries, ...articleEntries, ...authorEntries]
 }

@@ -129,3 +129,7 @@ export function getAllTags() {
   getAllArticles().forEach(a => a.tags.forEach(t => tags.add(t)))
   return Array.from(tags)
 }
+
+export function getArticlesByAuthor(slug) {
+  return getAllArticles().filter(a => (a.author || 'yasmin-shiraz') === slug)
+}
