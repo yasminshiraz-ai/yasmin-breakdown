@@ -8,6 +8,7 @@ import AdSlot from '@/components/AdSlot/AdSlot'
 import ShareButtons from '@/components/ShareButtons/ShareButtons'
 import { getArticleContent, getAllArticles } from '@/lib/articles'
 import { getAuthorBySlug } from '@/lib/authors'
+import InArticleBanner from '@/components/InArticleBanner/InArticleBanner'
 import styles from './page.module.css'
 
 export const dynamicParams = false
@@ -129,10 +130,17 @@ export default async function ArticlePage({ params }) {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   const articleUrl = `${siteUrl}/articles/${params.slug}`
 
-  let bodyBefore = contentWithAd
-  let bodyAfter = ''
+  // Split at midpoint for the in-article Patreon banner
+  const totalParagraphs = (contentWithAd.match(/<\/p>/g) || []).length
+  const midpoint = Math.max(3, Math.floor(totalParagraphs / 2))
+  const [bodyPart1, bodyPart2] = splitAtParagraph(contentWithAd, midpoint)
+
+  // For video articles: embed goes within the first half, after up to 4 paragraphs
+  let bodyPart1a = bodyPart1
+  let bodyPart1b = ''
   if (embedUrl) {
-    ;[bodyBefore, bodyAfter] = splitAtParagraph(contentWithAd, 4)
+    const embedAt = Math.min(4, midpoint)
+    ;[bodyPart1a, bodyPart1b] = splitAtParagraph(bodyPart1, embedAt)
   }
 
   return (
@@ -189,7 +197,7 @@ export default async function ArticlePage({ params }) {
 
           <div
             className={styles.body}
-            dangerouslySetInnerHTML={{ __html: bodyBefore }}
+            dangerouslySetInnerHTML={{ __html: bodyPart1a }}
           />
 
           {embedUrl && (
@@ -204,12 +212,19 @@ export default async function ArticlePage({ params }) {
             </div>
           )}
 
-          {bodyAfter && (
+          {bodyPart1b && (
             <div
               className={styles.body}
-              dangerouslySetInnerHTML={{ __html: bodyAfter }}
+              dangerouslySetInnerHTML={{ __html: bodyPart1b }}
             />
           )}
+
+          <InArticleBanner patreonUrl="https://patreon.com/c/yasminshiraz" />
+
+          <div
+            className={styles.body}
+            dangerouslySetInnerHTML={{ __html: bodyPart2 }}
+          />
 
           <AuthorFooter author={author} />
 
