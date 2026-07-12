@@ -23,6 +23,7 @@
   flex-direction: column;
   gap: 3px;
   min-width: 0;
+  flex: 1;
 }
 
 .brandRow {
@@ -102,16 +103,25 @@
 }
 
 @media (max-width: 600px) {
+  .banner {
+    padding: 10px var(--gutter);
+  }
+
   .sub {
     display: none;
   }
 
   .headline {
     font-size: 0.82rem;
+    white-space: normal;
+  }
+
+  .patreonLogo {
+    width: 24px;
   }
 
   .btn {
     font-size: 0.72rem;
-    padding: 8px 16px;
+    padding: 8px 14px;
   }
 }
