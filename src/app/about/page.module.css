@@ -185,6 +185,7 @@
 
   .heroImageWrap {
     margin: 0 auto;
+    order: -1;
   }
 }
 
