@@ -26,8 +26,8 @@ const COMPANY_LINKS = [
 const SOCIAL = [
   { label: 'YouTube', href: 'https://www.youtube.com/@YasminShiraz', Icon: FaYoutube },
   { label: 'Facebook', href: 'https://www.facebook.com/yasminshiraz', Icon: FaFacebook },
-  { label: 'Instagram', href: 'https://www.instagram.com/empowerwithyasmin', Icon: FaInstagram },
-  { label: 'Threads', href: 'https://www.threads.com/empowerwithyasmin', Icon: FaThreads },
+  { label: 'Instagram', href: 'https://www.instagram.com/yasminbreakdown', Icon: FaInstagram },
+  { label: 'Threads', href: 'https://www.threads.net/@yasminbreakdown', Icon: FaThreads },
   { label: 'Patreon', href: 'https://www.patreon.com/c/yasminshiraz', Icon: FaPatreon },
   { label: 'Apple Podcasts', href: 'https://podcasts.apple.com/us/podcast/the-yasmin-breakdown/id1884706158', Icon: SiApplepodcasts },
 ]

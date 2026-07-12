@@ -11,7 +11,7 @@ credentials:
   - Founder of Mad Rhythms hip hop magazine
 social_links:
   - platform: Instagram
-    url: https://www.instagram.com/empowerwithyasmin
+    url: https://www.instagram.com/yasminbreakdown
 contact_email: ""
 ---
 

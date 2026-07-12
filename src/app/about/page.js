@@ -59,7 +59,7 @@ export default function AboutPage() {
               YouTube
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/yasminbreakdown"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialBtn}
