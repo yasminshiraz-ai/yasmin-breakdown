@@ -211,18 +211,9 @@ export default async function ArticlePage({ params }) {
             />
           )}
 
-          <RelatedArticles articles={related} />
+          <AuthorFooter author={author} />
 
-          <div className={styles.patreonCta}>
-            <a
-              href="https://patreon.com/c/yasminshiraz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.patreonLink}
-            >
-              Join Patreon
-            </a>
-          </div>
+          <AdSlot slot="above-footer" />
 
           {article.tags && article.tags.length > 0 && (
             <div className={styles.tagsSection}>
@@ -241,10 +232,19 @@ export default async function ArticlePage({ params }) {
             </div>
           )}
 
-          <AdSlot slot="above-footer" />
-        </article>
+          <div className={styles.patreonCta}>
+            <a
+              href="https://patreon.com/c/yasminshiraz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.patreonLink}
+            >
+              Join Patreon
+            </a>
+          </div>
 
-        <AuthorFooter author={author} />
+          <RelatedArticles articles={related} />
+        </article>
 
         <Newsletter />
       </div>
