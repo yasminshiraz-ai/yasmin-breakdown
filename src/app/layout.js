@@ -49,7 +49,7 @@ export async function generateMetadata() {
 export default async function RootLayout({ children }) {
   const articles = getAllArticles()
   const tickerHeadlines = articles.slice(0, 8).map(a => a.title)
-  const patreonUrl = process.env.PATREON_URL || '#'
+  const patreonUrl = process.env.PATREON_URL || 'https://patreon.com/c/yasminshiraz'
 
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>

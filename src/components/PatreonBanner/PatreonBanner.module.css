@@ -1,36 +1,103 @@
 .banner {
-  background: var(--color-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 1rem var(--gutter);
-  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: #141414;
+  border-top: 1px solid #2c2c2c;
+  padding: 14px var(--gutter);
 }
 
-.text {
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.headline {
   font-family: var(--font-headline);
-  font-weight: 900;
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--color-primary);
   text-transform: uppercase;
-  color: #fff;
+  letter-spacing: 0.05em;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.sub {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .btn {
-  background: var(--color-accent);
-  color: #000;
+  background: var(--color-primary);
+  color: #ffffff;
   font-family: var(--font-headline);
-  font-weight: 900;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  padding: 8px 22px;
-  transition: opacity 0.15s;
+  padding: 10px 22px;
+  border-radius: 100px;
   white-space: nowrap;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
 }
 
 .btn:hover {
   opacity: 0.85;
-  color: #000;
+  color: #ffffff;
+}
+
+.dismiss {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  transition: color 0.15s ease;
+  flex-shrink: 0;
+}
+
+.dismiss:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 600px) {
+  .sub {
+    display: none;
+  }
+
+  .headline {
+    font-size: 0.82rem;
+  }
+
+  .btn {
+    font-size: 0.72rem;
+    padding: 8px 16px;
+  }
 }

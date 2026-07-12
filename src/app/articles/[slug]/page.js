@@ -232,17 +232,6 @@ export default async function ArticlePage({ params }) {
             </div>
           )}
 
-          <div className={styles.patreonCta}>
-            <a
-              href="https://patreon.com/c/yasminshiraz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.patreonLink}
-            >
-              Join Patreon
-            </a>
-          </div>
-
           <RelatedArticles articles={related} />
         </article>
 
