@@ -18,25 +18,29 @@ export default function AboutPage() {
         </div>
 
         <div className={styles.missionSection}>
-          <div className={styles.heroImageWrap}>
-            <Image
-              src="/images/about-hero-viral-moment.png"
-              alt="The Yasmin Breakdown viral video moment on Facebook."
-              width={540}
-              height={600}
-              style={{ width: '100%', height: 'auto', display: 'block' }}
-              priority
-            />
+          <div className={styles.missionGrid}>
+            <div className={styles.missionText}>
+              <p className={styles.bioParagraph}>
+                The Yasmin Breakdown was created to solve a simple problem: too much of what circulates online about culture, sports, and entertainment is miscommunication dressed up as fact. Half-truths spread faster than context. Narratives get flattened before anyone asks why. The Yasmin Breakdown exists to be a beacon of truth — breaking down the stories everyone&rsquo;s talking about with the sociological and criminological grounding they&rsquo;re rarely given.
+              </p>
+              <p className={styles.bioParagraph}>
+                But truth-telling is only half the mission. In building this brand, it became impossible to ignore how few real outlets exist for Black women in sports, entertainment, and business to have their stories told with depth and accuracy — rather than reduced to a headline or a soundbite. The Yasmin Breakdown is a media brand built to close that gap: elevating the stories of women whose work and impact too often go under-covered, and doing it through content that creates positive, accurate narratives rather than recycling the same shallow ones.
+              </p>
+              <p className={styles.bioParagraph}>
+                That&rsquo;s the throughline across every video, article, and live: break down what&rsquo;s actually happening, give credit and context where it&rsquo;s due, and make room for the stories — especially women&rsquo;s stories — that deserve more than a passing mention.
+              </p>
+            </div>
+            <div className={styles.heroImageWrap}>
+              <Image
+                src="/images/about-hero-viral-moment.png"
+                alt="The Yasmin Breakdown viral video moment on Facebook."
+                width={540}
+                height={600}
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                priority
+              />
+            </div>
           </div>
-          <p className={styles.bioParagraph}>
-            The Yasmin Breakdown was created to solve a simple problem: too much of what circulates online about culture, sports, and entertainment is miscommunication dressed up as fact. Half-truths spread faster than context. Narratives get flattened before anyone asks why. The Yasmin Breakdown exists to be a beacon of truth — breaking down the stories everyone&rsquo;s talking about with the sociological and criminological grounding they&rsquo;re rarely given.
-          </p>
-          <p className={styles.bioParagraph}>
-            But truth-telling is only half the mission. In building this brand, it became impossible to ignore how few real outlets exist for Black women in sports, entertainment, and business to have their stories told with depth and accuracy — rather than reduced to a headline or a soundbite. The Yasmin Breakdown is a media brand built to close that gap: elevating the stories of women whose work and impact too often go under-covered, and doing it through content that creates positive, accurate narratives rather than recycling the same shallow ones.
-          </p>
-          <p className={styles.bioParagraph}>
-            That&rsquo;s the throughline across every video, article, and live: break down what&rsquo;s actually happening, give credit and context where it&rsquo;s due, and make room for the stories — especially women&rsquo;s stories — that deserve more than a passing mention.
-          </p>
         </div>
 
         {/* 2. About the founder — photo alongside text */}

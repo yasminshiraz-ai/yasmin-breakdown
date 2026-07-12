@@ -23,17 +23,26 @@
   margin-bottom: 0.5rem;
 }
 
-/* ── Brand mission (full-width) ── */
+/* ── Brand mission ── */
 .missionSection {
+  margin-bottom: 3.5rem;
+}
+
+.missionGrid {
+  display: grid;
+  grid-template-columns: 1fr 540px;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.missionText {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  margin-bottom: 3.5rem;
 }
 
 .heroImageWrap {
   max-width: 540px;
-  margin: 0 auto 1.5rem;
 }
 
 /* ── Shared paragraph style ── */
@@ -169,6 +178,16 @@
 }
 
 /* ── Responsive ── */
+@media (max-width: 980px) {
+  .missionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroImageWrap {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 900px) {
   .founderGrid {
     grid-template-columns: 1fr;
