@@ -24,8 +24,16 @@ export default function PatreonBanner({ patreonUrl = 'https://patreon.com/c/yasm
     <div className={styles.banner} role="complementary" aria-label="Patreon membership">
       <div className={styles.inner}>
         <div className={styles.copy}>
-          <p className={styles.headline}>Get more from Yasmin Breakdown</p>
-          <p className={styles.sub}>Access exclusive benefits starting at $5/month</p>
+          <div className={styles.brandRow}>
+            <img
+              src="/images/patreon-symbol.png"
+              alt=""
+              aria-hidden="true"
+              className={styles.patreonLogo}
+            />
+            <p className={styles.headline}>Get more from Yasmin Breakdown</p>
+          </div>
+          <p className={styles.sub}>Join our Patreon for exclusive content starting at $5/month</p>
         </div>
         <div className={styles.actions}>
           <a

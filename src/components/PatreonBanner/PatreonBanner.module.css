@@ -25,6 +25,20 @@
   min-width: 0;
 }
 
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.patreonLogo {
+  width: 36px;
+  height: auto;
+  flex-shrink: 0;
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+
 .headline {
   font-family: var(--font-headline);
   font-weight: 800;
