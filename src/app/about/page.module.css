@@ -31,6 +31,11 @@
   margin-bottom: 3.5rem;
 }
 
+.heroImageWrap {
+  max-width: 540px;
+  margin: 0 auto 1.5rem;
+}
+
 /* ── Shared paragraph style ── */
 .bioParagraph {
   font-family: var(--font-body);
