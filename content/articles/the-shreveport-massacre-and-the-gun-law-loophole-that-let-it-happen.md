@@ -89,7 +89,7 @@ Perpetrators of familicide often present publicly as loving parents — because 
 
 This is why it is critically important — for every parent, every family member, every person in a relationship — to understand the difference between a partner who loves you and a partner who controls you. Controlling behavior is not love. And it does not stay at the level of pinches and criticism. It graduates.
 
-> *\[Internal link: Narcissistic Abuse and Controlling Behavior — What It Looks Like Before It Turns Violent]*
+> [iShowSpeed vs. Argentina Fans: Inside the World Cup Racism Scandal FIFA Can't Ignore](https://yasminbreakdown.com/articles/ishowspeed-vs-argentina-fans-inside-the-world-cup-racism-scandal-fifa-cant-ignore)
 
 ## Mike Johnson Called It a Tragedy — But His Voting Record Helped Create It
 
