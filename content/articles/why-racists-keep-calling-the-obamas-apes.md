@@ -57,9 +57,7 @@ This saturation mattered. Generations of Americans grew up consuming imagery tha
 
 The ape trope fed lynching culture directly. Mobs felt justified in their torture and killings because the cultural messaging they had absorbed told them their victims weren't fully human. Photographs of lynchings were turned into postcards — souvenirs — because the people responsible didn't feel they had done anything monstrous. They had been conditioned not to.
 
-> *\[Internal link: The History of Minstrelsy and How It Shaped How America Sees Black People]*
->
-> *\[Internal link: Mass Incarceration and the Dehumanization of Black Men in America]*
+> The Supreme Court Just gutted the voting rights act and Black voters will pay the price. 
 
 ## Why the Obamas Specifically Trigger This Response
 
