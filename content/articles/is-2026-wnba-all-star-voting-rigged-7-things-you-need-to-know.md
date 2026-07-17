@@ -18,7 +18,7 @@ All-Star voting is supposed to be a scoreboard — a clean read on who earned it
 
 ## 1. No Atlanta Dream Starters, Then a Sudden Reversal
 
-The Atlanta Dream held a 12-7 record when All-Star starter voting closed — one of the better marks in the league. Yet not a single Dream player was named a starter. Days later, when the reserves (selected entirely by head coaches) were announced, three Dream players suddenly made the cut: Rhyne Howard, Angel Reese, and Allisha Gray. \[Internal link: Atlanta Dream season coverage]
+The Atlanta Dream held a 12-7 record when All-Star starter voting closed — one of the better marks in the league. Yet not a single Dream player was named a starter. Days later, when the reserves (selected entirely by head coaches) were announced, three Dream players suddenly made the cut: Rhyne Howard, Angel Reese, and Allisha Gray. 
 
 Was that a legitimate coaches' read on talent the fan/media vote missed, or does it expose a gap between who's actually performing and who the starter-vote process rewards? Worth sitting with.
 
@@ -30,7 +30,9 @@ Alyssa Thomas leads the entire WNBA in assists at 8.3–8.4 per game. She's a si
 
 Here's the part that's harder to ignore. Thomas is also the player at the center of the June 24 incident in which she made contact with Caitlin Clark's throat during a Mercury-Fever game. The play was upgraded after the fact to a flagrant foul and Thomas was suspended one game for what the league called recklessly making contact with her fist. The fallout escalated well beyond the court: 11 members of the House Republican Study Committee sent a letter to WNBA Commissioner Cathy Engelbert demanding answers, and Thomas has said publicly that she's received death threats since the incident, per [NBC 5 Dallas-Fort Worth](https://www.nbcdfw.com/wnba/congress-letter-fouls-caitlin-clark/4047490/).
 
-To be clear: there's no confirmed evidence linking the incident to her All-Star snub. But the league's assist leader going from six-time All-Star to zero All-Star recognition, in the same summer she became the center of a congressional letter and a suspension — the timing alone raises fair questions. \[Internal link: Caitlin Clark coverage hub]
+To be clear: there's no confirmed evidence linking the incident to her All-Star snub. But the league's assist leader going from six-time All-Star to zero All-Star recognition, in the same summer she became the center of a congressional letter and a suspension — the timing alone raises fair questions. 
+
+> ##### [The WNBA Is Cooked: 10 Stories That Prove the League Has a Officiating Problem](https://yasminbreakdown.com/articles/the-wnba-is-cooked-10-stories-that-prove-the-league-has-a-officiating-problem)
 
 ## 4. The Other Snubs Piling Up
 
@@ -38,7 +40,9 @@ Thomas wasn't the only statistically strong player left home. Brittney Sykes pos
 
 ## 5. The Surprise Selections Raising Eyebrows
 
-On the flip side, a few selections surprised even close followers of the process. Dominique Malonga earned her first-ever All-Star nod as a second-year player — a pick that reportedly wasn't even on some analysts' master lists heading into the vote. Marina Mabrey became the first-ever All-Star in Toronto Tempo franchise history. Neither pick is a knock on the player — both are having strong seasons — but their selections raise a real question: what is the voting process actually optimizing for? Production? Storylines? Team representation? It's not entirely clear. \[Internal link: WNBA expansion team coverage]
+On the flip side, a few selections surprised even close followers of the process. Dominique Malonga earned her first-ever All-Star nod as a second-year player — a pick that reportedly wasn't even on some analysts' master lists heading into the vote. Marina Mabrey became the first-ever All-Star in Toronto Tempo franchise history. Neither pick is a knock on the player — both are having strong seasons — but their selections raise a real question: what is the voting process actually optimizing for? Production? Storylines? Team representation? It's not entirely clear. 
+
+> ##### [Angel Reese Makes WNBA History With 1,000 Rebounds: But the Flagrant Foul Call Raises Serious Questions](https://yasminbreakdown.com/articles/angel-reese-makes-wnba-history-with-1-000-rebounds-but-the-flagrant-foul-call-raises-serious-questions)
 
 ## 6. The Caitlin Clark Player-Vote Backlash
 
