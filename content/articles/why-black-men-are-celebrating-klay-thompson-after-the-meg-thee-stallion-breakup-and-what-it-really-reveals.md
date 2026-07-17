@@ -52,7 +52,7 @@ The past that is now being weaponized against Megan was her past when Klay Thomp
 
 Rappers have been embellishing their sexual histories in lyrics since hip hop began. Nobody is reading Lil Wayne's discography as a factual autobiography. Applying a different standard to Megan's lyrics — treating her artistic persona as a confession and a disqualification — is not analysis. It is misogyny dressed in the language of accountability.
 
-> *\[Internal link: The Double Standard in Hip Hop — Why Male Rappers Get Passes That Female Rappers Don't]*
+> ###### [Daphne Joy vs. Megan Thee Stallion: The Double Standard That Reveals Exactly How America Treats Black Women](https://yasminbreakdown.com/articles/daphne-joy-vs-megan-thee-stallion-the-double-standard-that-reveals-exactly-how-america-treats-black-women)
 
 ## The Net Worth Argument — and Why It Misses Everything
 
@@ -74,9 +74,7 @@ But the function of this kind of commentary is not really to make a logical argu
 
 That is blame laundering. And it works — as those engagement numbers demonstrate — because it gives people who already wanted to dismiss Megan a framework to do so that sounds like it is based in something.
 
-> *\[Internal link: Accountability and Black Relationships — Why We Keep Having the Same Conversation]*
->
-> *\[Internal link: The Megan Thee Stallion Trial and What It Revealed About How Black Women Are Treated]*
+> ###### [TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black Women's Empowerment Tour](https://yasminbreakdown.com/articles/tlc-fans-feel-betrayed-how-chillis-trump-controversy-derailed-a-black-womens-empowerment-tour)
 
 ## The Race Dimension Nobody Wants to Say Out Loud
 
@@ -105,7 +103,5 @@ Black women deserve better than a community of men who celebrate when they get h
 Yasmin Breakdown exists to name these patterns clearly, connect them to their historical and sociological roots, and give Black women the analysis that validates what they are already seeing with their own eyes.
 
 **If this kind of honest, unflinching cultural commentary matters to you, support it directly.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations the rest of the internet is too afraid to have.
-
-**👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and tell us in the comments — what did the response to this breakup reveal to you?*
