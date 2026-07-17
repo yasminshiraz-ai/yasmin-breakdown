@@ -4,6 +4,8 @@ title: The Supreme Court Just Gutted the Voting Rights Act — and Black Voters
 slug: supreme-court-gutted-voting-rights-act-black-voters
 date: 2026-06-10
 category: History
+secondaryCategories:
+  - Society
 featuredImage: /uploads/supreme_court_of_the_united_states_-_roberts_court_2022.jpg
 description: On April 29, 2026, the Supreme Court issued a 6-3 ruling in
   Louisiana v. Callais that effectively dismantled Section 2 of the Voting
@@ -11,8 +13,6 @@ description: On April 29, 2026, the Supreme Court issued a 6-3 ruling in
   Black voters stand to lose.
 videoUrl: https://youtu.be/j2gTt1BBUUw
 featured: false
-secondaryCategories:
-  - History
 tags:
   - Voting Rights Act
   - Supreme Court
@@ -69,7 +69,7 @@ None of those laws mentioned race. Every single one of them was designed to eras
 
 In 1980, the Supreme Court tried a similar move — requiring proof of intent. Congress responded directly. In 1982, lawmakers rewrote the Voting Rights Act specifically to override that standard and restore the harm-based test. Congress fixed this once before, explicitly and deliberately. The Supreme Court has now gone around Congress and broken it again.
 
-> *\[Internal link: The History of Voter Suppression in America — From Poll Taxes to Gerrymandering]*
+> [Why Racists Keep Calling The Obamas Apes](https://yasminbreakdown.com/articles/why-racists-keep-calling-the-obamas-apes)
 
 ## The Slow Dismantling Nobody Announced
 
@@ -111,9 +111,7 @@ Remove those seats, or make them structurally impossible to win, and you do not 
 
 Power does not give itself up willingly. It never has. And the decision issued on April 29, 2026 is the latest chapter in a very long effort to ensure that Black political power — even when it is legally won, even when it is constitutionally guaranteed — remains fragile, contestable, and reversible.
 
-> *\[Internal link: The Congressional Black Caucus — Its History, Its Power, and What It Stands to Lose]*
->
-> *\[Internal link: Gerrymandering and Black Communities — How Maps Become Weapons]*
+> [The Shreveport Massacre and the Gun Law Loophole That Let It Happen](https://yasminbreakdown.com/articles/the-shreveport-massacre-and-the-gun-law-loophole-that-let-it-happen)
 
 ## Yasmin Breakdown — Because This Is Too Important for a Hot Take
 
@@ -124,5 +122,3 @@ That is what the Yasmin Breakdown exists to deliver.
 **Support independent Black media that connects the dots between history and today.** Join the Yasmin Breakdown on Patreon for deeper dives, extended analysis, and the conversations that give you the full picture — not just the headline.
 
 *Watch the original video on YouTube and tell us in the comments — what does this ruling mean to you personally?*
-
-Voting Rights Act, Supreme Court, Louisiana v. Callais, Section 2, Black voters, gerrymandering, voter suppression, Shelby County v. Holder, Congressional Black Caucus, civil rights, redistricting, Black political power
