@@ -57,7 +57,7 @@ This saturation mattered. Generations of Americans grew up consuming imagery tha
 
 The ape trope fed lynching culture directly. Mobs felt justified in their torture and killings because the cultural messaging they had absorbed told them their victims weren't fully human. Photographs of lynchings were turned into postcards — souvenirs — because the people responsible didn't feel they had done anything monstrous. They had been conditioned not to.
 
-> The Supreme Court Just gutted the voting rights act and Black voters will pay the price. 
+> [The Supreme Court Just Gutted The Voting Rights Act And Black Voters Will Pay The Price. ](https://yasminbreakdown.com/articles/supreme-court-gutted-voting-rights-act-black-voters)
 
 ## Why the Obamas Specifically Trigger This Response
 
@@ -106,7 +106,5 @@ Understanding the history behind racist tropes isn't just academic. It is the di
 Yasmin Breakdown exists to give you that historical and sociological context — because you cannot fight what you don't understand.
 
 **If this kind of analysis matters to you, support the work directly.** Join the Yasmin Breakdown community on Patreon and get access to deeper dives, extended breakdowns, and the conversations that don't fit into a short video.
-
-**👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and share this article with someone who needs the history.*
