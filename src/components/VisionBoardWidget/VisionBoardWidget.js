@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import TrackedLink from '@/components/TrackedLink/TrackedLink'
 import styles from './VisionBoardWidget.module.css'
 
 const BOOKS = [
@@ -31,9 +32,10 @@ export default function VisionBoardWidget() {
       <p className={styles.subheading}>Curated by Yasmin Breakdown</p>
       <div className={styles.grid}>
         {BOOKS.map(book => (
-          <a
+          <TrackedLink
             key={book.label}
             href={book.url}
+            eventLabel={`Vision Board - ${book.label.replace('For ', '')}`}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className={styles.card}
@@ -49,7 +51,7 @@ export default function VisionBoardWidget() {
               />
             </div>
             <span className={styles.badge}>{book.label}</span>
-          </a>
+          </TrackedLink>
         ))}
       </div>
     </div>

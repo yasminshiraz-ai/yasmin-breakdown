@@ -5,6 +5,7 @@ import BreakingNewsTicker from '@/components/BreakingNewsTicker/BreakingNewsTick
 import Header from '@/components/Header/Header'
 import SecondaryNav from '@/components/SecondaryNav/SecondaryNav'
 import PatreonBanner from '@/components/PatreonBanner/PatreonBanner'
+import CookieConsent from '@/components/CookieConsent/CookieConsent'
 import Footer from '@/components/Footer/Footer'
 import { getAllArticles } from '@/lib/articles'
 
@@ -54,6 +55,22 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body>
+        {/* GA4 — consent mode: analytics_storage denied by default until user accepts */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-C93C1BBJSR"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+          gtag('config', 'G-C93C1BBJSR');
+          if (typeof localStorage !== 'undefined' && localStorage.getItem('cookie_consent') === 'accepted') {
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+          }
+        `}</Script>
+
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7535265627912146"
@@ -81,6 +98,7 @@ export default async function RootLayout({ children }) {
         <Header patreonUrl={patreonUrl} />
         <SecondaryNav />
         <main>{children}</main>
+        <CookieConsent />
         <PatreonBanner patreonUrl={patreonUrl} />
         <Footer />
       </body>

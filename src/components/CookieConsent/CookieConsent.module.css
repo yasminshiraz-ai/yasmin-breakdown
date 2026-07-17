@@ -1,0 +1,76 @@
+.banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 340px;
+  max-width: calc(100vw - 2rem);
+  z-index: 300;
+  background: #141414;
+  border: 1px solid #2c2c2c;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+
+.policyLink {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.policyLink:hover {
+  color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.accept {
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.accept:hover {
+  opacity: 0.85;
+}
+
+.decline {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.decline:hover {
+  color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(255, 255, 255, 0.35);
+}
