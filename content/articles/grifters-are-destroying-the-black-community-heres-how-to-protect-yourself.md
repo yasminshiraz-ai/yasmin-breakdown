@@ -48,7 +48,7 @@ The income-based dating rules are a perfect example of advice that gets packaged
 
 Having been married for 23 years, the reality is clear: what works in a marriage is deeply personal. It is about who the people are, what they bring to the table, what baggage they're carrying, and what they're willing to work through together. No influencer with a microphone and a Canva template knows what works in your specific relationship. Anyone claiming to offer universal rules is selling you a shortcut that doesn't exist.
 
-> *\[Internal link: The Sociology of Black Marriage — What the Data Actually Says]*
+> [Daphne Joy vs. Megan Thee Stallion: The Double Standard That Reveals Exactly How America Treats Black Women](https://yasminbreakdown.com/articles/daphne-joy-vs-megan-thee-stallion-the-double-standard-that-reveals-exactly-how-america-treats-black-women)
 
 ## Pro-Black Grifters: The Most Dangerous Category
 
