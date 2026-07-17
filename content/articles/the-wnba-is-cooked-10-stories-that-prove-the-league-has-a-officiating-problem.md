@@ -10,6 +10,7 @@ description: A sociological breakdown of 10 WNBA controversies in 2026 — from
   technical fouls, and the league's referee crisis.
 videoUrl: https://youtube.com/live/uFe5wFvtLoE?feature=share
 featured: false
+tags: "Angel Reese, Caitlin Clark, Alyssa Thomas, WNBA, Womens Basketball, "
 ---
 The WNBA is having a moment — and not the good kind. Between flagrant fouls that go uncalled in real time, technical fouls for *clapping*, and a referee crew that admitted it got a 2024 ejection flat-out wrong, fans are starting to ask the same question: **what is actually going on with WNBA officiating in 2026?**
 
