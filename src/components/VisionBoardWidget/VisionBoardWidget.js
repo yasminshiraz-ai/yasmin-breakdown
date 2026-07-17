@@ -44,7 +44,7 @@ export default function VisionBoardWidget() {
                 src={book.image}
                 alt={book.label}
                 fill
-                style={{ objectFit: 'cover', borderRadius: '4px' }}
+                style={{ objectFit: 'cover', objectPosition: 'center', borderRadius: '4px' }}
                 sizes="130px"
               />
             </div>

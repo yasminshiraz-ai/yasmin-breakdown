@@ -50,7 +50,7 @@
 .cover {
   position: relative;
   width: 100%;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border-radius: 4px;
   background: #EBEBEB;
