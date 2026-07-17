@@ -45,6 +45,8 @@ Inspired by African history and the 1964 film *Zulu*, something shifted in Bamb
 
 That vision gave birth to the Universal Zulu Nation — an organization that took the structural energy of gang life and redirected it. DJs, MCs, b-boys, graffiti artists, brought together under a framework promoting peace, knowledge, unity, and self-expression. In communities that had been systematically denied access to all four, this was not a small thing. It was transformation.
 
+> ##### [Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion Breakup And What It Really Reveals](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)
+
 Bambaataa became one of the three key architects of hip hop — the movement that would travel from the Bronx to New York City to the entire world, becoming the most influential cultural export in modern American history. His role was not just musical. He was an organizer. A community builder. Someone who understood that culture could do what policy had refused to do — give young Black people in the Bronx something to belong to that didn't require them to destroy each other.
 
 ## Planet Rock — When Hip Hop Changed Genres Forever
@@ -62,6 +64,8 @@ That is the scale of Bambaataa's musical contribution. It was genuinely historic
 Thirty-four years after *Planet Rock*, the story took a devastating turn.
 
 In 2016, multiple individuals came forward with allegations of child sexual abuse against Afrika Bambaataa, with accounts going back decades. Many of the accusers were young Black boys from the Bronx — young men who said they had sought mentorship, connection, and belonging through the Universal Zulu Nation and instead experienced serious harm.
+
+> ##### [TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black Women's Empowerment Tour](https://yasminbreakdown.com/articles/tlc-fans-feel-betrayed-how-chillis-trump-controversy-derailed-a-black-womens-empowerment-tour)
 
 One of the accusers, Bronx political activist Ronald Savage, accused Bambaataa of sexually molesting him in 1980 when Savage was a young teen. [Savage told the Associated Press in 2016](https://www.usnews.com/news/best-states/new-york/articles/2026-04-09/hip-hop-pioneer-afrika-bambaataa-dies-at-age-68), "I was scared, but at the same time I was like, 'This is Afrika Bambaataa.'" Bambaataa denied all allegations. Bambaataa denied the allegations, and there was no criminal conviction. However, in [May 2025, Bambaataa lost a separate civil case](https://en.wikipedia.org/wiki/Afrika_Bambaataa) after failing to respond to or appear for a sex abuse lawsuit filed under the New York Child Victims Act — resulting in a default judgment against him. The number of accusers, the consistency of their accounts, and the decades-long pattern they described forced a reckoning that hip hop could not sidestep.
 
