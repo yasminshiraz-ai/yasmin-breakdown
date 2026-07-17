@@ -46,9 +46,7 @@ Michelle Obama spent eight years in the White House absorbing attacks on her int
 
 But more than the repost, it is the broader pattern — the donation receipts, the sense of political disconnection — that is making the apology feel insufficient to many fans. Salt publicly defending Chilli and urging fans to show grace and not believe everything online has not helped close that gap. It has deepened the sense that these artists are out of touch with what their fan base is actually living through.
 
-> *\[Internal link: The Michelle Obama Ape Trope — The Violent History Behind the Imagery]*
->
-> *\[Internal link: DEI Rollbacks and the Black Professional Women Who Paid the Price]*
+> ##### [Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion Breakup And What It Really Reveals](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)
 
 ## The Spinderella Problem: Trust Was Already Thin
 
@@ -78,7 +76,7 @@ When families are being separated. When young men are returning from overseas in
 
 Fans are not wrong to take that seriously. They are not being unfair or unforgiving. They are applying the same standard to artists that those artists implicitly asked for when they agreed to headline what was framed as a Black women's empowerment event.
 
-> *\[Internal link: The History of Black Artists and Political Accountability — From the Civil Rights Era to Today]*
+> [Afrika Bambaataa: Hip Hop Pioneer, Universal Zulu Nation Founder, and a Legacy the Culture Must Reckon With](https://yasminbreakdown.com/articles/afrika-bambaataa-hip-hop-pioneer-universal-zulu-nation-founder-and-a-legacy-the-culture-must-reckon-with)
 
 ## What Happens to the Tour Now
 
@@ -95,7 +93,5 @@ Whether that happens remains to be seen.
 When cultural moments like this one intersect with politics, history, and the lived experiences of Black women, the story is always more layered than the headline. Yasmin Breakdown exists to give you that full picture — the sociology, the history, and the honest analysis that the entertainment press won't deliver.
 
 **Support independent Black media that tells the truth about what's happening in our culture.** Join the Yasmin Breakdown on Patreon for extended breakdowns, deeper dives, and the conversations that keep the community informed and equipped.
-
-**👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube and tell us in the comments — are you still going to the tour?*
