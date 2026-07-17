@@ -66,3 +66,5 @@ Not everything circulating online about this story is true. The July 3 zoo comme
 ## The Bigger Picture
 
 This story isn't really about one streamer getting heckled. It's about a country that spent a century and a half building its national identity around erasing its Black population, dismantled the one agency built to hold that legacy accountable, and is now facing global scrutiny after that same sentiment showed up in the stands with the entire world watching. FIFA's statements are a start. What comes next — real consequences, real bans, real follow-through — is the part that's still an open question.
+
+For the full video breakdown and more analysis like this, join the Yasmin Breakdown family on [Patreon](/patreon) and subscribe on YouTube.
