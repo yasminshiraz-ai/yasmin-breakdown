@@ -75,7 +75,7 @@ Police in Shreveport said they had no prior record of domestic violence calls in
 
 No prior calls does not mean no prior violence. It means the violence was private. Hidden. Normalized inside the home in ways the neighbors couldn't see, couldn't hear, and couldn't intervene in.
 
-> *\[Internal link: The Signs of Domestic Violence Nobody Talks About — And Why Survivors Don't Always Call]*
+> ##### [The Supreme Court Just Gutted the Voting Rights Act — and Black Voters Will Pay the Price](https://yasminbreakdown.com/articles/supreme-court-gutted-voting-rights-act-black-voters)
 
 ## Familicide — When Control Becomes the Motive for Mass Murder
 
