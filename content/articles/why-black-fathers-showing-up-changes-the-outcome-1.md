@@ -32,8 +32,6 @@ The difference isn't symbolic — it's structural. Here's what shifts the moment
 
 **Confidence in children increases.** When a child knows their father has their back, they carry themselves differently. That internal security is visible — and it changes how others interact with them.
 
-
-
 ## The School System and the Quiet Removal of Black Fathers
 
 One of the most striking examples of this dynamic plays out not in stadiums or boardrooms, but in elementary school cafeterias.
@@ -62,9 +60,7 @@ As one commenter put it: *"The issue isn't the fathers. It's a society that's u
 
 When you remove the protective layer that a present parent provides, you create an opening. Coaches, scouts, label executives, and recruiters know this. It's not always conscious, but the pattern is consistent: children without strong parental advocates are more likely to sign bad deals, accept unfair terms, and have their talent monetized without adequate compensation.
 
-> *\[Internal link: How the Music Industry Exploits Young Black Artists — The History You Need to Know]*
->
-> *\[Internal link: The Sociology Behind Why Black Athletes Get Underpaid]*
+> ###### [Why Naomi Osaka's Black Tennis Party Caused a Controversy That Reveals Everything](https://yasminbreakdown.com/articles/why-naomi-osakas-black-tennis-party-caused-a-controversy-that-reveals-everything)
 
 This is why involved Black fathers in youth sports and entertainment aren't just emotionally valuable — they are *economically* protective. Their presence changes the math of exploitation.
 
@@ -94,8 +90,4 @@ This conversation is just getting started.
 
 **Want to go deeper on topics like this every week?** Join the Yasmin Breakdown community on Patreon where we break down the history, sociology, and power dynamics behind the stories everyone else just skims. Your support keeps this analysis going — and keeps it independent.
 
-**👉 \[Join on Patreon — Link Here]**
-
 *Watch the original video on YouTube and drop your thoughts in the comments. This breakdown has already sparked 2,600+ responses. We want to hear yours.*
-
-**Suggested tags:** Black fathers, involved fathers, Black family, Deion Sanders, LaVar Ball, LeBron James, Black fatherhood, sociology, systemic racism, youth sports
