@@ -1,4 +1,5 @@
 // Homepage v2 - two column layout with YouTube row
+import Link from 'next/link'
 import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
 import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
 import VisionBoardWidget from '@/components/VisionBoardWidget/VisionBoardWidget'
@@ -16,7 +17,7 @@ export default async function HomePage() {
   const articles = getAllArticles()
   const mainArticles = articles.slice(0, 4)
   const stripArticles = articles.slice(5, 10)
-  const moreArticles = articles.slice(4, 11)
+  const moreArticles = articles.slice(4, 16)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   const { videos, configured } = await getYouTubeVideos(3)
 
@@ -50,7 +51,14 @@ export default async function HomePage() {
         </aside>
       </div>
 
-      {/* 4. Newsletter — full width */}
+      {/* 4. Read more CTA */}
+      <div className={styles.readMoreWrap}>
+        <Link href="/stories" className={styles.readMoreBtn}>
+          Read more stories →
+        </Link>
+      </div>
+
+      {/* 5. Newsletter — full width */}
       <Newsletter />
     </>
   )
