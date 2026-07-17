@@ -45,6 +45,12 @@ On June 22, Reese picked up her fifth technical foul of the season with 1:16 rem
 
 The crowd's reaction said it all: a chant of "refs, you suck" broke out as Reese ran toward the officials, frustrated. The WNBA followed up with a formal warning letter after her fifth technical of the season. The recurring theme across these stories — a call gets made, then upgraded after the fact — is exactly the kind of inconsistency that erodes trust in officiating.
 
+
+
+> ###### [Angel Reese Makes WNBA History With 1,000 Rebounds: But the Flagrant Foul Call Raises Serious Questions](https://yasminbreakdown.com/articles/angel-reese-makes-wnba-history-with-1-000-rebounds-but-the-flagrant-foul-call-raises-serious-questions)
+
+
+
 ## 6. The League Already Admitted It Got a Reese Ejection Wrong — In 2024
 
 This isn't a new problem. In 2024, the WNBA rescinded the second technical foul that led to Angel Reese's ejection from a Sky-Liberty game, openly admitting officials got the call wrong. That history matters: if the league was making high-stakes officiating errors two years ago and is still making them in 2026, that's not a one-off — that's a pattern.
@@ -76,7 +82,5 @@ Meanwhile, players are getting fined just for talking about it. Sophie Cunningha
 ## The Bottom Line: The WNBA Has a Trust Problem, Not Just a Foul Problem
 
 Looking at these 10 stories together, the pattern is clear: inconsistent calls, after-the-fact upgrades, a referee crew that's already admitted to major errors, and a fanbase that's increasingly confused about what actually counts as a foul. The WNBA is growing fast — but growth without consistent, transparent officiating is going to cost the league the very fans it's working so hard to attract.
-
-*Related reading: \[The Angel Reese Flagrant Foul Breakdown — Link Placeholder] | \[Caitlin Clark's Rookie Year Media Treatment — Link Placeholder] | \[How Sports Media Frames Black Women Athletes — Link Placeholder]*
 
 **Want the deeper sociological breakdowns behind stories like this one — before they hit the main feed?** [Join Yasmin Breakdown on Patreon](https://patreon.com/c/yasminshiraz) for exclusive analysis, early access to videos, and a seat at the table for the conversations everyone else is just catching up to.
