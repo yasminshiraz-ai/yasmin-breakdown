@@ -3,7 +3,7 @@ title: Is 2026 WNBA All-Star Voting Rigged? 7 Things You Need to Know
 slug: wnba-all-star-voting-controversy-2026
 date: 2026-07-15
 category: Sports
-featuredImage: /uploads/wnba-all-star-voting-2026.jpg
+featuredImage: /uploads/wnba-all-star-voting-rigged-2026.jpeg
 description: No Atlanta Dream starters, Alyssa Thomas shut out entirely, Caitlin
   Clark ranked 11th by her peers. Here are 7 things that don't add up about 2026
   WNBA All-Star voting.
