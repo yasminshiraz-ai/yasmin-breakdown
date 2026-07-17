@@ -2,7 +2,7 @@
 title: "iShowSpeed vs. Argentina Fans: Inside the World Cup Racism Scandal FIFA
   Can't Ignore"
 slug: ishowspeed-argentina-racism-world-cup-2026
-date: 2026-07-12
+date: 2026-07-11
 category: Sports
 secondaryCategories:
   - Society
