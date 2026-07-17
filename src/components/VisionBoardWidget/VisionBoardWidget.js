@@ -4,22 +4,22 @@ import styles from './VisionBoardWidget.module.css'
 const BOOKS = [
   {
     label: 'For Black Women',
-    image: '/images/vision-board/blackwomen.png',
+    image: '/images/vision-board/blackwomen.jpg',
     url: 'https://amzn.to/3WVxPGC',
   },
   {
     label: 'For Black Men',
-    image: '/images/vision-board/blackmen.png',
+    image: '/images/vision-board/blackmen.jpg',
     url: 'https://amzn.to/3V9p35v',
   },
   {
     label: 'For Black Girls',
-    image: '/images/vision-board/blackgirls.png',
+    image: '/images/vision-board/blackgirls.jpg',
     url: 'https://amzn.to/4p7oBCY',
   },
   {
     label: 'For Black Boys',
-    image: '/images/vision-board/blackboys.png',
+    image: '/images/vision-board/blackboys.jpg',
     url: 'https://amzn.to/4u2zSX0',
   },
 ]
