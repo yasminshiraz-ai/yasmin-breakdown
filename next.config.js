@@ -15,6 +15,11 @@ const nextConfig = {
         destination: '/articles/supreme-court-gutted-voting-rights-act-black-voters',
         permanent: true,
       },
+      {
+        source: '/stories',
+        destination: '/stories/2',
+        permanent: false,
+      },
     ]
   },
 }

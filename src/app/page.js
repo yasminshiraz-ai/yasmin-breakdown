@@ -53,7 +53,7 @@ export default async function HomePage() {
 
       {/* 4. Read more CTA */}
       <div className={styles.readMoreWrap}>
-        <Link href="/stories" className={styles.readMoreBtn}>
+        <Link href="/stories/2" className={styles.readMoreBtn}>
           Read more stories →
         </Link>
       </div>
