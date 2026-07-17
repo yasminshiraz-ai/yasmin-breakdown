@@ -62,9 +62,7 @@ When someone is consistently first in line to cool down community resistance, ca
 
 Discernment is not cynicism. It is protection.
 
-> *\[Internal link: The Target Boycott — What Happened and What It Revealed About Black Consumer Power]*
-
-## Faith, Fraud, and the Prosperity Gospel Problem
+> [Why Black Men Are Celebrating Klay Thompson After the Meg Thee Stallion Breakup And What It Really Reveals](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)
 
 Religious influencers monetizing their faith represent a category that is particularly difficult to challenge because criticizing them gets framed as attacking religion itself.
 
@@ -90,7 +88,7 @@ The defense against grifters is not cynicism — it's verification. Here is the 
 
 **Remember: accountability is not betrayal. Verification is not negativity. Discernment is not hate.** It is maturity — and it is the minimum standard the community deserves.
 
-> *\[Internal link: How to Vet an Online Coach or Mentor Before You Pay Them Anything]*
+>
 
 ## Why This Matters Beyond Individual Transactions
 
@@ -107,7 +105,5 @@ That is why this conversation is worth having loudly, repeatedly, and without ap
 Yasmin Breakdown exists to give you the analysis, the history, and the sociological framework to see these patterns clearly — so you can protect yourself, your money, and your community.
 
 **If this kind of accountability journalism matters to you, support it directly.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations that the algorithm buries but the community needs.
-
-**👉 \[Join on Patreon — Link Here]**
 
 *Watch the original video on YouTube. And if you've been taken advantage of by a grifter, drop your experience in the comments — your story might protect someone else.*
