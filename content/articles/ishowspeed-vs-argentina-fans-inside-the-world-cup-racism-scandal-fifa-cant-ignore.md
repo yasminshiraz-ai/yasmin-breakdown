@@ -41,6 +41,8 @@ Statements are one thing. Consequences are another. As of this writing, no fan h
 
 Lionel Messi has not personally addressed either incident. This isn't the first time his silence on racism involving Argentina's fanbase has been noted. After Argentina's 2024 Copa América win, video surfaced of players singing a chant with racist language aimed at French players of African descent. Enzo Fernández apologized on his own for participating, but Messi never issued a personal statement then either. Worth noting: widely circulated social posts claiming Messi condemned the iShowSpeed incidents directly are not accurate — no such statement exists.
 
+> ##### [Why Racists Keep Calling The Obamas Apes](https://yasminbreakdown.com/articles/why-racists-keep-calling-the-obamas-apes)
+
 ## "Go Cry at the Zoo": The History Behind the Slur
 
 Comparing Black people to animals is one of the oldest tools in the white supremacist playbook, historically used to dehumanize and justify enslavement and violence. It's the same trope this outlet has covered before in connection with racist ape imagery directed at Barack and Michelle Obama. This isn't a one-off insult — it's a recurring script. \[Internal link: The Ape Imagery Trope — Obama Coverage]
