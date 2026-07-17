@@ -29,7 +29,7 @@ During Argentina's 3–2 win over Cape Verde in the Round of 32, IShowSpeed was 
 
 Four days later, during Argentina's dramatic Round of 16 comeback win over Egypt, another fan was caught on video making monkey gestures at the streamer. The fan later claimed on social media that he was simply imitating IShowSpeed rather than making a racist gesture.
 
-Two incidents. Two cities. Same jersey in the crowd. \[Internal link: World Cup 2026 coverage hub]
+Two incidents. Two cities. Same jersey in the crowd. 
 
 ## FIFA's Response: Strong Words, Open Questions
 
