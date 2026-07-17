@@ -68,7 +68,7 @@ Straight women have their own set of challenges — fibroids, fertility pressure
 
 The idea that straight women are enemies or competitors to trans women is not coming from straight women. It is a narrative being imposed on a relationship that, from the straight woman's side, is not characterized by hostility at all.
 
->
+> ##### [TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black Women's Empowerment Tour](https://yasminbreakdown.com/articles/tlc-fans-feel-betrayed-how-chillis-trump-controversy-derailed-a-black-womens-empowerment-tour)
 
 This is the sociological question worth asking: if straight women are not generating this competition narrative, where is it coming from and why does it keep circulating?
 
