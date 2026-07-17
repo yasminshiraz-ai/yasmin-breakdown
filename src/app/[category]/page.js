@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
 import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
+import VisionBoardWidget from '@/components/VisionBoardWidget/VisionBoardWidget'
 import { getArticlesByCategory, getAllArticles } from '@/lib/articles'
 import styles from './page.module.css'
 
@@ -59,6 +60,7 @@ export default function CategoryPage({ params }) {
           )}
         </div>
         <aside className={styles.rightCol}>
+          <VisionBoardWidget />
           <TrendingSidebar articles={allArticles} />
         </aside>
       </div>

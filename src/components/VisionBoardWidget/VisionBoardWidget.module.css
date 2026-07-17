@@ -1,0 +1,76 @@
+/* Outer wrapper — matches sidebar background, adds space before Trending */
+.widget {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Heading — identical token set to TrendingSidebar .heading ── */
+.heading {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+/* ── Subheading — same style as TrendingSidebar .date ── */
+.subheading {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: #999999;
+  margin: 0 0 0.9rem;
+  padding-top: 0.3rem;
+}
+
+/* ── 2×2 grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* ── Individual book card ── */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.card:hover .cover {
+  opacity: 0.82;
+}
+
+/* Book-cover portrait container (2:3 ratio) */
+.cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #EBEBEB;
+  transition: opacity 0.15s ease;
+}
+
+/* ── Caption pill — identical token set to TrendingSidebar .category ── */
+.badge {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

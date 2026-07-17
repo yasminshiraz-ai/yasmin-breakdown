@@ -1,6 +1,7 @@
 // Homepage v2 - two column layout with YouTube row
 import VerticalFeed from '@/components/VerticalFeed/VerticalFeed'
 import TrendingSidebar from '@/components/TrendingSidebar/TrendingSidebar'
+import VisionBoardWidget from '@/components/VisionBoardWidget/VisionBoardWidget'
 import YouTubeRow from '@/components/YouTubeRow/YouTubeRow'
 import MoreFromBreakdown from '@/components/MoreFromBreakdown/MoreFromBreakdown'
 import Newsletter from '@/components/Newsletter/Newsletter'
@@ -30,6 +31,7 @@ export default async function HomePage() {
           <VerticalFeed articles={mainArticles} siteUrl={siteUrl} />
         </div>
         <aside className={styles.rightCol}>
+          <VisionBoardWidget />
           <TrendingSidebar articles={articles} />
         </aside>
       </div>
@@ -43,6 +45,7 @@ export default async function HomePage() {
           <MoreFromBreakdown articles={moreArticles} siteUrl={siteUrl} />
         </div>
         <aside className={`${styles.rightCol} ${styles.moreSidebar}`}>
+          <VisionBoardWidget />
           <TrendingSidebar articles={articles} />
         </aside>
       </div>
