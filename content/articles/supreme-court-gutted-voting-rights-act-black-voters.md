@@ -11,6 +11,8 @@ description: On April 29, 2026, the Supreme Court issued a 6-3 ruling in
   Black voters stand to lose.
 videoUrl: https://youtu.be/j2gTt1BBUUw
 featured: false
+secondaryCategories:
+  - History
 tags:
   - Voting Rights Act
   - Supreme Court
