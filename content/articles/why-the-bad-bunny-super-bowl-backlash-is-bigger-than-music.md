@@ -47,9 +47,9 @@ But more importantly, this argument reveals something about what the backlash is
 
 That combination — cultural authenticity, linguistic pride, and political awareness — is exactly what makes certain audiences furious.
 
-> *\[Internal link: How Beyoncé's Super Bowl Performance Exposed America's Problem With Black Cultural Expression]*
+> *[Why Black Men Are Celebrating Klay Thompson After The Meg Thee Stallion Breakup And What It Reveals](https://yasminbreakdown.com/articles/why-black-men-are-celebrating-klay-thompson-after-the-meg-thee-stallion-breakup-and-what-it-really-reveals)*
 >
-> *\[Internal link: The History of Hip Hop Being Called Un-American]*
+>
 
 ## Anti-Blackness, Afro-Latino Identity, and Why This Feels Familiar
 
@@ -71,7 +71,7 @@ When Beyoncé brought Black Panther imagery to the Super Bowl halftime show, the
 
 The through line is not the genre or the language. The through line is non-white visibility on a platform that has functioned as a gatekeeper of American identity. The outrage is about who that stage is being shared with — and who feels that sharing threatens something they believe belongs to them.
 
-> *\[Internal link: The Sociology of Who Gets to Be American — Race, Culture, and National Identity]*
+> *[Daphne Joy vs Megan Thee Stallion: The Double Standard That Reveals Exactly How America Treats Black Women](https://yasminbreakdown.com/articles/daphne-joy-vs-megan-thee-stallion-the-double-standard-that-reveals-exactly-how-america-treats-black-women)* 
 
 ## The Pattern You Need to Recognize
 
@@ -97,8 +97,4 @@ This is the kind of analysis you won't get from a sports highlight reel or a thr
 
 **If this kind of depth matters to you, support independent analysis directly.** Join the Yasmin Breakdown community on Patreon for extended breakdowns, deeper dives, and conversations that go beyond the headlines.
 
-**👉 \[Join on Patreon — Link Here]**
-
 *Watch the original video on YouTube and share this article with someone who's still asking why people are so upset about a singer.*
-
- American culture, white nationalism, Afro-Latino, cultural gatekeeping, hip hop history
