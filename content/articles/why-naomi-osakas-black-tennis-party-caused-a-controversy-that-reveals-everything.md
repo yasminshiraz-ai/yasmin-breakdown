@@ -73,7 +73,7 @@ Context is everything. When Black people come together in affinity, it is an act
 
 The all-white party argument collapses the moment you introduce any history. And history is the entire point.
 
-> *\[Internal link: How Venus and Serena Williams Changed Tennis — And What the Sport Did in Return]*
+> [Coco Gauff's Wimbledon Run Was No Accident. 5 Life Lessons That Explain Exactly How She Did It.](https://yasminbreakdown.com/articles/coco-gauffs-wimbledon-comeback-was-no-accident-5-life-lessons-that-explain-exactly-how-she-did-it)
 
 ## What Naomi Osaka Has Actually Been Put Through — The Timeline That Explains Everything
 
@@ -99,7 +99,7 @@ When you are one of the only Black players on a predominantly white professional
 
 Osaka didn't wait for the WTA to create a task force. She didn't write a think piece. She called Taylor Townsend, rented a space at Soho House, and made it happen herself. That is leadership. That is exactly what you do when the institution isn't going to build the table for you.
 
-> *\[Internal link: Simone Biles, the Twisties, and the Pattern of Punishing Black Women Who Prioritize Their Health]*
+> [Why Black Fathers Showing Up Changes The Outcome](https://yasminbreakdown.com/articles/why-black-fathers-showing-up-changes-the-outcome-1)
 
 ## The People at the Table — Why This Was a Generational Moment
 
@@ -132,5 +132,3 @@ Yasmin Breakdown exists to give you the history, the sociology, and the cultural
 **Support independent media that tells this story the way it deserves to be told.** Join the Yasmin Breakdown on Patreon for deeper dives, extended breakdowns, and the conversations mainstream sports media won't have.
 
 *Watch the original video on YouTube and tell us in the comments — did the backlash to this party surprise you?*
-
-Naomi Osaka, Black tennis party, French Open 2026, Roland Garros, Taylor Townsend, Coco Gauff, Althea Gibson, Arthur Ashe, Serena Williams, Black women in sports, mental health, affinity spaces, tennis history, racial exclusion
