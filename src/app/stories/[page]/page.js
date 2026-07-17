@@ -58,22 +58,21 @@ export default function StoriesPage({ params }) {
       <div className={layoutStyles.wrapper}>
         <div className={layoutStyles.leftCol}>
           <VerticalFeed articles={pageArticles} siteUrl={siteUrl} />
+          <div className={styles.pagination}>
+            <Link href={prevHref} className={styles.paginationBtn}>
+              ← Previous
+            </Link>
+            {nextHref && (
+              <Link href={nextHref} className={styles.paginationBtn}>
+                Read more stories →
+              </Link>
+            )}
+          </div>
         </div>
         <aside className={layoutStyles.rightCol}>
           <VisionBoardWidget />
           <TrendingSidebar articles={articles} />
         </aside>
-      </div>
-
-      <div className={styles.pagination}>
-        <Link href={prevHref} className={styles.paginationBtn}>
-          ← Previous
-        </Link>
-        {nextHref && (
-          <Link href={nextHref} className={styles.paginationBtn}>
-            Read more stories →
-          </Link>
-        )}
       </div>
 
     </div>
