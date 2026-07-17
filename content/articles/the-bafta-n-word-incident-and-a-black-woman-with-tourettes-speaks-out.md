@@ -57,9 +57,7 @@ It is entirely possible — and necessary — to hold both of these things simul
 
 The tic is not the offense. The broadcast is the offense.
 
-> *\[Internal link: How the Entertainment Industry Has Historically Disrespected Black Artists]*
->
-> *\[Internal link: The History of the N-Word as a Weapon — What the Word Actually Carries]*
+> ##### [TLC Fans Feel Betrayed: How Chilli's Trump Controversy Derailed a Black Women's Empowerment Tour](https://yasminbreakdown.com/articles/tlc-fans-feel-betrayed-how-chillis-trump-controversy-derailed-a-black-womens-empowerment-tour)
 
 ## A Television Professional's Perspective: This Was Inexcusable
 
@@ -91,7 +89,7 @@ At the same time, Black people at award ceremonies deserve to be protected from 
 
 Both of these things are true. Holding them together is not comfortable. But it is necessary.
 
-> *\[Internal link: Anti-Blackness in the Entertainment Industry — A Pattern That Keeps Repeating]*
+> [Why the Bad Bunny Super Bowl Backlash Is Bigger Than Music](https://yasminbreakdown.com/articles/why-the-bad-bunny-super-bowl-backlash-is-bigger-than-music)
 
 ## The Layers of Understanding This Situation Demands
 
@@ -109,8 +107,4 @@ Yasmin Breakdown exists for exactly these moments — when the story is too laye
 
 **If you want analysis that goes beyond the headline, support independent media directly.** Join the Yasmin Breakdown community on Patreon for deeper dives, extended breakdowns, and the conversations that actually move us forward.
 
-**👉 \[Join on Patreon — Link Here]**
-
 *Watch the original video on YouTube and share this article with someone who's still trying to figure out how they feel about this one.*
-
- BAFTA controversy, n-word, Tourette's syndrome, John Davidson, Michael B. Jordan, Delroy Lindo, BBC, anti-Blackness, ableism, Black media, entertainment industry racism
