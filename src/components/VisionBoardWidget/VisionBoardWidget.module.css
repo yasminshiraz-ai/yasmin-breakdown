@@ -32,6 +32,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  align-items: stretch;
 }
 
 /* ── Individual book card ── */
@@ -39,6 +40,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: 100%;
   text-decoration: none;
 }
 
