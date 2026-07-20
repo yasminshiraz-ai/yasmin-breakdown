@@ -1,0 +1,26 @@
+name: Scheduled Rebuild
+
+# Runs daily at ~6am ET (11am UTC) to publish any scheduled articles.
+# Requires a Vercel deploy hook URL stored as the GitHub secret VERCEL_DEPLOY_HOOK_URL.
+# To set it up:
+#   1. Vercel dashboard → your project → Settings → Git → Deploy Hooks
+#   2. Create a hook named "Scheduled Rebuild" on branch: main
+#   3. Copy the hook URL
+#   4. GitHub repo → Settings → Secrets and variables → Actions → New repository secret
+#      Name: VERCEL_DEPLOY_HOOK_URL  |  Value: <paste the hook URL>
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # 11:00 UTC = ~6am ET
+  workflow_dispatch:         # allow manual trigger from GitHub Actions UI
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy
+        run: |
+          curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}" \
+            --fail \
+            -o /dev/null \
+            -w "HTTP %{http_code}\n"

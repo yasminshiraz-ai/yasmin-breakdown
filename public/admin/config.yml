@@ -129,12 +129,22 @@ collections:
           - "^[a-z0-9-]+$"
           - "Lowercase letters, numbers, and hyphens only"
 
-      - label: "Publish Date"
+      - label: "Article Date"
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD"
         date_format: "MMMM D, YYYY"
         time_format: false
+        hint: "The date displayed on the article and used for sort order. Can be backdated freely — this does NOT control when the article goes live."
+
+      - label: "Scheduled Publish Date"
+        name: "publishDate"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "MMMM D, YYYY"
+        time_format: false
+        required: false
+        hint: "Leave blank to publish immediately on your next deploy. Set a future date to schedule — the article will stay hidden until the nightly rebuild on or after that date."
 
       - label: "Category"
         name: "category"

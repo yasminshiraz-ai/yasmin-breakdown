@@ -61,6 +61,7 @@ function extractSentences(markdown, n) {
 }
 
 export function getAllArticles() {
+  const now = new Date()
   const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.md'))
 
   return files
@@ -68,6 +69,11 @@ export function getAllArticles() {
       const slug = fileName.replace(/\.md$/, '')
       const raw = fs.readFileSync(path.join(articlesDir, fileName), 'utf8')
       const { data, content } = matter(raw)
+
+      // If publishDate is set and is still in the future, suppress at build time.
+      // Articles without publishDate are always included (backwards compatible).
+      if (data.publishDate && new Date(data.publishDate) > now) return null
+
       const stats = readingTime(content)
       return {
         ...data,
@@ -78,6 +84,7 @@ export function getAllArticles() {
         tags: normalizeTags(data.tags),
       }
     })
+    .filter(Boolean)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
