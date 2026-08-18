@@ -71,12 +71,14 @@ export default async function RootLayout({ children }) {
           }
         `}</Script>
 
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7535265627912146"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {process.env.NEXT_PUBLIC_ADS_ENABLED === 'true' && (
+          <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7535265627912146"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        )}
 
         {/* Netlify Identity redirect — required for Decap CMS /admin login */}
         <Script

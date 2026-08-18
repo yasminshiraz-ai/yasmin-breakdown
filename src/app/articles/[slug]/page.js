@@ -64,6 +64,7 @@ function getYouTubeEmbedUrl(url) {
 }
 
 function injectAdAfterP2(html) {
+  if (process.env.NEXT_PUBLIC_ADS_ENABLED !== 'true') return html
   let count = 0
   return html.replace(/<\/p>/g, match => {
     count++
