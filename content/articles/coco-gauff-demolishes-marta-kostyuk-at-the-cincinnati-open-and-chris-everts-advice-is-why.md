@@ -4,6 +4,7 @@ title: Coco Gauff Demolishes Marta Kostyuk at the Cincinnati Open. And Chris
 slug: coco-gauff-cincinnati-open-kostyuk-chris-evert-net-play
 date: 2026-08-22
 category: Sports
+featuredImage: /uploads/coco_gauff_2023_dc_open_01_cropped.jpg
 description: Coco Gauff handed Marta Kostyuk a 6-2, 6-2 masterclass in just 70
   minutes at the 2026 Cincinnati Open. Here are six receipts that explain
   exactly how she did it — including the secret game change that started with a
