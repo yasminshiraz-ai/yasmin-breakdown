@@ -33,11 +33,11 @@ function MailIcon() {
 
 export default function Header({ patreonUrl = '#' }) {
   const pathname = usePathname()
-  const [logoHeight, setLogoHeight] = useState(210)
+  const [logoHeight, setLogoHeight] = useState(155)
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 768px)')
-    const update = () => setLogoHeight(mq.matches ? 80 : 210)
+    const update = () => setLogoHeight(mq.matches ? 80 : 155)
     update()
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
