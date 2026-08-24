@@ -9,7 +9,11 @@ description: Coco Gauff handed Marta Kostyuk a 6-2, 6-2 masterclass in just 70
   minutes at the 2026 Cincinnati Open. Here are six receipts that explain
   exactly how she did it — including the secret game change that started with a
   text from Chris Evert.
+videoUrl: https://youtu.be/Y5eNrGPJruk
 featured: false
+tags: Coco Gauff, Cincinnati Open 2026, Marta Kostyuk, Chris Evert, net play,
+  WTA, US Open 2026, Black women in sports, Cincinnati Open champion, WTA 1000,
+  Sara Bejlek, Black girl magic, tennis 2026
 ---
 Coco Gauff just gave Marta Kostyuk a 70-minute masterclass at the 2026 Cincinnati Open — and she did it on the exact court where her name is already engraved on a trophy. The final score was 6-2, 6-2. The message was unmistakable. And the secret behind the performance? It started with a text message from a tennis legend who kept telling Gauff to do one thing differently — until she finally listened.
 
