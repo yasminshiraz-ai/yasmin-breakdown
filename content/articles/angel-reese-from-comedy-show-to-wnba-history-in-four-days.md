@@ -47,11 +47,7 @@ She dropped 21 points, 10 rebounds, and 4 assists in a Dream victory.
 
 This is the difference between a champion and just a talented player. A champion can mess up. The next day, that champion goes to work. No statement. No press conference about feelings. Just the box score. Two nights after the memes, she was already writing a different story.
 
-
-
->  *Angel Reese Reaches 1,000 Rebounds — The WNBA's Officiating Problem We Need to Talk About*
->
->
+>  *[Angel Reese Reaches 1,000 Rebounds — The WNBA's Officiating Problem We Need to Talk About](https://yasminbreakdown.com/articles/angel-reese-makes-wnba-history-with-1-000-rebounds-but-the-flagrant-foul-call-raises-serious-questions)*
 
 ### Receipt 4: Thursday — The Perfect Game
 
@@ -103,7 +99,7 @@ The game did not change between Sunday and Thursday. The player did not change. 
 
 That is who they are. The receipts show that too.
 
-> *Why Black Women Athletes Are Never Given the Benefit of the Doubt — The Sociology Behind the Double Standard*
+> *[The WNBA Is Cooked: 10 Stories That Prove The League Has A Officiating Problem](https://yasminbreakdown.com/articles/the-wnba-is-cooked-10-stories-that-prove-the-league-has-a-officiating-problem)*
 
 ### The Bottom Line: Four Days, Seven Receipts, One Message
 
