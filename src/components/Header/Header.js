@@ -22,6 +22,14 @@ const SOCIAL_LINKS = [
   { Icon: FaPatreon, href: 'https://www.patreon.com/c/yasminshiraz', label: 'Patreon' },
 ]
 
+// Desktop logo heights
+const LOGO_FULL = 155
+const LOGO_COMPACT = 100
+
+// Total header heights (logo row + nav bar + border) for SecondaryNav offset
+const HEADER_FULL = 230
+const HEADER_COMPACT = 169
+
 function MailIcon() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -33,14 +41,38 @@ function MailIcon() {
 
 export default function Header({ patreonUrl = '#' }) {
   const pathname = usePathname()
-  const [logoHeight, setLogoHeight] = useState(155)
+  const [isMobile, setIsMobile] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
 
+  // Derived: mobile always 80px; desktop shrinks when scrolled
+  const logoHeight = isMobile ? 80 : (isScrolled ? LOGO_COMPACT : LOGO_FULL)
+
+  // Track mobile breakpoint
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 768px)')
-    const update = () => setLogoHeight(mq.matches ? 80 : 155)
+    const update = () => setIsMobile(mq.matches)
     update()
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
+  }, [])
+
+  // Passive scroll listener — desktop only, threshold 60px
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.matchMedia('(max-width: 768px)').matches) return
+      const scrolled = window.scrollY > 60
+      setIsScrolled(scrolled)
+      document.documentElement.style.setProperty(
+        '--header-h',
+        `${scrolled ? HEADER_COMPACT : HEADER_FULL}px`
+      )
+    }
+
+    // Run once on mount in case page loads already scrolled
+    onScroll()
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   function scrollToNewsletter(e) {
@@ -54,7 +86,7 @@ export default function Header({ patreonUrl = '#' }) {
   }
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header}${isScrolled ? ` ${styles.scrolled}` : ''}`}>
       {/* Social icons left, logo center, search right */}
       <div className={styles.logoRow}>
         <div className={styles.socialIcons}>

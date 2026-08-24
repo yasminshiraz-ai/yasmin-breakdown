@@ -3,7 +3,7 @@
   border-bottom: 1px solid #E8E8E8;
   width: 100%;
   position: sticky;
-  top: 230px; /* header: 169px logoRow + 58px navBar + 3px border */
+  top: var(--header-h, 230px); /* updated by Header.js scroll listener */
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

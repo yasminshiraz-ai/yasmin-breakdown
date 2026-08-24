@@ -12,6 +12,7 @@
   --font-headline: var(--font-montserrat), 'Montserrat', sans-serif;
   --max-width: 1280px;
   --gutter: 1.5rem;
+  --header-h: 230px; /* updated by Header.js on desktop scroll */
 }
 
 *, *::before, *::after {

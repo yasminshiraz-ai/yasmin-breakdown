@@ -137,6 +137,18 @@
   .logoRow {
     padding-top: 0.5rem;
     padding-bottom: 0.375rem;
+    transition: padding 0.3s ease;
+  }
+
+  /* Shrink padding when scrolled */
+  .scrolled .logoRow {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  /* Animate the logo's inline height change */
+  .logoLink img {
+    transition: height 0.3s ease;
   }
 }
 
