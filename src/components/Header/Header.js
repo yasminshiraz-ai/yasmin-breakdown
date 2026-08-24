@@ -56,23 +56,39 @@ export default function Header({ patreonUrl = '#' }) {
     return () => mq.removeEventListener('change', update)
   }, [])
 
-  // Passive scroll listener — desktop only, threshold 60px
+  // Passive scroll listener — desktop only, rAF-throttled with hysteresis.
+  // Shrinks at 80px going down, restores below 40px going up.
+  // The dead zone (40–80px) prevents rapid toggling near the threshold.
   useEffect(() => {
+    let rafId = null
+
     const onScroll = () => {
-      if (window.matchMedia('(max-width: 768px)').matches) return
-      const scrolled = window.scrollY > 60
-      setIsScrolled(scrolled)
-      document.documentElement.style.setProperty(
-        '--header-h',
-        `${scrolled ? HEADER_COMPACT : HEADER_FULL}px`
-      )
+      if (rafId) return
+      rafId = requestAnimationFrame(() => {
+        rafId = null
+        if (window.matchMedia('(max-width: 768px)').matches) return
+        const y = window.scrollY
+        setIsScrolled(prev => {
+          const next = prev ? y > 40 : y > 80
+          if (next !== prev) {
+            document.documentElement.style.setProperty(
+              '--header-h',
+              `${next ? HEADER_COMPACT : HEADER_FULL}px`
+            )
+          }
+          return next
+        })
+      })
     }
 
     // Run once on mount in case page loads already scrolled
     onScroll()
 
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      if (rafId) cancelAnimationFrame(rafId)
+    }
   }, [])
 
   function scrollToNewsletter(e) {

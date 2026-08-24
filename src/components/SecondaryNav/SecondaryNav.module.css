@@ -6,6 +6,7 @@
   top: var(--header-h, 230px); /* updated by Header.js scroll listener */
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s ease;
 }
 
 @media (max-width: 768px) {
