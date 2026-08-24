@@ -57,7 +57,7 @@ Let that sink in. Tennis legend and 18-time Grand Slam champion Chris Evert was 
 
 That is a game change that was sitting inside her the whole time, waiting for her to use it. And now that she has unlocked it — now that net rushing is a genuine weapon in her arsenal — she is harder to play against than she has ever been. Opponents who were already struggling to handle her from the baseline now have to defend against a player who can take the net away from them too.
 
-> *\[Internal link: Coco Gauff's Wimbledon Comeback — Five Life Lessons Behind the Run]*
+> *[Coco Gauff's Wimbledon Comeback — Five Life Lessons Behind the Run](https://yasminbreakdown.com/articles/coco-gauffs-wimbledon-comeback-was-no-accident-5-life-lessons-that-explain-exactly-how-she-did-it)*
 
 ### Receipt 6: The History Books — This Is a Defending Champion on Her Court
 
@@ -67,7 +67,7 @@ That is a game change that was sitting inside her the whole time, waiting for he
 
 When you watch her cruise through this draw right now, you are not watching a player trying to prove something in a new environment. You are watching a champion who knows exactly what winning this tournament requires — because she has already done it.
 
-> *\[Internal link: Angel Reese, Coco Gauff, and Why Black Girl Magic in Sports Is Always Earned — Never Given]*
+> *[Why Naomi Osaka's Black Tennis Party Caused A Controversy That Reveals Everything](https://yasminbreakdown.com/articles/why-naomi-osakas-black-tennis-party-caused-a-controversy-that-reveals-everything)*
 
 ### What Stands Between Gauff and a Second Cincinnati Title
 
