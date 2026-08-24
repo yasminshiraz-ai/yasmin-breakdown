@@ -1,6 +1,6 @@
 ---
 title: "Angel Reese: From Comedy Show to WNBA History in Four Days. "
-slug: angel-geese-from-comedy-show-to-wnba-history-in-four-days
+slug: angel-reese-from-comedy-show-to-wnba-history-in-four-days
 date: 2026-08-21
 category: Sports
 description: Four days after being mocked for a missed layup, Angel Reese shot
