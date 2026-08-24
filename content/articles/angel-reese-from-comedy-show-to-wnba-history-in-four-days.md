@@ -3,7 +3,7 @@ title: "Angel Reese: From Comedy Show to WNBA History in Four Days. "
 slug: angel-reese-from-comedy-show-to-wnba-history-in-four-days
 date: 2026-08-21
 category: Sports
-featuredImage: /uploads/angel-reese-2.jpeg
+featuredImage: /uploads/angel-reese-reebok.png
 description: Four days after being mocked for a missed layup, Angel Reese shot
   9-for-9 from the field, scored 20 points, grabbed 10 rebounds, and became the
   third player in WNBA history to post a 20-point double-double on 100%
