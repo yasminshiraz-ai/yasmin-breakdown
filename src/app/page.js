@@ -16,7 +16,7 @@ export const revalidate = 3600
 export default async function HomePage() {
   const articles = getAllArticles()
   const mainArticles = articles.slice(0, 4)
-  const stripArticles = articles.slice(1, 6)
+  const stripArticles = articles.slice(3, 8)
   const moreArticles = articles.slice(4, 16)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   const { videos, configured } = await getYouTubeVideos(3)
