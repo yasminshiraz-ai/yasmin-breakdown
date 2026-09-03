@@ -175,6 +175,8 @@ export default async function ArticlePage({ params }) {
                   <span>{article.readingTime} min read</span>
                 </>
               )}
+              <span className={styles.dot}>·</span>
+              <span>Edited with AI</span>
             </div>
             {author?.credentials && author.credentials.length > 0 && (
               <p className={styles.authorCredentials}>
