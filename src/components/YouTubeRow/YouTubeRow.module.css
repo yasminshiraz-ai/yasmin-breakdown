@@ -114,6 +114,17 @@
   color: var(--color-primary);
 }
 
+.description {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #666666;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .notice {
   color: #888888;
   font-size: 0.85rem;

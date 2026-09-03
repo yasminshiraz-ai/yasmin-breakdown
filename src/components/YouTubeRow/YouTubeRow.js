@@ -64,6 +64,9 @@ export default function YouTubeRow({ videos = [], configured = true }) {
                 </div>
                 <div className={styles.info}>
                   <p className={styles.title}>{video.title}</p>
+                  {video.description && (
+                    <p className={styles.description}>{video.description}</p>
+                  )}
                 </div>
               </a>
             ))}

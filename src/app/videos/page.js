@@ -68,6 +68,9 @@ export default async function VideosPage({ searchParams }) {
                 <div className={styles.info}>
                   <p className={styles.title}>{video.title}</p>
                   <span className={styles.meta}>{formatPublishedDate(video.publishedAt)}</span>
+                  {video.description && (
+                    <p className={styles.description}>{video.description}</p>
+                  )}
                 </div>
               </a>
             ))}

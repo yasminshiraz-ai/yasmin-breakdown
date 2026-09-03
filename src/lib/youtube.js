@@ -1,5 +1,24 @@
 const PLAYLIST_ID = 'PL6MibiTEez58kGrd2wX9FoGRzOdWlQpGR'
 
+function extractDescription(raw) {
+  if (!raw) return ''
+  const lines = raw.split('\n').filter(line => {
+    const t = line.trim()
+    if (!t) return false
+    if (/^https?:\/\/\S*$/.test(t)) return false   // URL-only line
+    if (/^(#\w+\s*)+$/.test(t)) return false        // hashtag-only line
+    if (/^\d{1,2}:\d{2}/.test(t)) return false      // timestamp line (e.g. "0:00 Intro")
+    if (/^@\w+$/.test(t)) return false              // bare handle line
+    return true
+  })
+  const text = lines.join(' ')
+    .replace(/https?:\/\/\S+/g, '')  // strip inline URLs
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || []
+  return sentences.slice(0, 3).join(' ').trim()
+}
+
 export async function getYouTubeVideos(maxResults = 36) {
   const apiKey = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
 
@@ -30,6 +49,7 @@ export async function getYouTubeVideos(maxResults = 36) {
       viewCount: Number(v.statistics.viewCount).toLocaleString(),
       publishedAt: v.snippet.publishedAt,
       url: `https://www.youtube.com/watch?v=${v.id}`,
+      description: extractDescription(v.snippet.description),
     })) || []
 
     return { videos, configured: true }
