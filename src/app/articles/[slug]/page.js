@@ -178,11 +178,6 @@ export default async function ArticlePage({ params }) {
               <span className={styles.dot}>·</span>
               <span>Edited with AI</span>
             </div>
-            {author?.credentials && author.credentials.length > 0 && (
-              <p className={styles.authorCredentials}>
-                {author.credentials.slice(0, 2).join(' · ')}
-              </p>
-            )}
           </header>
 
           {article.featuredImage && (
