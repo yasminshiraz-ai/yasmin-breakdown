@@ -37,6 +37,8 @@ export default function ArticleCard({ article }) {
               <span>{article.readingTime} min</span>
             </>
           )}
+          <span className={styles.dot}>·</span>
+          <span>Edited with AI</span>
         </div>
       </div>
     </Link>

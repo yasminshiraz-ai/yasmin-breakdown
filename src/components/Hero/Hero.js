@@ -49,6 +49,8 @@ export default function Hero({ article }) {
               <span>{article.readingTime} min read</span>
             </>
           )}
+          <span className={styles.dot}>·</span>
+          <span>Edited with AI</span>
         </div>
       </div>
     </Link>

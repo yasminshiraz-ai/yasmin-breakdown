@@ -51,6 +51,8 @@ export default function StoryBlock({ article, siteUrl }) {
               <span>{article.readingTime} min read</span>
             </>
           )}
+          <span className={styles.dot}>·</span>
+          <span>Edited with AI</span>
         </div>
 
         {(article.excerpt || article.description) &&
